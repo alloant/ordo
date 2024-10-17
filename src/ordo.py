@@ -92,12 +92,20 @@ def addFeasts(year):
     if not db.update({'id': nid},Query().title == title):
         print('Cannot find {title}')
 
-      
+
     title = "Saint Severino, martyr"
     if db.search((Query().id=='1108') & (Query().title.search('Sunday'))):
         if not db.update({'id': '1107'},Query().title == title):
             print('Cannot find {title}')
 
+
+    title = "The Most Holy Trinity"
+    rst = db.search(Query().title == title)
+    if rst:
+        htid = int(rst[0]['id'])
+        doc_ids = [f'0000{htid-2}'[-4:],f'0000{htid-1}'[-4:],f'0000{htid}'[-4:]]
+        db.update({'comments': lambda x: x + (',' if x else '') + f' Trisagium Angelicum'},doc_ids=doc_ids)
+    
     db.close()
 
 def setVotives(year):

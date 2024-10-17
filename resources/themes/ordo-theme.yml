@@ -1,18 +1,13 @@
 font:
   catalog:
-    Garamond:
-      normal: garamond-regular.ttf
-      bold: garamond-bold.ttf
-      italic: garamond-italic.ttf
-      bold_italic: garamond-bold_italic.ttf
-    Garamond Condensed:
-      normal: garamond-condensed-regular.ttf
-      bold: garamond-condensed-bold.ttf
-      italic: garamond-condensed-italic.ttf
-      bold_italic: garamond-condensed-bolditalic.ttf
+    Proto:
+      normal: 0xProtoNerdFont-Regular.ttf
+      bold: 0xProtoNerdFont-Regular.ttf
+      italic: 0xProtoNerdFont-Regular.ttf
+      bold_italic: 0xProtoNerdFont-Regular.ttf
     Kg: KgCountingStars-e4Pm.ttf
     Round: RoundStyleBasic.ttf
-  fallbacks: [Garamond,Round,Kg]
+  fallbacks: [Proto,Round,Kg]
 page:
   background_color: FFFFFF
   layout: portrait
@@ -27,7 +22,7 @@ base:
   align: left
   
   font_color: 000000
-  font_family: Garamond
+  font_family: Proto
   font_style: normal
   font_size: 8
   font_size_large: round($base_font_size * 1.25)

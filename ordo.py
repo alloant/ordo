@@ -9,7 +9,7 @@ from src.scrap_ordo import scrapOrdo
 from src.scrap_readings import scrapReadingsYear
 
 from src.ordo import addFeasts, prepareOrdo, setVotives
-from src.print import print_ordo, to_adoc
+from src.print import print_ordo, json_to_adoc, final_json
 
 tb = PT()
 
@@ -18,9 +18,10 @@ tb.add_row([2,"Add feasts and comments in scrap ordo"])
 tb.add_row([3,"Prepare ordo"])
 tb.add_row([4,"Modify day"])
 tb.add_row([5,"Set votives"])
-tb.add_row([6,"Export to adoc and csv"])
-tb.add_row([7,"Convert adoc to pdf"])
-tb.add_row([8,"Scrap readings"])
+tb.add_row([6,"Final json"])
+tb.add_row([7,"Export to adoc and csv"])
+tb.add_row([8,"Convert adoc to pdf"])
+tb.add_row([9,"Scrap readings"])
 
 print(tb)
 
@@ -43,9 +44,11 @@ match option:
     case '5':
         setVotives(year)
     case '6':
-        print_ordo(year)
-        to_adoc(year)
+        final_json(year)
     case '7':
+        print_ordo(year)
+        json_to_adoc(year)
+    case '8':
         command = ['asciidoctor-pdf','-a','optimize','-a','media=prepress','-a','pdf-themesdir=resources/themes','-a','pdf-fontsdir=resources/fonts','-a','pdf-theme=ordoa6',f'rst/{year}/ordo.adoc','-o',f'rst/{year}/ordo.pdf']
 
         # Execute the command
@@ -56,6 +59,6 @@ match option:
         print(result.stdout)
         print("Error:")
         print(result.stderr)
-    case '8':
+    case '9':
         scrapReadingsYear(year)
 
