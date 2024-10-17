@@ -1,0 +1,167 @@
+font:
+  catalog:
+    Garamond:
+      normal: garamond-regular.ttf
+      bold: garamond-bold.ttf
+      italic: garamond-italic.ttf
+      bold_italic: garamond-bold_italic.ttf
+    Garamond Condensed:
+      normal: garamond-condensed-regular.ttf
+      bold: garamond-condensed-bold.ttf
+      italic: garamond-condensed-italic.ttf
+      bold_italic: garamond-condensed-bolditalic.ttf
+    Kg: KgCountingStars-e4Pm.ttf
+    Round: RoundStyleBasic.ttf
+  fallbacks: [Garamond,Round,Kg]
+page:
+  background_color: FFFFFF
+  layout: portrait
+  initial_zoom: FitH
+  size: A5
+  
+  margin: [0.25in, 0.32in, 0.42in, 0.32in]
+  # margin_inner and margin_outer keys are used for recto/verso print margins when media=prepress
+  margin_inner: 0.37in
+  margin_outer: 0.29in
+base:
+  align: left
+  
+  font_color: 000000
+  font_family: Garamond
+  font_style: normal
+  font_size: 8
+  font_size_large: round($base_font_size * 1.25)
+  font_size_small: round($base_font_size * 0.9)
+  font_size_min: $base_font_size * 0.75
+
+  line_height_length: 6
+  line_height: $base_line_height_length / $base_font_size
+
+  border_color: EEEEEE
+  border_radius: 4
+  border_width: 0.5
+
+vertical_rhythm: $base_line_height_length
+horizontal_rhythm: $base_line_height_length
+# QUESTION should vertical_spacing be block_spacing instead?
+vertical_spacing: $vertical_rhythm
+
+heading:
+  align: center
+  
+  font_color: $base_font_color
+  font_style: bold
+  
+  h1_font_size: floor($base_font_size * 1.8)
+  h2_font_size: floor($base_font_size * 1.4)
+  h3_font_size: round($base_font_size * 1.7)
+  h4_font_size: $base_font_size_large
+  h5_font_size: $base_font_size
+  h6_font_size: $base_font_size_small
+
+  line_height: 1
+
+  margin_top: $vertical_rhythm * 0.4
+  margin_bottom: $vertical_rhythm * 0.9
+  
+  h2-padding: [20, 0, 0, 0]
+  h2-border-color: 000000
+  h2-border-style: solid
+  h2-border-width: [0,0,1,0]
+
+  min-height-after: auto
+  
+  chapter:
+    break-before: auto
+
+role:
+  R:
+    font_family: Kg
+    font_color: ff0000
+    font_size: $base_font_size_large
+  G:
+    font_family: Kg
+    font_color: 00aa00
+    font_size: $base_font_size_large
+  V:
+    font_family: Kg
+    font_color: 9400d3
+    font_size: $base_font_size_large
+  W:
+    font_family: Kg
+    font_color: ffffff
+    font_size: $base_font_size_large
+    background_color: 000000
+    border-radius: 4
+    border-color: 000000
+  gray:
+    font_color: 444444
+    font_size: $base_font_size_small
+  feast:
+    font_size: $base_font_size_small
+    font_size: $base_font_size
+  ep:
+    font_family: Round
+    font_size: $base_font_size_small * 0.7
+  min:
+    font_size: $base_font_size_min
+  line-through:
+    text_decoration: line-through
+  underline:
+    text_decoration: underline
+  big:
+    font_size: $base_font_size_large
+  small:
+    font_size: $base_font_size_small
+  subtitle:
+    font_size: 0.8em
+    font_color: 999999
+
+title_page:
+  align: right
+  logo:
+    top: 10%
+  title:
+    top: 55%
+    font_size: $heading_h1_font_size
+    font_color: 999999
+    line_height: 0.9
+  subtitle:
+    font_size: $heading_h3_font_size
+    font_style: bold_italic
+    line_height: 1
+  authors:
+    margin_top: $base_font_size * 1.25
+    font_size: $base_font_size_large
+    font_color: 181818
+  revision:
+    margin_top: $base_font_size * 1.25
+
+table:
+  border_color: bbbbbb
+  border_width: 0.5
+  cell_padding: 3
+  head:
+    font_style: normal
+    border_bottom_width: $base_border_width
+  body:
+    stripe_background_color: F9F9F9
+  foot:
+    background_color: F0F0F0
+
+footer:
+  #border_width: 0
+  #line_height: 0
+  height: 30
+  font_size: $base_font_size * 0.7
+  recto:
+    right:
+      content: '{document-title} - {page-number}'
+    left: 
+      content: '{document-subtitle} {part-title} {chapter-title} {section-title}'
+  verso:
+    left:
+      content: '{page-number} - {document-title}'
+    right:
+      content: $footer-recto-left-content
+

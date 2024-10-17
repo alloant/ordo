@@ -9,6 +9,7 @@ from datetime import date, timedelta, datetime
 from dateutil.relativedelta import relativedelta
 from os.path import exists
 import os
+import re
 import shutil
 
 days = ["Monday", "Tuesday", "Wednesday", 
@@ -35,19 +36,82 @@ GR = Theme(
         junction_color="32",
     )
 
-def setVotives(year):
-    path = f'rst/{year}votives.json'
-    if not exists(path):
-        shutil.copy('data/votives.json',path)
-    
-    path = f'rst/{year}mixed_vot.json'
-    if not exists(path):
-        shutil.copy(f'rst/{year}mixed.json',path)
 
-    db = TinyDB(f'rst/{year}mixed_vot.json')
-    dbVot = TinyDB(f'rst/{year}votives.json')
-    Day = Query()
+def addFeasts(year):
+    dbFeasts = TinyDB(f'rst/data/calendar.json')
+    path = f'rst/{year}/scrap_feasts.json'
+    if not exists(path):
+        shutil.copy(f'rst/{year}/scrap.json',path)
+    db = TinyDB(f'rst/{year}/scrap_feasts.json')
+
+    # Specify the keys you want to keep
+    keys_to_filter = ['season', 'week']
+    keys_to_add = ['feast','subtitle', 'comments','color','mass']
+
+    for feast in dbFeasts.table('season').all():
+        # Create a new dictionary with only the specified keys
+        filter_dict = {key: feast[key] for key in keys_to_filter if key in feast}
+        add_dict = {key: feast[key] for key in keys_to_add if key in feast}
+        rst = db.update(add_dict,Query().fragment(filter_dict))
+
+        if not rst:
+            print(f'Did not find {feast}')
+
+    # Specify the keys you want to keep
+    keys_to_filter = ['id', 'title']
+    keys_to_add = ['feast','subtitle', 'comments','color','mass']
+
+    for feast in dbFeasts.table('fixed').all():
+        # Create a new dictionary with only the specified keys
+        filter_dict = {key: feast[key] for key in keys_to_filter if key in feast}
+        add_dict = {key: feast[key] for key in keys_to_add if key in feast}
+        rst = db.update(add_dict,Query().fragment(filter_dict))
+
+        if not rst:
+            db.insert(dict(feast))
+
+    for feast in dbFeasts.table('move').all():
+        add_dict = {key: feast[key] for key in keys_to_add if key in feast}
+        rst = db.update(add_dict,Query().title == feast['title'])
+
+        if not rst:
+            print(f'Did not find {feast}')
+
+    for sunday in db.search(Query().title.search('Sunday', flags=re.IGNORECASE)):
+        if not 'feast' in sunday or 'C' < sunday['feast']:
+            db.update({'feast': 'C'},doc_ids=[sunday.doc_id])
+
+    # St. Cyril to 13 Feb
+    title = "Saint Cyril, monk, and Saint Methodius, bishop"
+    if not db.update({'id': '0213'},Query().title == title):
+        print(f'Cannot find {title}')
+
+    # St. Athanaious to 4 or 5 May
+    title = "Saint Athanasius, bishop and doctor of the Church"
+    nid = '0504' if not db.search((Query().id=='0504') & (Query().title.search('Sunday'))) else '0505'
+    if not db.update({'id': nid},Query().title == title):
+        print('Cannot find {title}')
+
+      
+    title = "Saint Severino, martyr"
+    if db.search((Query().id=='1108') & (Query().title.search('Sunday'))):
+        if not db.update({'id': '1107'},Query().title == title):
+            print('Cannot find {title}')
+
+    db.close()
+
+def setVotives(year):
+    path = f'rst/{year}/votives.json'
+    if not exists(path):
+        shutil.copy('rst/data/votives.json',path)
+    dbVot = TinyDB(path)
     Vot = Query()
+    
+    path = f'rst/{year}/scrap_feasts_others_votives.json'
+    if not exists(path):
+        shutil.copy(f'rst/{year}/scrap_feasts_others.json',path)
+    db = TinyDB(path)
+    Day = Query()
 
     rst = db.search( (Day.title.search("Ordinary Time")) & (Day.option==1) & (Day.lg2>3) & (~Day.mass.exists()) )
 
@@ -157,30 +221,22 @@ def listOrdo(year):
     db.close()
 
 
-def joinScrapFix(year):
-    db = TinyDB(f'rst/{year}mixed.json')
-    dbs = TinyDB(f'rst/{year}scrap.json')
-    dbf = TinyDB(f'data/fix.json')
+def addOthers(year):
+    dbScrap = TinyDB(f'rst/{year}/scrap_feasts.json')
+    dbOther = TinyDB(f'rst/data/other.json')
+    db = TinyDB(f'rst/{year}/scrap_feasts_others.json')
     
     Day = Query()
 
-    for row in dbs.all() + dbf.all():
-        if row['id'] != "" and 'title' in row:
-            mov = dbf.search(Day.title == row['title'])
-            if mov:
-                for field in ['feast','mass','comments','subtitle']:
-                    if field in mov[0]:
-                        row[field] = mov[0][field]
+    for row in dbScrap.all() + dbOther.table('fixed').all() + dbOther.table('move').all():
+        db.insert(dict(row))
 
-            db.insert(dict(row))
-
-    db.all()
     db.close()
 
 def prepareOrdo(year, one_day = None):
-    path = f'rst/{year}mixed.json'
+    path = f'rst/{year}/scrap_feasts_others.json'
     if not exists(path):
-        joinScrapFix(year)
+        addOthers(year)
     
     db = TinyDB(path)
     Day = Query()
@@ -242,6 +298,7 @@ def prepareOrdo(year, one_day = None):
                     tb.add_row(r)
                 
             
+            os.system('clear')
             print(tb)
 
             option = input("Choose value: ")

@@ -10,10 +10,10 @@ import csv
 
 #󰴈󰜡
 def to_csv(year):
-    db = TinyDB(f'rst/{year}mixed_vot.json')
+    db = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json')
     Day = Query()
 
-    with open(f'print/{year}ordo.csv','w') as file:
+    with open(f'rst/{year}/ordo.csv','w') as file:
         csvf = csv.writer(file)
         
         dt = date(year,1,1)
@@ -84,10 +84,10 @@ class ordo_day:
         return ''
 
 def to_adoc(year):
-    db = TinyDB(f'rst/{year}mixed_vot.json')
+    db = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json')
     Day = Query()
 
-    with open(f'print/{year}ordo.adoc','w') as file:
+    with open(f'rst/{year}/ordo.adoc','w') as file:
         file.write(f"= Ordo Delhi {year}\n\n")
 
         dt = date(year,1,1)

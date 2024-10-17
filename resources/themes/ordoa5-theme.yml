@@ -1,0 +1,10 @@
+extends: ordo
+page:
+  size: A5
+  margin: [0.25in, 0.32in, 0.42in, 0.32in]
+  #margin: [0in, 0in, 0in, 0in]
+  # margin_inner and margin_outer keys are used for recto/verso print margins when media=prepress
+  margin_inner: 0.37in
+  margin_outer: 0.29in
+base:
+  font_size: 10

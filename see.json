@@ -1,0 +1,4630 @@
+{
+  "_default": {
+    "1": {
+      "season": "Christmas Time",
+      "id": "0101",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Blessed Virgin Mary, the Mother of God",
+      "feast": "A"
+    },
+    "2": {
+      "season": "Christmas Time",
+      "id": "0102",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Basil the Great and Saint Gregory Nazianzen, bishops and doctors of the Church",
+      "feast": "D"
+    },
+    "3": {
+      "season": "Christmas Time",
+      "id": "0103",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday of Christmas Time",
+      "feast": "D"
+    },
+    "4": {
+      "season": "Christmas Time",
+      "id": "0103",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Most Holy Name of Jesus",
+      "feast": "C"
+    },
+    "5": {
+      "season": "Christmas Time",
+      "id": "0104",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saturday of Christmas Time",
+      "feast": "D"
+    },
+    "6": {
+      "season": "Christmas Time",
+      "id": "0105",
+      "week": "II",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Epiphany of the Lord",
+      "feast": "A"
+    },
+    "7": {
+      "season": "Christmas Time",
+      "id": "0106",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Monday after Epiphany",
+      "feast": "D"
+    },
+    "8": {
+      "season": "Christmas Time",
+      "id": "0107",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Tuesday after Epiphany",
+      "feast": "D"
+    },
+    "9": {
+      "season": "Christmas Time",
+      "id": "0107",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Raymond of Penyafort, priest",
+      "feast": "D"
+    },
+    "10": {
+      "season": "Christmas Time",
+      "id": "0108",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Wednesday after Epiphany",
+      "feast": "D"
+    },
+    "11": {
+      "season": "Christmas Time",
+      "id": "0109",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Thursday after Epiphany",
+      "feast": "D"
+    },
+    "12": {
+      "season": "Christmas Time",
+      "id": "0110",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday after Epiphany",
+      "feast": "D"
+    },
+    "13": {
+      "season": "Christmas Time",
+      "id": "0111",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saturday after Epiphany",
+      "feast": "D"
+    },
+    "14": {
+      "season": "Christmas Time",
+      "id": "0112",
+      "week": "III",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Baptism of the Lord",
+      "feast": "C"
+    },
+    "15": {
+      "season": "Ordinary Time",
+      "id": "0113",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 1ˢᵗ Week in Ordinary Time"
+    },
+    "16": {
+      "season": "Ordinary Time",
+      "id": "0113",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Hilary, bishop and doctor of the Church"
+    },
+    "17": {
+      "season": "Ordinary Time",
+      "id": "0114",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 1ˢᵗ Week in Ordinary Time"
+    },
+    "18": {
+      "season": "Ordinary Time",
+      "id": "0114",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Devasahayam, martyr"
+    },
+    "19": {
+      "season": "Ordinary Time",
+      "id": "0115",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 1ˢᵗ Week in Ordinary Time"
+    },
+    "20": {
+      "season": "Ordinary Time",
+      "id": "0116",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 1ˢᵗ Week in Ordinary Time"
+    },
+    "21": {
+      "season": "Ordinary Time",
+      "id": "0116",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Joseph Vaz, priest"
+    },
+    "22": {
+      "season": "Ordinary Time",
+      "id": "0117",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Anthony, abbot"
+    },
+    "23": {
+      "season": "Ordinary Time",
+      "id": "0118",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 1ˢᵗ Week in Ordinary Time"
+    },
+    "24": {
+      "season": "Ordinary Time",
+      "id": "0118",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "25": {
+      "season": "Ordinary Time",
+      "id": "0119",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "2ⁿᵈ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "26": {
+      "season": "Ordinary Time",
+      "id": "0120",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 2ⁿᵈ Week in Ordinary Time"
+    },
+    "27": {
+      "season": "Ordinary Time",
+      "id": "0120",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Fabian, pope and martyr"
+    },
+    "28": {
+      "season": "Ordinary Time",
+      "id": "0120",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Sebastian, martyr"
+    },
+    "29": {
+      "season": "Ordinary Time",
+      "id": "0121",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Agnes, virgin and martyr"
+    },
+    "30": {
+      "season": "Ordinary Time",
+      "id": "0122",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 2ⁿᵈ Week in Ordinary Time"
+    },
+    "31": {
+      "season": "Ordinary Time",
+      "id": "0122",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Vincent, deacon and martyr"
+    },
+    "32": {
+      "season": "Ordinary Time",
+      "id": "0123",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 2ⁿᵈ Week in Ordinary Time"
+    },
+    "33": {
+      "season": "Ordinary Time",
+      "id": "0124",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Francis de Sales, bishop and doctor of the Church",
+      "feast": "C",
+      "subtitle": "Our Lady of Peace"
+    },
+    "34": {
+      "season": "Ordinary Time",
+      "id": "0125",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Conversion of Saint Paul, apostle",
+      "feast": "D"
+    },
+    "35": {
+      "season": "Ordinary Time",
+      "id": "0126",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "3ʳᵈ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "36": {
+      "season": "Ordinary Time",
+      "id": "0127",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Timothy and Saint Titus, bishops"
+    },
+    "37": {
+      "season": "Ordinary Time",
+      "id": "0128",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Thomas Aquinas, priest and doctor of the Church"
+    },
+    "38": {
+      "season": "Ordinary Time",
+      "id": "0129",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 3ʳᵈ Week in Ordinary Time"
+    },
+    "39": {
+      "season": "Ordinary Time",
+      "id": "0130",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 3ʳᵈ Week in Ordinary Time"
+    },
+    "40": {
+      "season": "Ordinary Time",
+      "id": "0131",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint John Bosco, priest"
+    },
+    "41": {
+      "season": "Ordinary Time",
+      "id": "0201",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 3ʳᵈ Week in Ordinary Time"
+    },
+    "42": {
+      "season": "Ordinary Time",
+      "id": "0201",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "43": {
+      "season": "Ordinary Time",
+      "id": "0202",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Presentation of the Lord",
+      "feast": "C"
+    },
+    "44": {
+      "season": "Ordinary Time",
+      "id": "0203",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 4ᵗʰ Week in Ordinary Time"
+    },
+    "45": {
+      "season": "Ordinary Time",
+      "id": "0203",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Ansgar, bishop"
+    },
+    "46": {
+      "season": "Ordinary Time",
+      "id": "0203",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Blase, bishop and martyr"
+    },
+    "47": {
+      "season": "Ordinary Time",
+      "id": "0204",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint John de Britto, priest and martyr"
+    },
+    "48": {
+      "season": "Ordinary Time",
+      "id": "0205",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Agatha, virgin and martyr"
+    },
+    "49": {
+      "season": "Ordinary Time",
+      "id": "0206",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Paul Miki and companions, martyrs"
+    },
+    "50": {
+      "season": "Ordinary Time",
+      "id": "0207",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Gonsalo Garcia, religious and martyr"
+    },
+    "51": {
+      "season": "Ordinary Time",
+      "id": "0208",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 4ᵗʰ Week in Ordinary Time"
+    },
+    "52": {
+      "season": "Ordinary Time",
+      "id": "0208",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Jerome Emiliani"
+    },
+    "53": {
+      "season": "Ordinary Time",
+      "id": "0208",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Josephine Bakhita, virgin"
+    },
+    "54": {
+      "season": "Ordinary Time",
+      "id": "0208",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "55": {
+      "season": "Ordinary Time",
+      "id": "0209",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "5ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "56": {
+      "season": "Ordinary Time",
+      "id": "0210",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Scholastica, virgin"
+    },
+    "57": {
+      "season": "Ordinary Time",
+      "id": "0211",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 5ᵗʰ Week in Ordinary Time"
+    },
+    "58": {
+      "season": "Ordinary Time",
+      "id": "0211",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Lourdes",
+      "feast": "D"
+    },
+    "59": {
+      "season": "Ordinary Time",
+      "id": "0212",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 5ᵗʰ Week in Ordinary Time"
+    },
+    "60": {
+      "season": "Ordinary Time",
+      "id": "0213",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 5ᵗʰ Week in Ordinary Time"
+    },
+    "61": {
+      "season": "Ordinary Time",
+      "id": "0213",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Cyril, monk, and Saint Methodius, bishop"
+    },
+    "62": {
+      "season": "Ordinary Time",
+      "id": "0215",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 5ᵗʰ Week in Ordinary Time"
+    },
+    "63": {
+      "season": "Ordinary Time",
+      "id": "0215",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "64": {
+      "season": "Ordinary Time",
+      "id": "0216",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "6ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "65": {
+      "season": "Ordinary Time",
+      "id": "0217",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 6ᵗʰ Week in Ordinary Time"
+    },
+    "66": {
+      "season": "Ordinary Time",
+      "id": "0217",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Seven Founders of the Order of Servites, religious"
+    },
+    "67": {
+      "season": "Ordinary Time",
+      "id": "0218",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 6ᵗʰ Week in Ordinary Time"
+    },
+    "68": {
+      "season": "Ordinary Time",
+      "id": "0218",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Koriakose Chavara, priest"
+    },
+    "69": {
+      "season": "Ordinary Time",
+      "id": "0219",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 6ᵗʰ Week in Ordinary Time"
+    },
+    "70": {
+      "season": "Ordinary Time",
+      "id": "0220",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 6ᵗʰ Week in Ordinary Time"
+    },
+    "71": {
+      "season": "Ordinary Time",
+      "id": "0221",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 6ᵗʰ Week in Ordinary Time"
+    },
+    "72": {
+      "season": "Ordinary Time",
+      "id": "0221",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Peter Damian, bishop and doctor of the Church"
+    },
+    "73": {
+      "season": "Ordinary Time",
+      "id": "0222",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Chair of Saint Peter, apostle",
+      "feast": "D"
+    },
+    "74": {
+      "season": "Ordinary Time",
+      "id": "0223",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "7ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "75": {
+      "season": "Ordinary Time",
+      "id": "0224",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 7ᵗʰ Week in Ordinary Time"
+    },
+    "76": {
+      "season": "Ordinary Time",
+      "id": "0225",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 7ᵗʰ Week in Ordinary Time"
+    },
+    "77": {
+      "season": "Ordinary Time",
+      "id": "0226",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 7ᵗʰ Week in Ordinary Time"
+    },
+    "78": {
+      "season": "Ordinary Time",
+      "id": "0227",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 7ᵗʰ Week in Ordinary Time"
+    },
+    "79": {
+      "season": "Ordinary Time",
+      "id": "0227",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Gregory of Narek, abbot and doctor of the Church"
+    },
+    "80": {
+      "season": "Ordinary Time",
+      "id": "0228",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 7ᵗʰ Week in Ordinary Time"
+    },
+    "81": {
+      "season": "Ordinary Time",
+      "id": "0301",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 7ᵗʰ Week in Ordinary Time"
+    },
+    "82": {
+      "season": "Ordinary Time",
+      "id": "0301",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "83": {
+      "season": "Ordinary Time",
+      "id": "0302",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "8ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "84": {
+      "season": "Ordinary Time",
+      "id": "0303",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 8ᵗʰ Week in Ordinary Time"
+    },
+    "85": {
+      "season": "Ordinary Time",
+      "id": "0304",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 8ᵗʰ Week in Ordinary Time"
+    },
+    "86": {
+      "season": "Ordinary Time",
+      "id": "0304",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Casimir"
+    },
+    "87": {
+      "season": "Lent",
+      "id": "0305",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "Ash Wednesday"
+    },
+    "88": {
+      "season": "Lent",
+      "id": "0306",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday after Ash Wednesday"
+    },
+    "89": {
+      "season": "Lent",
+      "id": "0307",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday after Ash Wednesday"
+    },
+    "90": {
+      "season": "Lent",
+      "id": "0307",
+      "week": "IV",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Perpetua and Saint Felicity, martyrs"
+    },
+    "91": {
+      "season": "Lent",
+      "id": "0308",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday after Ash Wednesday"
+    },
+    "92": {
+      "season": "Lent",
+      "id": "0308",
+      "week": "IV",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint John of God, religious"
+    },
+    "93": {
+      "season": "Lent",
+      "id": "0309",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "1ˢᵗ Sunday of Lent",
+      "feast": "C"
+    },
+    "94": {
+      "season": "Lent",
+      "id": "0310",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 1ˢᵗ Week of Lent"
+    },
+    "95": {
+      "season": "Lent",
+      "id": "0311",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 1ˢᵗ Week of Lent"
+    },
+    "96": {
+      "season": "Lent",
+      "id": "0312",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Wednesday in the 1ˢᵗ Week of Lent"
+    },
+    "97": {
+      "season": "Lent",
+      "id": "0313",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 1ˢᵗ Week of Lent"
+    },
+    "98": {
+      "season": "Lent",
+      "id": "0314",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 1ˢᵗ Week of Lent"
+    },
+    "99": {
+      "season": "Lent",
+      "id": "0315",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday in the 1ˢᵗ Week of Lent"
+    },
+    "100": {
+      "season": "Lent",
+      "id": "0316",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "2ⁿᵈ Sunday of Lent",
+      "feast": "C"
+    },
+    "101": {
+      "season": "Lent",
+      "id": "0317",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 2ⁿᵈ Week of Lent"
+    },
+    "102": {
+      "season": "Lent",
+      "id": "0317",
+      "week": "II",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Patrick, bishop"
+    },
+    "103": {
+      "season": "Lent",
+      "id": "0318",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 2ⁿᵈ Week of Lent"
+    },
+    "104": {
+      "season": "Lent",
+      "id": "0318",
+      "week": "II",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Cyril of Jerusalem, bishop and doctor of the Church"
+    },
+    "105": {
+      "season": "Lent",
+      "id": "0319",
+      "week": "II",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Saint Joseph, husband of Mary",
+      "feast": "A",
+      "comments": "Saintday Grandfather and our Father. Plenary indulgence"
+    },
+    "106": {
+      "season": "Lent",
+      "id": "0320",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 2ⁿᵈ Week of Lent"
+    },
+    "107": {
+      "season": "Lent",
+      "id": "0321",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 2ⁿᵈ Week of Lent"
+    },
+    "108": {
+      "season": "Lent",
+      "id": "0322",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday in the 2ⁿᵈ Week of Lent"
+    },
+    "109": {
+      "season": "Lent",
+      "id": "0323",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "3ʳᵈ Sunday of Lent",
+      "feast": "C"
+    },
+    "110": {
+      "season": "Lent",
+      "id": "0324",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 3ʳᵈ Week of Lent"
+    },
+    "111": {
+      "season": "Lent",
+      "id": "0325",
+      "week": "III",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Annunciation of the Lord",
+      "feast": "A"
+    },
+    "112": {
+      "season": "Lent",
+      "id": "0326",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Wednesday in the 3ʳᵈ Week of Lent"
+    },
+    "113": {
+      "season": "Lent",
+      "id": "0327",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 3ʳᵈ Week of Lent"
+    },
+    "114": {
+      "season": "Lent",
+      "id": "0328",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 3ʳᵈ Week of Lent"
+    },
+    "115": {
+      "season": "Lent",
+      "id": "0329",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday in the 3ʳᵈ Week of Lent"
+    },
+    "116": {
+      "season": "Lent",
+      "id": "0330",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "4ᵗʰ Sunday of Lent (Laetare)",
+      "feast": "C"
+    },
+    "117": {
+      "season": "Lent",
+      "id": "0331",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 4ᵗʰ Week of Lent"
+    },
+    "118": {
+      "season": "Lent",
+      "id": "0401",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 4ᵗʰ Week of Lent"
+    },
+    "119": {
+      "season": "Lent",
+      "id": "0402",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Wednesday in the 4ᵗʰ Week of Lent"
+    },
+    "120": {
+      "season": "Lent",
+      "id": "0402",
+      "week": "IV",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Francis of Paola, hermit"
+    },
+    "121": {
+      "season": "Lent",
+      "id": "0403",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 4ᵗʰ Week of Lent"
+    },
+    "122": {
+      "season": "Lent",
+      "id": "0404",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 4ᵗʰ Week of Lent"
+    },
+    "123": {
+      "season": "Lent",
+      "id": "0404",
+      "week": "IV",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Isidore, bishop and doctor of the Church"
+    },
+    "124": {
+      "season": "Lent",
+      "id": "0405",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday in the 4ᵗʰ Week of Lent"
+    },
+    "125": {
+      "season": "Lent",
+      "id": "0405",
+      "week": "IV",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Vincent Ferrer, priest"
+    },
+    "126": {
+      "season": "Lent",
+      "id": "0406",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "5ᵗʰ Sunday of Lent",
+      "feast": "C"
+    },
+    "127": {
+      "season": "Lent",
+      "id": "0407",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 5ᵗʰ Week of Lent"
+    },
+    "128": {
+      "season": "Lent",
+      "id": "0407",
+      "week": "I",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint John Baptist de la Salle, priest"
+    },
+    "129": {
+      "season": "Lent",
+      "id": "0408",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 5ᵗʰ Week of Lent"
+    },
+    "130": {
+      "season": "Lent",
+      "id": "0409",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Wednesday in the 5ᵗʰ Week of Lent"
+    },
+    "131": {
+      "season": "Lent",
+      "id": "0410",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 5ᵗʰ Week of Lent"
+    },
+    "132": {
+      "season": "Lent",
+      "id": "0411",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 5ᵗʰ Week of Lent",
+      "feast": "C",
+      "subtitle": "Grandmothers' saintday"
+    },
+    "133": {
+      "season": "Lent",
+      "id": "0411",
+      "week": "I",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint Stanislaus, bishop and martyr"
+    },
+    "134": {
+      "season": "Lent",
+      "id": "0412",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday in the 5ᵗʰ Week of Lent"
+    },
+    "135": {
+      "season": "Lent",
+      "id": "0413",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "r",
+      "title": "Palm Sunday of the Lord’s Passion",
+      "feast": "B"
+    },
+    "136": {
+      "season": "Lent",
+      "id": "0414",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday of Holy Week"
+    },
+    "137": {
+      "season": "Lent",
+      "id": "0415",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday of Holy Week"
+    },
+    "138": {
+      "season": "Lent",
+      "id": "0416",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Wednesday of Holy Week"
+    },
+    "139": {
+      "season": "Paschal Triduum",
+      "id": "0417",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "Holy Thursday of the Lord’s Supper",
+      "feast": "A"
+    },
+    "140": {
+      "season": "Paschal Triduum",
+      "id": "0418",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "r",
+      "title": "Good Friday of the Lord’s Passion"
+    },
+    "141": {
+      "season": "Paschal Triduum",
+      "id": "0419",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "Holy Saturday"
+    },
+    "142": {
+      "season": "Easter Time",
+      "id": "0420",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "Easter Sunday of the Lord’s Resurrection",
+      "feast": "A",
+      "comments": "Benediction Urbi et Orbi"
+    },
+    "143": {
+      "season": "Easter Time",
+      "id": "0421",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Monday in the Octave of Easter",
+      "feast": "D"
+    },
+    "144": {
+      "season": "Easter Time",
+      "id": "0422",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Tuesday in the Octave of Easter",
+      "feast": "D"
+    },
+    "145": {
+      "season": "Easter Time",
+      "id": "0423",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Wednesday in the Octave of Easter",
+      "feast": "D"
+    },
+    "146": {
+      "season": "Easter Time",
+      "id": "0424",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Thursday in the Octave of Easter",
+      "feast": "D"
+    },
+    "147": {
+      "season": "Easter Time",
+      "id": "0425",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Friday in the Octave of Easter",
+      "feast": "D"
+    },
+    "148": {
+      "season": "Easter Time",
+      "id": "0426",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Saturday in the Octave of Easter",
+      "feast": "D"
+    },
+    "149": {
+      "season": "Easter Time",
+      "id": "0427",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "2ⁿᵈ Sunday of Easter (Divine Mercy)",
+      "feast": "C"
+    },
+    "150": {
+      "season": "Easter Time",
+      "id": "0428",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Monday in the 2ⁿᵈ Week of Easter"
+    },
+    "151": {
+      "season": "Easter Time",
+      "id": "0428",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Louis Grignion de Montfort, priest"
+    },
+    "152": {
+      "season": "Easter Time",
+      "id": "0428",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Peter Chanel, priest and martyr"
+    },
+    "153": {
+      "season": "Easter Time",
+      "id": "0429",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Catherine of Siena, virgin and doctor of the Church",
+      "feast": "C"
+    },
+    "154": {
+      "season": "Easter Time",
+      "id": "0430",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Wednesday in the 2ⁿᵈ Week of Easter"
+    },
+    "155": {
+      "season": "Easter Time",
+      "id": "0430",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Pius V, pope"
+    },
+    "156": {
+      "season": "Easter Time",
+      "id": "0501",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Thursday in the 2ⁿᵈ Week of Easter"
+    },
+    "157": {
+      "season": "Easter Time",
+      "id": "0501",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Joseph the Worker",
+      "feast": "C"
+    },
+    "158": {
+      "season": "Easter Time",
+      "id": "0505",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Athanasius, bishop and doctor of the Church"
+    },
+    "159": {
+      "season": "Easter Time",
+      "id": "0503",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Philip and Saint James, apostles",
+      "feast": "C",
+      "comments": "Old feast invention Holy Cross (flowers on the wooden Cross)"
+    },
+    "160": {
+      "season": "Easter Time",
+      "id": "0504",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "3ʳᵈ Sunday of Easter",
+      "feast": "C"
+    },
+    "161": {
+      "season": "Easter Time",
+      "id": "0505",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Monday in the 3ʳᵈ Week of Easter"
+    },
+    "162": {
+      "season": "Easter Time",
+      "id": "0506",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Tuesday in the 3ʳᵈ Week of Easter"
+    },
+    "163": {
+      "season": "Easter Time",
+      "id": "0507",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Wednesday in the 3ʳᵈ Week of Easter"
+    },
+    "164": {
+      "season": "Easter Time",
+      "id": "0508",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Thursday in the 3ʳᵈ Week of Easter"
+    },
+    "165": {
+      "season": "Easter Time",
+      "id": "0509",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday in the 3ʳᵈ Week of Easter"
+    },
+    "166": {
+      "season": "Easter Time",
+      "id": "0510",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saturday in the 3ʳᵈ Week of Easter"
+    },
+    "167": {
+      "season": "Easter Time",
+      "id": "0510",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John of Avila, priest and doctor of the Church"
+    },
+    "168": {
+      "season": "Easter Time",
+      "id": "0511",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "4ᵗʰ Sunday of Easter",
+      "feast": "C"
+    },
+    "169": {
+      "season": "Easter Time",
+      "id": "0512",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Monday in the 4ᵗʰ Week of Easter"
+    },
+    "170": {
+      "season": "Easter Time",
+      "id": "0512",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Nereus and Saint Achilleus, martyrs"
+    },
+    "171": {
+      "season": "Easter Time",
+      "id": "0512",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Pancras, martyr"
+    },
+    "172": {
+      "season": "Easter Time",
+      "id": "0513",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Tuesday in the 4ᵗʰ Week of Easter"
+    },
+    "173": {
+      "season": "Easter Time",
+      "id": "0513",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Fatima",
+      "feast": "D"
+    },
+    "174": {
+      "season": "Easter Time",
+      "id": "0514",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Matthias, apostle",
+      "feast": "C"
+    },
+    "175": {
+      "season": "Easter Time",
+      "id": "0515",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Thursday in the 4ᵗʰ Week of Easter"
+    },
+    "176": {
+      "season": "Easter Time",
+      "id": "0516",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday in the 4ᵗʰ Week of Easter"
+    },
+    "177": {
+      "season": "Easter Time",
+      "id": "0517",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saturday in the 4ᵗʰ Week of Easter"
+    },
+    "178": {
+      "season": "Easter Time",
+      "id": "0518",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "5ᵗʰ Sunday of Easter",
+      "feast": "C"
+    },
+    "179": {
+      "season": "Easter Time",
+      "id": "0519",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Monday in the 5ᵗʰ Week of Easter",
+      "feast": "D"
+    },
+    "180": {
+      "season": "Easter Time",
+      "id": "0520",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Tuesday in the 5ᵗʰ Week of Easter",
+      "feast": "D"
+    },
+    "181": {
+      "season": "Easter Time",
+      "id": "0520",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Bernardine of Siena, priest",
+      "feast": "D"
+    },
+    "182": {
+      "season": "Easter Time",
+      "id": "0521",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Wednesday in the 5ᵗʰ Week of Easter",
+      "feast": "D"
+    },
+    "183": {
+      "season": "Easter Time",
+      "id": "0521",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Christopher Magallanes, priest, and companions, martyrs",
+      "feast": "D"
+    },
+    "184": {
+      "season": "Easter Time",
+      "id": "0522",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Thursday in the 5ᵗʰ Week of Easter",
+      "feast": "D"
+    },
+    "185": {
+      "season": "Easter Time",
+      "id": "0522",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Rita of Cassia, religious",
+      "feast": "D"
+    },
+    "186": {
+      "season": "Easter Time",
+      "id": "0523",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday in the 5ᵗʰ Week of Easter",
+      "feast": "D"
+    },
+    "187": {
+      "season": "Easter Time",
+      "id": "0524",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saturday in the 5ᵗʰ Week of Easter",
+      "feast": "D"
+    },
+    "188": {
+      "season": "Easter Time",
+      "id": "0525",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "6ᵗʰ Sunday of Easter",
+      "feast": "C"
+    },
+    "189": {
+      "season": "Easter Time",
+      "id": "0526",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Philip Neri, priest"
+    },
+    "190": {
+      "season": "Easter Time",
+      "id": "0527",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Tuesday in the 6ᵗʰ Week of Easter"
+    },
+    "191": {
+      "season": "Easter Time",
+      "id": "0527",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Augustine of Canterbury, bishop"
+    },
+    "192": {
+      "season": "Easter Time",
+      "id": "0528",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Wednesday in the 6ᵗʰ Week of Easter"
+    },
+    "193": {
+      "season": "Easter Time",
+      "id": "0529",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Thursday in the 6ᵗʰ Week of Easter"
+    },
+    "194": {
+      "season": "Easter Time",
+      "id": "0529",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Paul VI, pope"
+    },
+    "195": {
+      "season": "Easter Time",
+      "id": "0530",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday in the 6ᵗʰ Week of Easter"
+    },
+    "196": {
+      "season": "Easter Time",
+      "id": "0531",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Visitation of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "197": {
+      "season": "Easter Time",
+      "id": "0601",
+      "week": "III",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Ascension of the Lord",
+      "feast": "A"
+    },
+    "198": {
+      "season": "Easter Time",
+      "id": "0602",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Monday in the 7ᵗʰ Week of Easter"
+    },
+    "199": {
+      "season": "Easter Time",
+      "id": "0602",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Marcellinus and Saint Peter, martyrs"
+    },
+    "200": {
+      "season": "Easter Time",
+      "id": "0603",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Charles Lwanga and companions, martyrs"
+    },
+    "201": {
+      "season": "Easter Time",
+      "id": "0604",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Wednesday in the 7ᵗʰ Week of Easter"
+    },
+    "202": {
+      "season": "Easter Time",
+      "id": "0605",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Boniface, bishop and martyr"
+    },
+    "203": {
+      "season": "Easter Time",
+      "id": "0606",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Friday in the 7ᵗʰ Week of Easter"
+    },
+    "204": {
+      "season": "Easter Time",
+      "id": "0606",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Norbert, bishop"
+    },
+    "205": {
+      "season": "Easter Time",
+      "id": "0607",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saturday in the 7ᵗʰ Week of Easter"
+    },
+    "206": {
+      "season": "Easter Time",
+      "id": "0608",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "r",
+      "title": "Pentecost Sunday",
+      "feast": "A"
+    },
+    "207": {
+      "season": "Ordinary Time",
+      "id": "0609",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Blessed Virgin Mary, Mother of the Church",
+      "feast": "C"
+    },
+    "208": {
+      "season": "Ordinary Time",
+      "id": "0610",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 10ᵗʰ Week in Ordinary Time"
+    },
+    "209": {
+      "season": "Ordinary Time",
+      "id": "0611",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Barnabas, apostle",
+      "feast": "C"
+    },
+    "210": {
+      "season": "Ordinary Time",
+      "id": "0612",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 10ᵗʰ Week in Ordinary Time"
+    },
+    "211": {
+      "season": "Ordinary Time",
+      "id": "0613",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Anthony of Padua, priest and doctor of the Church"
+    },
+    "212": {
+      "season": "Ordinary Time",
+      "id": "0614",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 10ᵗʰ Week in Ordinary Time"
+    },
+    "213": {
+      "season": "Ordinary Time",
+      "id": "0614",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "214": {
+      "season": "Ordinary Time",
+      "id": "0615",
+      "week": "III",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Most Holy Trinity",
+      "feast": "A"
+    },
+    "215": {
+      "season": "Ordinary Time",
+      "id": "0616",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 11ᵗʰ Week in Ordinary Time"
+    },
+    "216": {
+      "season": "Ordinary Time",
+      "id": "0617",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 11ᵗʰ Week in Ordinary Time"
+    },
+    "217": {
+      "season": "Ordinary Time",
+      "id": "0618",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 11ᵗʰ Week in Ordinary Time"
+    },
+    "218": {
+      "season": "Ordinary Time",
+      "id": "0619",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 11ᵗʰ Week in Ordinary Time"
+    },
+    "219": {
+      "season": "Ordinary Time",
+      "id": "0619",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Romuald, abbot"
+    },
+    "220": {
+      "season": "Ordinary Time",
+      "id": "0620",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 11ᵗʰ Week in Ordinary Time"
+    },
+    "221": {
+      "season": "Ordinary Time",
+      "id": "0621",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Aloysius Gonzaga, religious"
+    },
+    "222": {
+      "season": "Ordinary Time",
+      "id": "0622",
+      "week": "IV",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Most Holy Body and Blood of Christ",
+      "feast": "A"
+    },
+    "223": {
+      "season": "Ordinary Time",
+      "id": "0623",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 12ᵗʰ Week in Ordinary Time"
+    },
+    "224": {
+      "season": "Ordinary Time",
+      "id": "0624",
+      "week": "IV",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Nativity of Saint John the Baptist",
+      "feast": "B"
+    },
+    "225": {
+      "season": "Ordinary Time",
+      "id": "0625",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 12ᵗʰ Week in Ordinary Time"
+    },
+    "226": {
+      "season": "Ordinary Time",
+      "id": "0626",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 12ᵗʰ Week in Ordinary Time"
+    },
+    "227": {
+      "season": "Ordinary Time",
+      "id": "0627",
+      "week": "IV",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Most Sacred Heart of Jesus",
+      "feast": "A"
+    },
+    "228": {
+      "season": "Ordinary Time",
+      "id": "0628",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Irenaeus, bishop, martyr and doctor of the Church"
+    },
+    "229": {
+      "season": "Ordinary Time",
+      "id": "0628",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Immaculate Heart of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "230": {
+      "season": "Ordinary Time",
+      "id": "0629",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "r",
+      "title": "Saint Peter and Saint Paul, apostles",
+      "feast": "B",
+      "comments": "Creed during Exp. Plenary indulgence"
+    },
+    "231": {
+      "season": "Ordinary Time",
+      "id": "0630",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 13ᵗʰ Week in Ordinary Time"
+    },
+    "232": {
+      "season": "Ordinary Time",
+      "id": "0630",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "The First Martyrs of the Church of Rome"
+    },
+    "233": {
+      "season": "Ordinary Time",
+      "id": "0701",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 13ᵗʰ Week in Ordinary Time"
+    },
+    "234": {
+      "season": "Ordinary Time",
+      "id": "0702",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 13ᵗʰ Week in Ordinary Time"
+    },
+    "235": {
+      "season": "Ordinary Time",
+      "id": "0703",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "r",
+      "title": "Saint Thomas, apostle",
+      "feast": "B"
+    },
+    "236": {
+      "season": "Ordinary Time",
+      "id": "0704",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 13ᵗʰ Week in Ordinary Time"
+    },
+    "237": {
+      "season": "Ordinary Time",
+      "id": "0704",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Elizabeth of Portugal"
+    },
+    "238": {
+      "season": "Ordinary Time",
+      "id": "0705",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 13ᵗʰ Week in Ordinary Time"
+    },
+    "239": {
+      "season": "Ordinary Time",
+      "id": "0705",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Anthony Mary Zaccaria, priest"
+    },
+    "240": {
+      "season": "Ordinary Time",
+      "id": "0705",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "241": {
+      "season": "Ordinary Time",
+      "id": "0706",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "14ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "242": {
+      "season": "Ordinary Time",
+      "id": "0707",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 14ᵗʰ Week in Ordinary Time"
+    },
+    "243": {
+      "season": "Ordinary Time",
+      "id": "0708",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 14ᵗʰ Week in Ordinary Time"
+    },
+    "244": {
+      "season": "Ordinary Time",
+      "id": "0709",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 14ᵗʰ Week in Ordinary Time"
+    },
+    "245": {
+      "season": "Ordinary Time",
+      "id": "0709",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Augustine Zhao Rong, priest, and companions, martyrs"
+    },
+    "246": {
+      "season": "Ordinary Time",
+      "id": "0710",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 14ᵗʰ Week in Ordinary Time"
+    },
+    "247": {
+      "season": "Ordinary Time",
+      "id": "0711",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Benedict, abbot"
+    },
+    "248": {
+      "season": "Ordinary Time",
+      "id": "0712",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 14ᵗʰ Week in Ordinary Time"
+    },
+    "249": {
+      "season": "Ordinary Time",
+      "id": "0712",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "250": {
+      "season": "Ordinary Time",
+      "id": "0713",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "15ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "251": {
+      "season": "Ordinary Time",
+      "id": "0714",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 15ᵗʰ Week in Ordinary Time"
+    },
+    "252": {
+      "season": "Ordinary Time",
+      "id": "0714",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Camillus de Lellis, priest"
+    },
+    "253": {
+      "season": "Ordinary Time",
+      "id": "0715",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Bonaventure, bishop and doctor of the Church"
+    },
+    "254": {
+      "season": "Ordinary Time",
+      "id": "0716",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 15ᵗʰ Week in Ordinary Time"
+    },
+    "255": {
+      "season": "Ordinary Time",
+      "id": "0716",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Mount Carmel",
+      "feast": "C",
+      "comments": "Plenary indulgence. Aunt Carmen's saintday"
+    },
+    "256": {
+      "season": "Ordinary Time",
+      "id": "0717",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 15ᵗʰ Week in Ordinary Time"
+    },
+    "257": {
+      "season": "Ordinary Time",
+      "id": "0718",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 15ᵗʰ Week in Ordinary Time"
+    },
+    "258": {
+      "season": "Ordinary Time",
+      "id": "0719",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 15ᵗʰ Week in Ordinary Time"
+    },
+    "259": {
+      "season": "Ordinary Time",
+      "id": "0719",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "260": {
+      "season": "Ordinary Time",
+      "id": "0720",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "16ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "261": {
+      "season": "Ordinary Time",
+      "id": "0721",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 16ᵗʰ Week in Ordinary Time"
+    },
+    "262": {
+      "season": "Ordinary Time",
+      "id": "0721",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Lawrence of Brindisi, priest and doctor of the Church"
+    },
+    "263": {
+      "season": "Ordinary Time",
+      "id": "0722",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint Mary Magdalene",
+      "feast": "C"
+    },
+    "264": {
+      "season": "Ordinary Time",
+      "id": "0723",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 16ᵗʰ Week in Ordinary Time"
+    },
+    "265": {
+      "season": "Ordinary Time",
+      "id": "0723",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Bridget, religious"
+    },
+    "266": {
+      "season": "Ordinary Time",
+      "id": "0724",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 16ᵗʰ Week in Ordinary Time"
+    },
+    "267": {
+      "season": "Ordinary Time",
+      "id": "0724",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Sharbel Makhluf, priest"
+    },
+    "268": {
+      "season": "Ordinary Time",
+      "id": "0725",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint James, apostle",
+      "feast": "C"
+    },
+    "269": {
+      "season": "Ordinary Time",
+      "id": "0726",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Joachim and Saint Anne, parents of the Blessed Virgin Mary",
+      "feast": "D"
+    },
+    "270": {
+      "season": "Ordinary Time",
+      "id": "0727",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "17ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "271": {
+      "season": "Ordinary Time",
+      "id": "0728",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Alphonsa Muttathu Padathu, virgin"
+    },
+    "272": {
+      "season": "Ordinary Time",
+      "id": "0729",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Martha, Saint Mary and Saint Lazarus"
+    },
+    "273": {
+      "season": "Ordinary Time",
+      "id": "0730",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 17ᵗʰ Week in Ordinary Time"
+    },
+    "274": {
+      "season": "Ordinary Time",
+      "id": "0730",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Peter Chrysologus, bishop and doctor of the Church"
+    },
+    "275": {
+      "season": "Ordinary Time",
+      "id": "0731",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Ignatius of Loyola, priest"
+    },
+    "276": {
+      "season": "Ordinary Time",
+      "id": "0801",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Alphonsus Liguori, bishop and doctor of the Church"
+    },
+    "277": {
+      "season": "Ordinary Time",
+      "id": "0802",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 17ᵗʰ Week in Ordinary Time"
+    },
+    "278": {
+      "season": "Ordinary Time",
+      "id": "0802",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Eusebius of Vercelli, bishop"
+    },
+    "279": {
+      "season": "Ordinary Time",
+      "id": "0802",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Peter Julian Eymard, priest"
+    },
+    "280": {
+      "season": "Ordinary Time",
+      "id": "0802",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "281": {
+      "season": "Ordinary Time",
+      "id": "0803",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "18ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "282": {
+      "season": "Ordinary Time",
+      "id": "0804",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint John Vianney, priest"
+    },
+    "283": {
+      "season": "Ordinary Time",
+      "id": "0805",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 18ᵗʰ Week in Ordinary Time"
+    },
+    "284": {
+      "season": "Ordinary Time",
+      "id": "0805",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Dedication of the Basilica of Saint Mary Major in Rome",
+      "feast": "C"
+    },
+    "285": {
+      "season": "Ordinary Time",
+      "id": "0806",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Transfiguration of the Lord",
+      "feast": "C"
+    },
+    "286": {
+      "season": "Ordinary Time",
+      "id": "0807",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 18ᵗʰ Week in Ordinary Time"
+    },
+    "287": {
+      "season": "Ordinary Time",
+      "id": "0807",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Cajetan, priest"
+    },
+    "288": {
+      "season": "Ordinary Time",
+      "id": "0807",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Sixtus II, pope, and companions, martyrs"
+    },
+    "289": {
+      "season": "Ordinary Time",
+      "id": "0808",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Dominic, priest"
+    },
+    "290": {
+      "season": "Ordinary Time",
+      "id": "0809",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 18ᵗʰ Week in Ordinary Time"
+    },
+    "291": {
+      "season": "Ordinary Time",
+      "id": "0809",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Teresa Benedicta of the Cross, virgin and martyr"
+    },
+    "292": {
+      "season": "Ordinary Time",
+      "id": "0809",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "293": {
+      "season": "Ordinary Time",
+      "id": "0810",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "19ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "294": {
+      "season": "Ordinary Time",
+      "id": "0811",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Clare, virgin"
+    },
+    "295": {
+      "season": "Ordinary Time",
+      "id": "0812",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 19ᵗʰ Week in Ordinary Time"
+    },
+    "296": {
+      "season": "Ordinary Time",
+      "id": "0812",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Jane Frances de Chantal, religious"
+    },
+    "297": {
+      "season": "Ordinary Time",
+      "id": "0813",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 19ᵗʰ Week in Ordinary Time"
+    },
+    "298": {
+      "season": "Ordinary Time",
+      "id": "0813",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Pontian, pope, and Saint Hippolytus, priest, martyrs"
+    },
+    "299": {
+      "season": "Ordinary Time",
+      "id": "0814",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Maximilian Kolbe, priest and martyr"
+    },
+    "300": {
+      "season": "Ordinary Time",
+      "id": "0815",
+      "week": "III",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Assumption of the Blessed Virgin Mary",
+      "feast": "A",
+      "comments": "Consecration MS Heart of Mary. Anniversary Father's ordination (1971)"
+    },
+    "301": {
+      "season": "Ordinary Time",
+      "id": "0816",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 19ᵗʰ Week in Ordinary Time"
+    },
+    "302": {
+      "season": "Ordinary Time",
+      "id": "0816",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Stephen of Hungary"
+    },
+    "303": {
+      "season": "Ordinary Time",
+      "id": "0816",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "304": {
+      "season": "Ordinary Time",
+      "id": "0817",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "20ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "305": {
+      "season": "Ordinary Time",
+      "id": "0818",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 20ᵗʰ Week in Ordinary Time"
+    },
+    "306": {
+      "season": "Ordinary Time",
+      "id": "0819",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 20ᵗʰ Week in Ordinary Time"
+    },
+    "307": {
+      "season": "Ordinary Time",
+      "id": "0819",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John Eudes, priest"
+    },
+    "308": {
+      "season": "Ordinary Time",
+      "id": "0820",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Bernard, abbot and doctor of the Church"
+    },
+    "309": {
+      "season": "Ordinary Time",
+      "id": "0821",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Pius X, pope",
+      "feast": "C"
+    },
+    "310": {
+      "season": "Ordinary Time",
+      "id": "0822",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Queenship of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "311": {
+      "season": "Ordinary Time",
+      "id": "0823",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 20ᵗʰ Week in Ordinary Time"
+    },
+    "312": {
+      "season": "Ordinary Time",
+      "id": "0823",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Rose of Lima, virgin",
+      "feast": "D",
+      "subtitle": "Anniv. announcement erection Opus Dei in personal Prelature (1982)"
+    },
+    "313": {
+      "season": "Ordinary Time",
+      "id": "0823",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "314": {
+      "season": "Ordinary Time",
+      "id": "0824",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "21ˢᵗ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "315": {
+      "season": "Ordinary Time",
+      "id": "0825",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 21ˢᵗ Week in Ordinary Time"
+    },
+    "316": {
+      "season": "Ordinary Time",
+      "id": "0825",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Joseph Calasanz, priest"
+    },
+    "317": {
+      "season": "Ordinary Time",
+      "id": "0825",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Louis"
+    },
+    "318": {
+      "season": "Ordinary Time",
+      "id": "0826",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 21ˢᵗ Week in Ordinary Time"
+    },
+    "319": {
+      "season": "Ordinary Time",
+      "id": "0827",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Monica"
+    },
+    "320": {
+      "season": "Ordinary Time",
+      "id": "0828",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Augustine, bishop and doctor of the Church"
+    },
+    "321": {
+      "season": "Ordinary Time",
+      "id": "0829",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "The Passion of Saint John the Baptist, martyr"
+    },
+    "322": {
+      "season": "Ordinary Time",
+      "id": "0830",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 21ˢᵗ Week in Ordinary Time"
+    },
+    "323": {
+      "season": "Ordinary Time",
+      "id": "0830",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Euphrasia, virgin"
+    },
+    "324": {
+      "season": "Ordinary Time",
+      "id": "0830",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "325": {
+      "season": "Ordinary Time",
+      "id": "0831",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "22ⁿᵈ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "326": {
+      "season": "Ordinary Time",
+      "id": "0901",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 22ⁿᵈ Week in Ordinary Time"
+    },
+    "327": {
+      "season": "Ordinary Time",
+      "id": "0902",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 22ⁿᵈ Week in Ordinary Time"
+    },
+    "328": {
+      "season": "Ordinary Time",
+      "id": "0903",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Gregory the Great, pope and doctor of the Church"
+    },
+    "329": {
+      "season": "Ordinary Time",
+      "id": "0904",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 22ⁿᵈ Week in Ordinary Time"
+    },
+    "330": {
+      "season": "Ordinary Time",
+      "id": "0905",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 22ⁿᵈ Week in Ordinary Time"
+    },
+    "331": {
+      "season": "Ordinary Time",
+      "id": "0905",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Teresa of Calcutta, religious"
+    },
+    "332": {
+      "season": "Ordinary Time",
+      "id": "0906",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 22ⁿᵈ Week in Ordinary Time"
+    },
+    "333": {
+      "season": "Ordinary Time",
+      "id": "0906",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "334": {
+      "season": "Ordinary Time",
+      "id": "0907",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "23ʳᵈ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "335": {
+      "season": "Ordinary Time",
+      "id": "0908",
+      "week": "III",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Nativity of the Blessed Virgin Mary"
+    },
+    "336": {
+      "season": "Ordinary Time",
+      "id": "0909",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 23ʳᵈ Week in Ordinary Time"
+    },
+    "337": {
+      "season": "Ordinary Time",
+      "id": "0909",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Peter Claver, priest"
+    },
+    "338": {
+      "season": "Ordinary Time",
+      "id": "0910",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 23ʳᵈ Week in Ordinary Time"
+    },
+    "339": {
+      "season": "Ordinary Time",
+      "id": "0911",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 23ʳᵈ Week in Ordinary Time"
+    },
+    "340": {
+      "season": "Ordinary Time",
+      "id": "0912",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 23ʳᵈ Week in Ordinary Time"
+    },
+    "341": {
+      "season": "Ordinary Time",
+      "id": "0912",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Most Holy Name of Mary",
+      "feast": "C"
+    },
+    "342": {
+      "season": "Ordinary Time",
+      "id": "0913",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint John Chrysostom, bishop and doctor of the Church"
+    },
+    "343": {
+      "season": "Ordinary Time",
+      "id": "0914",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "The Exaltation of the Holy Cross",
+      "feast": "B",
+      "comments": "Plenary indulgence"
+    },
+    "344": {
+      "season": "Ordinary Time",
+      "id": "0915",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Our Lady of Sorrows",
+      "feast": "C",
+      "comments": "Anniversary election of Blessed Alvaro as first sucesor of Saint Josemaria (1975)"
+    },
+    "345": {
+      "season": "Ordinary Time",
+      "id": "0916",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Cornelius, pope, and Saint Cyprian, bishop, martyrs"
+    },
+    "346": {
+      "season": "Ordinary Time",
+      "id": "0917",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 24ᵗʰ Week in Ordinary Time"
+    },
+    "347": {
+      "season": "Ordinary Time",
+      "id": "0917",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Hildegard of Bingen, virgin and doctor of the Church"
+    },
+    "348": {
+      "season": "Ordinary Time",
+      "id": "0917",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Robert Bellarmine, bishop and doctor of the Church"
+    },
+    "349": {
+      "season": "Ordinary Time",
+      "id": "0918",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 24ᵗʰ Week in Ordinary Time"
+    },
+    "350": {
+      "season": "Ordinary Time",
+      "id": "0919",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 24ᵗʰ Week in Ordinary Time"
+    },
+    "351": {
+      "season": "Ordinary Time",
+      "id": "0919",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Januarius, bishop and martyr"
+    },
+    "352": {
+      "season": "Ordinary Time",
+      "id": "0920",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Andrew Kim Taegŏn, priest, Saint Paul Chŏng Hasang and companions, martyrs"
+    },
+    "353": {
+      "season": "Ordinary Time",
+      "id": "0921",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "25ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "354": {
+      "season": "Ordinary Time",
+      "id": "0922",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 25ᵗʰ Week in Ordinary Time"
+    },
+    "355": {
+      "season": "Ordinary Time",
+      "id": "0923",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Pius of Pietrelcina, priest"
+    },
+    "356": {
+      "season": "Ordinary Time",
+      "id": "0924",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 25ᵗʰ Week in Ordinary Time"
+    },
+    "357": {
+      "season": "Ordinary Time",
+      "id": "0925",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 25ᵗʰ Week in Ordinary Time"
+    },
+    "358": {
+      "season": "Ordinary Time",
+      "id": "0926",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 25ᵗʰ Week in Ordinary Time"
+    },
+    "359": {
+      "season": "Ordinary Time",
+      "id": "0926",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Cosmas and Saint Damian, martyrs"
+    },
+    "360": {
+      "season": "Ordinary Time",
+      "id": "0927",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Vincent de Paul, priest"
+    },
+    "361": {
+      "season": "Ordinary Time",
+      "id": "0928",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "26ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "362": {
+      "season": "Ordinary Time",
+      "id": "0929",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint Michael, Saint Gabriel, and Saint Raphael, archangels",
+      "feast": "B",
+      "comments": "Plenary indulgence"
+    },
+    "363": {
+      "season": "Ordinary Time",
+      "id": "0930",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Jerome, priest and doctor of the Church"
+    },
+    "364": {
+      "season": "Ordinary Time",
+      "id": "1001",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint Thérèse of the Child Jesus, virgin and doctor of the Church"
+    },
+    "365": {
+      "season": "Ordinary Time",
+      "id": "1002",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Holy Guardian Angels",
+      "feast": "A",
+      "subtitle": "Anniversary Opus Dei foundation",
+      "comments": "Te Deum, plenary indulgence"
+    },
+    "366": {
+      "season": "Ordinary Time",
+      "id": "1003",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 26ᵗʰ Week in Ordinary Time"
+    },
+    "367": {
+      "season": "Ordinary Time",
+      "id": "1004",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Francis of Assisi, religious"
+    },
+    "368": {
+      "season": "Ordinary Time",
+      "id": "1005",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "27ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "369": {
+      "season": "Ordinary Time",
+      "id": "1006",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 27ᵗʰ Week in Ordinary Time"
+    },
+    "370": {
+      "season": "Ordinary Time",
+      "id": "1006",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Bruno, priest"
+    },
+    "371": {
+      "season": "Ordinary Time",
+      "id": "1007",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Our Lady of the Rosary",
+      "feast": "C"
+    },
+    "372": {
+      "season": "Ordinary Time",
+      "id": "1008",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 27ᵗʰ Week in Ordinary Time"
+    },
+    "373": {
+      "season": "Ordinary Time",
+      "id": "1009",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 27ᵗʰ Week in Ordinary Time"
+    },
+    "374": {
+      "season": "Ordinary Time",
+      "id": "1009",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Denis, bishop, and companions, martyrs"
+    },
+    "375": {
+      "season": "Ordinary Time",
+      "id": "1009",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John Leonardi, priest"
+    },
+    "376": {
+      "season": "Ordinary Time",
+      "id": "1010",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 27ᵗʰ Week in Ordinary Time"
+    },
+    "377": {
+      "season": "Ordinary Time",
+      "id": "1011",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 27ᵗʰ Week in Ordinary Time"
+    },
+    "378": {
+      "season": "Ordinary Time",
+      "id": "1011",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John XXIII, pope",
+      "feast": "D",
+      "comments": "Anniversary appositio manuum (1943)"
+    },
+    "379": {
+      "season": "Ordinary Time",
+      "id": "1011",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "380": {
+      "season": "Ordinary Time",
+      "id": "1012",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "28ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "381": {
+      "season": "Ordinary Time",
+      "id": "1013",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 28ᵗʰ Week in Ordinary Time"
+    },
+    "382": {
+      "season": "Ordinary Time",
+      "id": "1014",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 28ᵗʰ Week in Ordinary Time"
+    },
+    "383": {
+      "season": "Ordinary Time",
+      "id": "1014",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Callistus I, pope and martyr"
+    },
+    "384": {
+      "season": "Ordinary Time",
+      "id": "1015",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Teresa of Jesus, virgin and doctor of the Church"
+    },
+    "385": {
+      "season": "Ordinary Time",
+      "id": "1016",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 28ᵗʰ Week in Ordinary Time"
+    },
+    "386": {
+      "season": "Ordinary Time",
+      "id": "1016",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Blessed Augustine Thevarparambil, priest"
+    },
+    "387": {
+      "season": "Ordinary Time",
+      "id": "1016",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Hedwig, religious"
+    },
+    "388": {
+      "season": "Ordinary Time",
+      "id": "1016",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Margaret Mary Alacoque, virgin"
+    },
+    "389": {
+      "season": "Ordinary Time",
+      "id": "1017",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Ignatius of Antioch, bishop and martyr"
+    },
+    "390": {
+      "season": "Ordinary Time",
+      "id": "1018",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Luke, evangelist",
+      "feast": "C"
+    },
+    "391": {
+      "season": "Ordinary Time",
+      "id": "1019",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "29ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "392": {
+      "season": "Ordinary Time",
+      "id": "1020",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 29ᵗʰ Week in Ordinary Time"
+    },
+    "393": {
+      "season": "Ordinary Time",
+      "id": "1021",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 29ᵗʰ Week in Ordinary Time"
+    },
+    "394": {
+      "season": "Ordinary Time",
+      "id": "1022",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 29ᵗʰ Week in Ordinary Time"
+    },
+    "395": {
+      "season": "Ordinary Time",
+      "id": "1022",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John Paul II, pope",
+      "feast": "C"
+    },
+    "396": {
+      "season": "Ordinary Time",
+      "id": "1023",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 29ᵗʰ Week in Ordinary Time"
+    },
+    "397": {
+      "season": "Ordinary Time",
+      "id": "1023",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John of Capistrano, priest"
+    },
+    "398": {
+      "season": "Ordinary Time",
+      "id": "1024",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 29ᵗʰ Week in Ordinary Time"
+    },
+    "399": {
+      "season": "Ordinary Time",
+      "id": "1024",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Anthony Mary Claret, bishop"
+    },
+    "400": {
+      "season": "Ordinary Time",
+      "id": "1025",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 29ᵗʰ Week in Ordinary Time"
+    },
+    "401": {
+      "season": "Ordinary Time",
+      "id": "1025",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "402": {
+      "season": "Ordinary Time",
+      "id": "1026",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "30ᵗʰ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "403": {
+      "season": "Ordinary Time",
+      "id": "1027",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 30ᵗʰ Week in Ordinary Time"
+    },
+    "404": {
+      "season": "Ordinary Time",
+      "id": "1028",
+      "week": "II",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Simon and Saint Jude, apostles",
+      "feast": "C"
+    },
+    "405": {
+      "season": "Ordinary Time",
+      "id": "1029",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 30ᵗʰ Week in Ordinary Time"
+    },
+    "406": {
+      "season": "Ordinary Time",
+      "id": "1030",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 30ᵗʰ Week in Ordinary Time"
+    },
+    "407": {
+      "season": "Ordinary Time",
+      "id": "1031",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 30ᵗʰ Week in Ordinary Time"
+    },
+    "408": {
+      "season": "Ordinary Time",
+      "id": "1101",
+      "week": "II",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "All Saints",
+      "feast": "B"
+    },
+    "409": {
+      "season": "Ordinary Time",
+      "id": "1102",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "b",
+      "title": "The Commemoration of all the Faithful Departed (All Souls)"
+    },
+    "410": {
+      "season": "Ordinary Time",
+      "id": "1103",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Monday in the 31ˢᵗ Week in Ordinary Time"
+    },
+    "411": {
+      "season": "Ordinary Time",
+      "id": "1103",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Martin de Porres, religious"
+    },
+    "412": {
+      "season": "Ordinary Time",
+      "id": "1104",
+      "week": "III",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Charles Borromeo, bishop"
+    },
+    "413": {
+      "season": "Ordinary Time",
+      "id": "1105",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 31ˢᵗ Week in Ordinary Time"
+    },
+    "414": {
+      "season": "Ordinary Time",
+      "id": "1106",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 31ˢᵗ Week in Ordinary Time"
+    },
+    "415": {
+      "season": "Ordinary Time",
+      "id": "1107",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 31ˢᵗ Week in Ordinary Time"
+    },
+    "416": {
+      "season": "Ordinary Time",
+      "id": "1108",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 31ˢᵗ Week in Ordinary Time"
+    },
+    "417": {
+      "season": "Ordinary Time",
+      "id": "1108",
+      "week": "III",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "418": {
+      "season": "Ordinary Time",
+      "id": "1109",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Dedication of the Lateran Basilica in Rome"
+    },
+    "419": {
+      "season": "Ordinary Time",
+      "id": "1110",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Leo the Great, pope and doctor of the Church"
+    },
+    "420": {
+      "season": "Ordinary Time",
+      "id": "1111",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Martin of Tours, bishop"
+    },
+    "421": {
+      "season": "Ordinary Time",
+      "id": "1112",
+      "week": "IV",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Josaphat, bishop and martyr"
+    },
+    "422": {
+      "season": "Ordinary Time",
+      "id": "1113",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 32ⁿᵈ Week in Ordinary Time"
+    },
+    "423": {
+      "season": "Ordinary Time",
+      "id": "1114",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 32ⁿᵈ Week in Ordinary Time"
+    },
+    "424": {
+      "season": "Ordinary Time",
+      "id": "1115",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 32ⁿᵈ Week in Ordinary Time"
+    },
+    "425": {
+      "season": "Ordinary Time",
+      "id": "1115",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Albert the Great, bishop and doctor of the Church"
+    },
+    "426": {
+      "season": "Ordinary Time",
+      "id": "1115",
+      "week": "IV",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "427": {
+      "season": "Ordinary Time",
+      "id": "1116",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "g",
+      "title": "33ʳᵈ Sunday in Ordinary Time",
+      "feast": "C"
+    },
+    "428": {
+      "season": "Ordinary Time",
+      "id": "1117",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Elizabeth of Hungary, religious"
+    },
+    "429": {
+      "season": "Ordinary Time",
+      "id": "1118",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 33ʳᵈ Week in Ordinary Time"
+    },
+    "430": {
+      "season": "Ordinary Time",
+      "id": "1118",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Dedication of the Basilicas of Saint Peter and Saint Paul in Rome, apostles"
+    },
+    "431": {
+      "season": "Ordinary Time",
+      "id": "1119",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 33ʳᵈ Week in Ordinary Time"
+    },
+    "432": {
+      "season": "Ordinary Time",
+      "id": "1120",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 33ʳᵈ Week in Ordinary Time"
+    },
+    "433": {
+      "season": "Ordinary Time",
+      "id": "1121",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Presentation of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "434": {
+      "season": "Ordinary Time",
+      "id": "1122",
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Cecilia, virgin and martyr"
+    },
+    "435": {
+      "season": "Ordinary Time",
+      "id": "1123",
+      "week": "II",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Our Lord Jesus Christ, King of the Universe",
+      "feast": "C"
+    },
+    "436": {
+      "season": "Ordinary Time",
+      "id": "1124",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Andrew Dung-Lac, priest, and companions, martyrs"
+    },
+    "437": {
+      "season": "Ordinary Time",
+      "id": "1125",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Tuesday in the 34ᵗʰ Week in Ordinary Time"
+    },
+    "438": {
+      "season": "Ordinary Time",
+      "id": "1125",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Catherine of Alexandria, virgin and martyr"
+    },
+    "439": {
+      "season": "Ordinary Time",
+      "id": "1126",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Wednesday in the 34ᵗʰ Week in Ordinary Time"
+    },
+    "440": {
+      "season": "Ordinary Time",
+      "id": "1127",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Thursday in the 34ᵗʰ Week in Ordinary Time"
+    },
+    "441": {
+      "season": "Ordinary Time",
+      "id": "1128",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Friday in the 34ᵗʰ Week in Ordinary Time"
+    },
+    "442": {
+      "season": "Ordinary Time",
+      "id": "1129",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "g",
+      "title": "Saturday in the 34ᵗʰ Week in Ordinary Time"
+    },
+    "443": {
+      "season": "Ordinary Time",
+      "id": "1129",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Blessed Virgin Mary on Saturday"
+    },
+    "444": {
+      "season": "Ordinary Time",
+      "id": "1130",
+      "week": "I",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "1ˢᵗ Sunday of Advent",
+      "feast": "C"
+    },
+    "445": {
+      "season": "Advent",
+      "id": "1201",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 1ˢᵗ Week of Advent"
+    },
+    "446": {
+      "season": "Advent",
+      "id": "1202",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 1ˢᵗ Week of Advent"
+    },
+    "447": {
+      "season": "Advent",
+      "id": "1203",
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Saint Francis Xavier, priest",
+      "feast": "B"
+    },
+    "448": {
+      "season": "Advent",
+      "id": "1204",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 1ˢᵗ Week of Advent"
+    },
+    "449": {
+      "season": "Advent",
+      "id": "1204",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John Damascene, priest and doctor of the Church"
+    },
+    "450": {
+      "season": "Advent",
+      "id": "1205",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 1ˢᵗ Week of Advent"
+    },
+    "451": {
+      "season": "Advent",
+      "id": "1206",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saturday in the 1ˢᵗ Week of Advent"
+    },
+    "452": {
+      "season": "Advent",
+      "id": "1206",
+      "week": "I",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Nicholas, bishop",
+      "feast": "C"
+    },
+    "453": {
+      "season": "Advent",
+      "id": "1207",
+      "week": "II",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "2ⁿᵈ Sunday of Advent",
+      "feast": "C"
+    },
+    "454": {
+      "season": "Advent",
+      "id": "1208",
+      "week": "II",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Immaculate Conception of the Blessed Virgin Mary",
+      "feast": "A",
+      "comments": "Anniversary Consecration Delhi's Cathedral"
+    },
+    "455": {
+      "season": "Advent",
+      "id": "1209",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 2ⁿᵈ Week of Advent"
+    },
+    "456": {
+      "season": "Advent",
+      "id": "1209",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Juan Diego Cuauhtlatoatzin"
+    },
+    "457": {
+      "season": "Advent",
+      "id": "1210",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Wednesday in the 2ⁿᵈ Week of Advent"
+    },
+    "458": {
+      "season": "Advent",
+      "id": "1210",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Loreto",
+      "feast": "D"
+    },
+    "459": {
+      "season": "Advent",
+      "id": "1211",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Thursday in the 2ⁿᵈ Week of Advent"
+    },
+    "460": {
+      "season": "Advent",
+      "id": "1211",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Damasus I, pope"
+    },
+    "461": {
+      "season": "Advent",
+      "id": "1212",
+      "week": "II",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Friday in the 2ⁿᵈ Week of Advent"
+    },
+    "462": {
+      "season": "Advent",
+      "id": "1212",
+      "week": "II",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Guadalupe",
+      "feast": "D"
+    },
+    "463": {
+      "season": "Advent",
+      "id": "1213",
+      "week": "II",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Lucy, virgin and martyr"
+    },
+    "464": {
+      "season": "Advent",
+      "id": "1214",
+      "week": "III",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "3ʳᵈ Sunday of Advent (Gaudete)",
+      "feast": "C"
+    },
+    "465": {
+      "season": "Advent",
+      "id": "1215",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Monday in the 3ʳᵈ Week of Advent"
+    },
+    "466": {
+      "season": "Advent",
+      "id": "1216",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Tuesday in the 3ʳᵈ Week of Advent"
+    },
+    "467": {
+      "season": "Advent",
+      "id": "1217",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 17)"
+    },
+    "468": {
+      "season": "Advent",
+      "id": "1218",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 18)"
+    },
+    "469": {
+      "season": "Advent",
+      "id": "1219",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 19)"
+    },
+    "470": {
+      "season": "Advent",
+      "id": "1220",
+      "week": "III",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 20)"
+    },
+    "471": {
+      "season": "Advent",
+      "id": "1221",
+      "week": "IV",
+      "lg": "",
+      "lg2": 1,
+      "color": "v",
+      "title": "4ᵗʰ Sunday of Advent",
+      "feast": "C"
+    },
+    "472": {
+      "season": "Advent",
+      "id": "1222",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 22)"
+    },
+    "473": {
+      "season": "Advent",
+      "id": "1223",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 23)"
+    },
+    "474": {
+      "season": "Advent",
+      "id": "1223",
+      "week": "IV",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "v",
+      "title": "Saint John of Kanty, priest"
+    },
+    "475": {
+      "season": "Advent",
+      "id": "1224",
+      "week": "IV",
+      "lg": "",
+      "lg2": 4,
+      "color": "v",
+      "title": "Advent Weekday (December 24)"
+    },
+    "476": {
+      "season": "Christmas Time",
+      "id": "1225",
+      "week": "IV",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Nativity of the Lord (Christmas)",
+      "feast": "A"
+    },
+    "477": {
+      "season": "Christmas Time",
+      "id": "1226",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Stephen, first martyr",
+      "feast": "D"
+    },
+    "478": {
+      "season": "Christmas Time",
+      "id": "1227",
+      "week": "IV",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint John, apostle and evangelist",
+      "feast": "B"
+    },
+    "479": {
+      "season": "Christmas Time",
+      "id": "1228",
+      "week": "I",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Holy Family of Jesus, Mary and Joseph",
+      "feast": "A",
+      "comments": "Consecration"
+    },
+    "480": {
+      "season": "Christmas Time",
+      "id": "1229",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "5ᵗʰ Day in the Octave of Christmas",
+      "feast": "D"
+    },
+    "481": {
+      "season": "Christmas Time",
+      "id": "1229",
+      "week": "I",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Thomas Becket, bishop and martyr",
+      "feast": "D"
+    },
+    "482": {
+      "season": "Christmas Time",
+      "id": "1230",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "6ᵗʰ Day in the Octave of Christmas",
+      "feast": "D"
+    },
+    "483": {
+      "season": "Christmas Time",
+      "id": "1231",
+      "week": "I",
+      "lg": "",
+      "lg2": 4,
+      "color": "w",
+      "title": "7ᵗʰ Day in the Octave of Christmas",
+      "feast": "D"
+    },
+    "484": {
+      "season": "Christmas Time",
+      "id": "1231",
+      "week": "I",
+      "lg": "Optional Commemoration",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Sylvester I, pope",
+      "feast": "D"
+    },
+    "485": {
+      "id": "0423",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint George, martyr",
+      "feast": "B",
+      "comments": "Anniversary our Father's first Communion (1912)"
+    },
+    "486": {
+      "id": "0427",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Montserrat",
+      "feast": "D",
+      "comments": "Anniversary of the healing of our Father (1954)"
+    },
+    "487": {
+      "id": "0530",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Ferdinand",
+      "feast": "B"
+    },
+    "488": {
+      "id": "0622",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint John Fisher, bishop, and Saint Thomas More, martyrs",
+      "feast": "C"
+    },
+    "489": {
+      "id": "0802",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Angels",
+      "feast": "D"
+    },
+    "490": {
+      "id": "0804",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint John Mary Vianney, priest",
+      "feast": "C",
+      "comments": "Petition for the holiness of priests"
+    },
+    "491": {
+      "id": "0824",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Bartholomew, apostle",
+      "feast": "C"
+    },
+    "492": {
+      "id": "0907",
+      "color": "w",
+      "mass": "Saint Josemaria",
+      "title": "Anniversary Father's admission's petition (1961)",
+      "feast": "D"
+    },
+    "493": {
+      "id": "0908",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Nativity of Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "494": {
+      "id": "0921",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Matthew, apostle and evangelist",
+      "feast": "C"
+    },
+    "495": {
+      "id": "0924",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Ransom",
+      "feast": "D"
+    },
+    "496": {
+      "id": "1012",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "feast": "D",
+      "title": "Our Lady of Pillar"
+    },
+    "497": {
+      "id": "1108",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Severino, martyr",
+      "feast": "D"
+    },
+    "498": {
+      "id": "1127",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of the Miracolous Medal",
+      "feast": "D"
+    },
+    "499": {
+      "id": "1130",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Andrew, apostle",
+      "feast": "C"
+    }
+  }
+}

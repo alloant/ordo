@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import subprocess
 
 from prettytable import PrettyTable as PT
 from datetime import date
@@ -7,17 +8,19 @@ from datetime import date
 from src.scrap_ordo import scrapOrdo
 from src.scrap_readings import scrapReadingsYear
 
-from src.ordo import prepareOrdo, setVotives
+from src.ordo import addFeasts, prepareOrdo, setVotives
 from src.print import print_ordo, to_adoc
 
 tb = PT()
 
 tb.add_row([1,"Scrap ordo"])
-tb.add_row([2,"Scrap readings"])
+tb.add_row([2,"Add feasts and comments in scrap ordo"])
 tb.add_row([3,"Prepare ordo"])
 tb.add_row([4,"Modify day"])
 tb.add_row([5,"Set votives"])
-tb.add_row([6,"Print ordo"])
+tb.add_row([6,"Export to adoc and csv"])
+tb.add_row([7,"Convert adoc to pdf"])
+tb.add_row([8,"Scrap readings"])
 
 print(tb)
 
@@ -29,7 +32,7 @@ match option:
     case '1':
         scrapOrdo(year)
     case '2':
-        scrapReadingsYear(year)
+        addFeasts(year)
     case '3':
         prepareOrdo(year)
     case '4':
@@ -40,5 +43,19 @@ match option:
     case '5':
         setVotives(year)
     case '6':
-        #print_ordo(year)
+        print_ordo(year)
         to_adoc(year)
+    case '7':
+        command = ['asciidoctor-pdf','-a','optimize','-a','media=prepress','-a','pdf-themesdir=resources/themes','-a','pdf-fontsdir=resources/fonts','-a','pdf-theme=ordoa6',f'rst/{year}/ordo.adoc','-o',f'rst/{year}/ordo.pdf']
+
+        # Execute the command
+        result = subprocess.run(command, capture_output=True, text=True)
+
+        # Print the output and error (if any)
+        print("Output:")
+        print(result.stdout)
+        print("Error:")
+        print(result.stderr)
+    case '8':
+        scrapReadingsYear(year)
+
