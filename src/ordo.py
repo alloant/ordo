@@ -202,10 +202,16 @@ def setVotives(year):
         
         if 'count' in vt:
             dbVot.update({'count': vt['count'] + 1,'last':row_day['id']},doc_ids=[vt.doc_id])
+            cont = vt['count']
         else:
             dbVot.update({'count': 1,'last':row_day['id']},doc_ids=[vt.doc_id])
-
-        db.update({'mass': vt['mass']},doc_ids=[row_day.doc_id])
+            count = 1
+        
+        if 'options' in vt:
+            option = vt['options'].split(',')[count % len(options)].upper()
+            db.update({'mass': f"vt['mass']} (option {option})",doc_ids=[row_day.doc_id])
+        else:
+            db.update({'mass': vt['mass']},doc_ids=[row_day.doc_id])
         db.update({'color': vt['color']},doc_ids=[row_day.doc_id])
 
     db.all()
@@ -324,3 +330,59 @@ def prepareOrdo(year, one_day = None):
     db.all()
     db.close()
 
+
+def get_mondays(year):
+    # Start from the first day of the year
+    start_date = datetime(year, 1, 1)
+    
+    # Find the first Monday of the year
+    if start_date.weekday() != 0:  # 0 is Monday
+        start_date += timedelta(days=(7 - start_date.weekday()))
+    
+    # Generate a list of all Mondays in the year
+    mondays = [datetime(year,1,1)]
+    while start_date.year == year:
+        mondays.append(start_date.date())
+        start_date += timedelta(weeks=1)
+    mondays += [datetime(year,12,31)]
+    
+    return mondays
+
+def choose_ep(year):
+    path = f'rst/{year}/ordo.json'
+    if not exists(path):
+        shutil.copy(f'rst/{year}/ordo_without_ep.json',path)
+
+    db = TinyDB(path)
+    Day = Query()
+
+    mondays = get_mondays(year)
+    headers = ["date","feast","title","lg","mass","ep"]
+    for i,start in enumerate(mondays):
+        if i == len(mondays):
+            break
+        st = start.strftime('%Y/%m/%d')
+        end = mondays[i+1].strftime('%Y/%m/%d')
+
+        rst = db.search( (Day.date >= st) & (Day.date < end) )
+        tb = CT(theme=WH)
+        tb.field_names = headers
+        ep_filled = True
+        for row in rst:
+            tb.add_row([row[key] if key in row else '' for key in headers],divider=True)
+            if not 'ep' in row or row['ep'] == '':
+                ep_filled = False
+
+        if ep_filled:
+            continue
+        
+        print(tb)
+        eps = input("Choose ep: ")
+
+        while len(eps) != len(rst):
+            eps = input("Put right number of ep: ")
+
+        for i,row in enumerate(rst):
+            db.update({'ep': eps[i]},Day.date == row['date'])
+
+    db.close()

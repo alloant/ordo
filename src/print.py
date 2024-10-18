@@ -22,6 +22,8 @@ class ordo_day:
                 if index == 'feast':
                     if 'Sunday' in self.option1['title']:
                         return 'C' if 'C' < self.option2['feast'] else self.option2['feast']
+                elif index in ['mass','ep','color','lg']:
+                    return ''
                 return self.option2[index]
 
             if index == 'feast':
@@ -43,7 +45,7 @@ class ordo_day:
 def final_json(year):
     dbOrdo = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json')
     dbComments = TinyDB(f'rst/data/comments.json')
-    db = TinyDB(f'rst/{year}/ordo.json')
+    db = TinyDB(f'rst/{year}/ordo_without_ep.json')
     Day = Query()
 
     dt = date(year,1,1)
@@ -72,7 +74,7 @@ def final_json(year):
             mass = f"Mass of the day"
         
         rst['mass'] = mass
-
+        rst['ep'] = ordo['ep']
         other_comments = ""
         day_comments = dbComments.search(Day.id == dt.strftime('%m%d'))
         for dc in day_comments:

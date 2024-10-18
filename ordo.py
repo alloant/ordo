@@ -9,12 +9,12 @@ from datetime import date
 from src.scrap_ordo import scrapOrdo
 from src.scrap_readings import scrapReadingsYear
 
-from src.ordo import addFeasts, prepareOrdo, setVotives
+from src.ordo import addFeasts, prepareOrdo, setVotives, choose_ep
 from src.print import json_to_csv, json_to_adoc, final_json
 
 
 while True:
-    os.system('clear')
+    #os.system('clear')
     tb = PT()
 
     tb.add_row([1,"Scrap ordo"])
@@ -23,10 +23,11 @@ while True:
     tb.add_row([4,"Modify day"])
     tb.add_row([5,"Set votives"])
     tb.add_row([6,"Final json"])
-    tb.add_row([7,"Export to adoc and csv"])
-    tb.add_row([8,"Convert adoc to pdf"])
-    tb.add_row([9,"Scrap readings"])
-    tb.add_row([10,"Exit"])
+    tb.add_row([7,"Select ep"])
+    tb.add_row([8,"Export to adoc and csv"])
+    tb.add_row([9,"Convert adoc to pdf"])
+    tb.add_row([10,"Scrap readings"])
+    tb.add_row([11,"Exit"])
 
     print(tb)
 
@@ -52,9 +53,11 @@ while True:
         case '6':
             final_json(year)
         case '7':
+            choose_ep(year)
+        case '8':
             json_to_csv(year)
             json_to_adoc(year)
-        case '8':
+        case '9':
             print("Choose size a5 or a6")
             theme = input("Size (a5): ")
             theme = 'a5' if not theme else theme
@@ -69,8 +72,8 @@ while True:
             print(result.stdout)
             print("Error:")
             print(result.stderr)
-        case '9':
-            scrapReadingsYear(year)
         case '10':
+            scrapReadingsYear(year)
+        case '11':
             break
 
