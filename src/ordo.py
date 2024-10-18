@@ -46,7 +46,7 @@ def addFeasts(year):
 
     # Specify the keys you want to keep
     keys_to_filter = ['season', 'week']
-    keys_to_add = ['feast','subtitle', 'comments','color','mass']
+    keys_to_add = ['feast','subtitle', 'comments','color','mass','ep']
 
     for feast in dbFeasts.table('season').all():
         # Create a new dictionary with only the specified keys
@@ -59,7 +59,6 @@ def addFeasts(year):
 
     # Specify the keys you want to keep
     keys_to_filter = ['id', 'title']
-    keys_to_add = ['feast','subtitle', 'comments','color','mass']
 
     for feast in dbFeasts.table('fixed').all():
         # Create a new dictionary with only the specified keys
