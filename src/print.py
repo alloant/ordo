@@ -47,9 +47,9 @@ class ordo_day:
 
 def final_json(year):
     print(f'Adding comments (like flowers, benedicions, octaves, etc... Saving result in rst/{year}/ordo_without_ep.json')
-    dbOrdo = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json')
-    dbComments = TinyDB(f'rst/data/comments.json')
-    db = TinyDB(f'rst/{year}/ordo_without_ep.json')
+    dbOrdo = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json', indent=4, sort_keys=True)
+    dbComments = TinyDB(f'rst/data/comments.json', indent=4, sort_keys=True)
+    db = TinyDB(f'rst/{year}/ordo_without_ep.json', indent=4, sort_keys=True)
     Day = Query()
 
     ## Check all the days of the year
@@ -157,7 +157,7 @@ def add_ex(ex,text):
 
 
 def json_to_adoc(year):
-    db = TinyDB(f'rst/{year}/ordo.json')
+    db = TinyDB(f'rst/{year}/ordo.json', indent=4, sort_keys=True)
 
     with open(f'rst/{year}/ordo.adoc','w') as file:
         file.write(f"= Ordo Delhi {year}\n\n")
@@ -210,7 +210,7 @@ def json_to_adoc(year):
         file.close()
 
 def json_to_csv(year):
-    db = TinyDB(f'rst/{year}/ordo.json')
+    db = TinyDB(f'rst/{year}/ordo.json', indent=4, sort_keys=True)
     Day = Query()
 
     with open(f'rst/{year}/ordo.csv','w') as file:

@@ -76,7 +76,7 @@ def scrapOrdo(year):
         os.mkdir(f'rst/{year}')
     except:
         print(f'rst/{year} already there')
-    db = TinyDB(f'rst/{year}/scrap.json', storage=CachingMiddleware(JSONStorage))
+    db = TinyDB(f'rst/{year}/scrap.json', storage=CachingMiddleware(JSONStorage), indent=4, sort_keys=True)
     cont = 0
     for row in ordo:
         dt = scrapRow(row)

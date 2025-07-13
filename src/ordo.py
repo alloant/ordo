@@ -39,11 +39,11 @@ GR = Theme(
 
 def addFeasts(year):
     print(f'Adding personal notes to ordo. Saving result in rst/{year}/scrap_feasts.json')
-    dbFeasts = TinyDB(f'rst/data/calendar.json')
+    dbFeasts = TinyDB(f'rst/data/calendar.json', indent=4, sort_keys=True)
     path = f'rst/{year}/scrap_feasts.json'
     if not exists(path):
         shutil.copy(f'rst/{year}/scrap.json',path)
-    db = TinyDB(f'rst/{year}/scrap_feasts.json')
+    db = TinyDB(f'rst/{year}/scrap_feasts.json', indent=4, sort_keys=True)
 
     # Specify the keys you want to keep
     keys_to_filter = ['season', 'week']
@@ -112,13 +112,13 @@ def setVotives(year):
     path = f'rst/{year}/votives.json'
     if not exists(path):
         shutil.copy('rst/data/votives.json',path)
-    dbVot = TinyDB(path)
+    dbVot = TinyDB(path, indent=4, sort_keys=True)
     Vot = Query()
     
     path = f'rst/{year}/scrap_feasts_others_votives.json'
     if not exists(path):
         shutil.copy(f'rst/{year}/scrap_feasts_others.json',path)
-    db = TinyDB(path)
+    db = TinyDB(path, indent=4, sort_keys=True)
     Day = Query()
 
     rst = db.search( (Day.title.search("Ordinary Time")) & (Day.option==1) & (Day.lg2>3) & (~Day.mass.exists()) )
@@ -222,7 +222,7 @@ def setVotives(year):
     dbVot.close()
 
 def listOrdo(year):
-    db = TinyDB(f'{year}final.json')
+    db = TinyDB(f'{year}final.json', indent=4, sort_keys=True)
     Day = Query()
 
     rst = db.search(Day.option == True)
@@ -237,9 +237,9 @@ def listOrdo(year):
 
 
 def addOthers(year):
-    dbScrap = TinyDB(f'rst/{year}/scrap_feasts.json')
-    dbOther = TinyDB(f'rst/data/other.json')
-    db = TinyDB(f'rst/{year}/scrap_feasts_others.json')
+    dbScrap = TinyDB(f'rst/{year}/scrap_feasts.json', indent=4, sort_keys=True)
+    dbOther = TinyDB(f'rst/data/other.json', indent=4, sort_keys=True)
+    db = TinyDB(f'rst/{year}/scrap_feasts_others.json', indent=4, sort_keys=True)
     
     Day = Query()
 
@@ -253,7 +253,7 @@ def prepareOrdo(year, one_day = None):
     if not exists(path):
         addOthers(year)
     
-    db = TinyDB(path)
+    db = TinyDB(path, indent=4, sort_keys=True)
     Day = Query()
 
     day = one_day if one_day else date(year,1,1)
@@ -355,7 +355,7 @@ def choose_ep(year):
     if not exists(path):
         shutil.copy(f'rst/{year}/ordo_without_ep.json',path)
 
-    db = TinyDB(path)
+    db = TinyDB(path, indent=4, sort_keys=True)
     Day = Query()
 
     mondays = get_mondays(year)

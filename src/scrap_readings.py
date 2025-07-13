@@ -54,7 +54,7 @@ def scrapReadings(day,url,keep_going = True):
 def scrapReadingsYear(year):
     day = date(year,1,1)
     Day = Query()
-    db = TinyDB(f'rst/{year}readings.json', storage=CachingMiddleware(JSONStorage))
+    db = TinyDB(f'rst/{year}readings.json', storage=CachingMiddleware(JSONStorage), indent=4, sort_keys=True)
 
     while day.year == year:
         if db.count(Day.day==day.strftime("%m%d")) > 0:
