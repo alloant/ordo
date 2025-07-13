@@ -65,7 +65,7 @@ def scrapRow(row):
 
 def scrapOrdo(year):
     url = f"http://www.gcatholic.org/calendar/{year}/IN-en.htm" 
-    print("web:",url)
+    print(f"Downloading ordo from {url}. Saving result in rst/{year}/scrap.json")
 
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -82,7 +82,6 @@ def scrapOrdo(year):
         dt = scrapRow(row)
         if dt:
             db.insert(dt)
-            #print(dt)
             cont += 1
 
     db.close()

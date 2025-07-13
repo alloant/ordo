@@ -38,6 +38,7 @@ GR = Theme(
 
 
 def addFeasts(year):
+    print(f'Adding personal notes to ordo. Saving result in rst/{year}/scrap_feasts.json')
     dbFeasts = TinyDB(f'rst/data/calendar.json')
     path = f'rst/{year}/scrap_feasts.json'
     if not exists(path):

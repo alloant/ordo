@@ -46,38 +46,51 @@ class ordo_day:
         return ''
 
 def final_json(year):
+    print(f'Adding comments (like flowers, benedicions, octaves, etc... Saving result in rst/{year}/ordo_without_ep.json')
     dbOrdo = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json')
     dbComments = TinyDB(f'rst/data/comments.json')
     db = TinyDB(f'rst/{year}/ordo_without_ep.json')
     Day = Query()
 
+    ## Check all the days of the year
     dt = date(year,1,1)
+    oct_Corpus = 0
+    sj_dt = date(year,3,19)
+    bt_dt = dbOrdo.search(Day.title=='The Most Holy Trinity')[0]['id']
+    bt_dt = date(year,int(bt_dt[:2]),int(bt_dt[2:]))
     while dt < date(year+1,1,1):
-        rst = {}
+        # Getting data
         ordo = ordo_day(sorted(dbOrdo.search((Day.id == dt.strftime('%m%d')) & (Day.option > 0)), key=lambda x: x['option']))
+        
+        # Preparing result
+        rst = {}
+        rst['date'] = dt.strftime('%Y/%m/%d')
 
+        ## Replace st for super st
         title = f"<|{dt.day} [small]#{dt.strftime('%a')}#"
         tt = re.sub(r'ˢᵗ', '^st^', ordo['title'])
         tt = re.sub(r'ⁿᵈ', '^nd^', tt)
         tt = re.sub(r'ʳᵈ', '^rd^', tt)
         tt = re.sub(r'ᵗʰ', '^th^', tt)
-
-        rst['date'] = dt.strftime('%Y/%m/%d')
         rst['title'] = tt
+
         if ordo['subtitle']:
             rst['subtitle'] = ordo['subtitle']
         rst['feast'] = ordo['feast']
         rst['color'] = ordo['color'].upper()
         
+        ## Choosing the Mass
         if ordo['mass']:
             mass = ordo['mass']
         elif ordo['lg']:
             mass = f"Mass of the {ordo['lg']}"
         else:
-            mass = f"Mass of the day"
-        
+            mass = f"Mass of the day"        
         rst['mass'] = mass
+
         rst['ep'] = ordo['ep']
+
+        ## Final comments
         other_comments = ""
         day_comments = dbComments.search(Day.id == dt.strftime('%m%d'))
         for dc in day_comments:
@@ -88,16 +101,59 @@ def final_json(year):
             rst['comments'] = ordo['comments'] + ', ' + other_comments
         elif other_comments:
             rst['comments'] = other_comments
+        else:
+            rst['comments'] = ''
         
+        # With the exception of Holy Week put SoEx and SiEx in A and B feasts
         if not any(item in rst['title'] for item in ['Palm','Holy Week','Holy Thursday','Good Friday','Holy Saturday']):
             if rst['feast'] == 'A':
-                rst['comments'] = f"{rst['comments']}, So.Ex" if 'comments' in rst and rst['comments'] else 'So.Ex'
-            elif rst['feast'] == 'B' or dt.strftime('%a') == 'Sat':
-                rst['comments'] = f"{rst['comments']}, Si.Ex" if 'comments' in rst and rst['comments'] else 'Si.Ex'
+                rst['comments'] = add_ex('So.Ex',rst['comments'])
+            elif (rst['feast'] == 'B' or dt.strftime('%a') == 'Sat'):
+                rst['comments'] = add_ex('Si.Ex',rst['comments'])
         
+        ## Here for Octave of Corpus
+        if 0 < oct_Corpus < 8:
+            rst['comments'] = add_ex('So.Ex',rst['comments'])
+            oct_Corpus += 1
+
+        if rst['title'] == 'The Most Holy Body and Blood of Christ':
+            oct_Corpus = 1
+
+        ## Trisagio Angelicum
+        if 0 <= (bt_dt - dt).days < 3:
+            if rst['comments']:
+                rst['comments'] += ', '
+            rst['comments'] += 'Trisagium Angelicum'
+
+        # Sundays of St. Jospeh
+        if dt.weekday() == 6 and dt < sj_dt:
+            bt_days = (sj_dt - dt).days
+            if bt_days <= 6*7 + sj_dt.weekday() + 1:
+                sofsj = int(7 - (bt_days - sj_dt.weekday() - 1)/7)
+                if rst['comments']:
+                    rst['comments'] += ', '
+
+                rst['comments'] += f"{sofsj} Sunday of St. Joseph"
+
+        # Insert result
         db.insert(rst)
+
+        # Incress day to continue the loop
         dt += timedelta(days=1)
     db.close()
+
+def add_ex(ex,text):
+    rst = text
+    if not (ex in text or ex == 'Si.Ex' and 'So.Ex' in text):
+        if ex == 'So.Ex' and 'Si.Ex' in text:
+            rst = text.replace('Si.Ex','So.Ex')
+        else:
+            if text:
+                rst += ', '
+
+            rst += ex
+
+    return rst
 
 
 def json_to_adoc(year):
