@@ -100,7 +100,7 @@ def addFeasts(year):
 
     title = "The Most Holy Trinity"
     rst = db.search(Query().title == title)
-    if rst:
+    if rst and False:
         htid = int(rst[0]['id'])
         doc_ids = [f'0000{htid-2}'[-4:],f'0000{htid-1}'[-4:],f'0000{htid}'[-4:]]
         db.update({'comments': lambda x: x + (',' if x else '') + f' Trisagium Angelicum'},doc_ids=doc_ids)
@@ -208,8 +208,9 @@ def setVotives(year):
             count = 1
         
         if 'options' in vt:
-            option = vt['options'].split(',')[count % len(options)].upper()
-            db.update({'mass': f"vt['mass']} (option {option})",doc_ids=[row_day.doc_id])
+            options = vt['options'].split(',')
+            option = options[count % len(options)].upper()
+            db.update({'mass': f"{vt['mass']} (option {option})"},doc_ids=[row_day.doc_id])
         else:
             db.update({'mass': vt['mass']},doc_ids=[row_day.doc_id])
         db.update({'color': vt['color']},doc_ids=[row_day.doc_id])

@@ -92,6 +92,10 @@ role:
   gray:
     font_color: 444444
     font_size: $base_font_size_small
+  pink:
+    font_color: ff748c
+    font_size: $base_font_size_small
+
   feast:
     font_size: $base_font_size_small
     font_size: $base_font_size
@@ -140,7 +144,7 @@ table:
     font_style: normal
     border_bottom_width: $base_border_width
   body:
-    stripe_background_color: F9F9F9
+    stripe_background_color: cccccc
   foot:
     background_color: F0F0F0
 

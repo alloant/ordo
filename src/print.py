@@ -29,7 +29,10 @@ class ordo_day:
             if index == 'feast':
                 return self.option1['feast'] if self.option1['feast'] < self.option2['feast'] else self.option2['feast']
             elif index == 'comments':
-                return f"{self.option1['comments']}, {self.option2['comments']}"
+                if index in self.option1 and self.option1[index]:
+                    return f"{self.option1['comments']}, {self.option2['comments']}"
+                else:
+                    return self.option2p[index]
 
         if index in self.option1:
             if index == 'feast':
@@ -80,18 +83,18 @@ def final_json(year):
         for dc in day_comments:
             if 'comments' in dc and dc['comments']:
                 other_comments += f", {dc['comments']}" if other_comments else dc['comments']
-
-        if ordo['comments']:
-            rst['comments'] = ordo['comments'] + ' ,' + other_comments
+        
+        if ordo['comments'] and other_comments:
+            rst['comments'] = ordo['comments'] + ', ' + other_comments
         elif other_comments:
             rst['comments'] = other_comments
-
+        
         if not any(item in rst['title'] for item in ['Palm','Holy Week','Holy Thursday','Good Friday','Holy Saturday']):
             if rst['feast'] == 'A':
-                rst['comments'] = f"{rst['comments']}, So.Ex" if 'comments' in rst else 'So.Ex'
+                rst['comments'] = f"{rst['comments']}, So.Ex" if 'comments' in rst and rst['comments'] else 'So.Ex'
             elif rst['feast'] == 'B' or dt.strftime('%a') == 'Sat':
-                rst['comments'] = f"{rst['comments']}, Si.Ex" if 'comments' in rst else 'Si.Ex'
-
+                rst['comments'] = f"{rst['comments']}, Si.Ex" if 'comments' in rst and rst['comments'] else 'Si.Ex'
+        
         db.insert(rst)
         dt += timedelta(days=1)
     db.close()
@@ -109,12 +112,14 @@ def json_to_adoc(year):
             if current_month < dt.month:
                 file.write(f"== {dt.strftime('%B')}\n\n")
                 current_month = dt.month
-            else:
-                file.write("---\n\n")
+            #else:
+            #    file.write("---\n\n")
 
             file.write('[%unbreakable]\n')
-            file.write('[grid=none,frame=none,cols="2,20"]\n')
+            file.write('[grid=none,frame=none,cols="2,20",stripes=even]\n')
             file.write('|===\n')
+
+            file.write("| |\n")
 
             file.write(f"^|{dt.day} [small]#{dt.strftime('%a')}#")
             if 'feast' in day and day['feast']:
@@ -131,16 +136,17 @@ def json_to_adoc(year):
 
             file.write("\n") # End first row
            
-            if 'Saturday' in day['title']:
-                file.write(f">.^|[gray]#󰴈#55 [{day['color']}]*{day['color']}*")
+            if 'Saturday' in day['title'] or 'feast' in day and day['feast'] < 'C' and day['feast'] or dt.month == 5:
+                file.write(f">.^|[pink]#󰴈# [{day['color']}]*{day['color']}*")
             else:
-                file.write(f" ^.^|[small]#{day['mass']}#")
+                file.write(f">.^|[{day['color']}]*{day['color']}*")
+            
+            file.write(f" ^.^|[small]#{day['mass']}#, [ep]#EP{day['ep']}#")
 
             if 'comments' in day:
                 file.write(f" +\n[gray]#{day['comments']}#")
             
             file.write("\n") # End second row
-
             file.write("|===\n\n")
 
 
@@ -155,12 +161,14 @@ def json_to_csv(year):
         csvf = csv.writer(file)
         
         headers = ['date','feast','color','title','mass','comments']
-        csvf.writerow(headers)
+        csvf.writerow(['date_nice'] + headers)
         for day in db.all():
             dt = datetime.strptime(day['date'],"%Y/%m/%d")
             row = [dt.strftime('%d %b')] + [day[key] if key in day else '' for key in headers]
             if 'subtitle' in day:
-                row[3] += f" ({day['subtitle']})"
+                row[4] += f" ({day['subtitle']})"
+            if 'ep' in day:
+                row[5] += f", EP-{day['ep']}"
 
             csvf.writerow(row)
 

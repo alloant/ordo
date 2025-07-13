@@ -14,7 +14,7 @@ from src.print import json_to_csv, json_to_adoc, final_json
 
 
 while True:
-    #os.system('clear')
+    os.system('clear')
     tb = PT()
 
     tb.add_row([1,"Scrap ordo"])
@@ -33,7 +33,7 @@ while True:
 
     option = input("Option: ")
     
-    if option != '10':
+    if option != '11':
         year = int(input(f'Enter year ({date.today().year + 1}): ').strip() or date.today().year + 1)
 
     match option:
@@ -59,8 +59,8 @@ while True:
             json_to_adoc(year)
         case '9':
             print("Choose size a5 or a6")
-            theme = input("Size (a5): ")
-            theme = 'a5' if not theme else theme
+            theme = input("Size (a6): ")
+            theme ='a6' if not theme else theme
 
             command = ['asciidoctor-pdf','-a','optimize','-a','media=prepress','-a','pdf-themesdir=resources/themes','-a','pdf-fontsdir=resources/fonts','-a',f'pdf-theme=ordo{theme}',f'rst/{year}/ordo.adoc','-o',f'rst/{year}/ordo.pdf']
 
@@ -75,5 +75,7 @@ while True:
         case '10':
             scrapReadingsYear(year)
         case '11':
+            break
+        case _:
             break
 
