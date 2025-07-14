@@ -1,0 +1,109 @@
+@page {
+    size: A6; /* Or A6, or whatever size you need */
+    margin: 1cm; /* Margin around the main content */
+    margin-top: 1cm;
+    margin-bottom: 1.5cm;
+    
+    /* Default header border for all pages (can be overridden or augmented) */
+    @top-center {
+        content: "";
+        border-bottom: 0.5pt solid #aaa; /* Thinner border */
+        padding-bottom: 0.2cm; /* Less padding */
+        margin-bottom: 0.2cm; /* Less margin */
+        width: 100%;
+    }
+
+    /* Footer content using string-set from HTML */
+    @bottom-center {
+        content: "Generated on " string(report_date);
+        font-size: 7pt; /* Smaller font for footer */
+        color: #888;
+    }
+}
+
+/* Style for Right-Hand Pages (Recto pages - usually odd-numbered, but depends on start) */
+@page :right {
+    /* Title in the top-left for right pages */
+    @top-left {
+        content: "Ordo Delhi"; /* Static title */
+        white-space: nowrap; /* Prevent wrapping for static title */
+        font-size: 7pt;
+        color: #555;
+    }
+    /* Page number in the top-right for right pages */
+    @top-right {
+        content: counter(page); /* Just the number */
+        font-size: 7pt;
+        font-weight: bold; /* Make it stand out */
+        color: #333;
+    }
+}
+
+/* Style for Left-Hand Pages (Verso pages - usually even-numbered) */
+@page :left {
+    /* Page number in the top-left for left pages */
+    @top-left {
+        content: counter(page); /* Just the number */
+        font-size: 7pt;
+        font-weight: bold; /* Make it stand out */
+        color: #333;
+    }
+    /* Title in the top-right for left pages */
+    @top-right {
+        content: "Ordo Delhi"; /* Static title */
+        white-space: nowrap; /* Prevent wrapping for static title */
+        font-size: 7pt;
+        color: #555;
+    }
+}
+
+
+
+body {
+    font-family: sans-serif;
+    font-size: 12pt;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #0056b3;
+    font-size: 12pt;
+}
+
+h2 {
+    color: #0056b3;
+    font-size: 11pt;
+}
+
+.card-container {
+    display: flex; /* Use flexbox to arrange cards side-by-side */
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    gap: 20px; /* Space between cards */
+    justify-content: center; /* Center cards horizontally */
+    margin-bottom: 2cm;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 4px; /* Rounded corners */
+    width: 300px; /* Fixed width for the card */
+    background-color: #fff;
+    page-break-inside: avoid; /* Try to keep the entire card on one page */
+    display: flex; /* Make card content a flex container */
+    flex-direction: column; /* Stack content vertically */
+}
+
+.row_title {
+    flex-wrap: wrap; /* Allow cards to wrap to the next line */
+    font-size: 9pt;
+    white-space: nowrap; /* Prevent wrapping for static title */
+}
+
+.row_body {
+    font-size: 8pt;
+    white-space: nowrap; /* Prevent wrapping for static title */
+}
+
+.col {
+    min-height: 50px; /* Ensure some height for empty columns */
+}

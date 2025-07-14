@@ -1,0 +1,137 @@
+@page {
+    size: A6; /* Or A6, or whatever size you need */
+    margin: 1cm; /* Margin around the main content */
+    margin-top: 1cm;
+    margin-bottom: 1cm;
+    
+    /* Footer content using string-set from HTML */
+    @bottom-center {
+        content: "Cycle C, Year I";
+        border-top: 0.5pt solid #aaa; /* Thinner border */
+        font-size: 7pt; /* Smaller font for footer */
+        width: 100%;
+        color: #888;
+    }
+}
+
+/* Style for Right-Hand Pages (Recto pages - usually odd-numbered, but depends on start) */
+@page :right {
+    /* Title in the top-left for right pages */
+    @bottom-left {
+        content: string(heading); /* Static title */
+        white-space: nowrap; /* Prevent wrapping for static title */
+        font-size: 7pt;
+        color: #555;
+    }
+    /* Page number in the top-right for right pages */
+    @bottom-right {
+        content: counter(page); /* Just the number */
+        font-size: 7pt;
+        font-weight: regular; /* Make it stand out */
+        color: #333;
+    }
+}
+
+/* Style for Left-Hand Pages (Verso pages - usually even-numbered) */
+@page :left {
+    /* Page number in the top-left for left pages */
+    @bottom-left {
+        content: counter(page); /* Just the number */
+        font-size: 7pt;
+        font-weight: regular; /* Make it stand out */
+        color: #333;
+    }
+    /* Title in the top-right for left pages */
+    @bottom-right {
+        content: string(heading); /* Static title */
+        white-space: nowrap; /* Prevent wrapping for static title */
+        font-size: 7pt;
+        color: #555;
+    }
+}
+
+/* Specific page rules for the FIRST page */
+@page :first, :nth(2) {
+    margin-top: 1in; /* Reduce top margin for the first page (no header needed) */
+
+    @bottom-center {
+        content: none; /* Crucial: Do NOT print header content on the first page */
+    }
+    @bottom-left {
+        content: none; /* Crucial: Do NOT print header content on the first page */
+    }
+    @bottom-right {
+        content: none; /* Crucial: Do NOT print header content on the first page */
+    }
+}
+
+/* Change the base font size for the entire document */
+body {
+    font-family: "Gentium Basic";
+    font-size: 10px; /* Or 1.125rem, 120%, etc. */
+}
+
+h2 {
+    string-set: heading content();
+    text-align: center;
+    page-break-before: avoid;
+}
+
+.mycard {
+    page-break-inside: avoid;
+    overflow: hidden;
+}
+
+/* Page break control for the cover */
+#cover-page {
+    /* Make the cover page take up exactly one page */
+    page-break-after: always; /* Force a page break after the cover */
+    position: relative; /* For absolute positioning of elements inside */
+
+    /* Ensure it fills the entire page */
+    width: 100%;
+    height: 100vh; /* This works well for screen, but for print, consider fixed dimensions */
+    /* For print, you often rely on the page dimensions set by @page or WeasyPrint's default A4 */
+    /* If you need specific print dimensions, you might use: */
+    /* width: 21cm; /* A4 width */
+    /* height: 29.7cm; /* A4 height */
+
+    /* Styling for the background and text positioning */
+    background-color: #f8f8f8; /* Light background for the cover */
+    color: #333;
+    display: flex; /* Use flexbox for easy centering */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    text-align: center; /* Ensure text itself is centered */
+    padding: 50px; /* Add some padding around the content */
+    box-sizing: border-box; /* Include padding in width/height */
+}
+
+#cover-page h1 {
+    font-size: 3em; /* Larger title */
+    color: #4CAF50; /* Primary color for title */
+    margin-bottom: 20px;
+}
+
+#cover-page h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+#cover-page .author,
+#cover-page .date {
+    font-size: 1.1em;
+    color: #777;
+    margin-top: 10px;
+}
+
+.empty-page-placeholder {
+    /* This div itself has no visible content, just acts as a page trigger */
+    height: 1px; /* Needs some minimal height to be recognized as a block */
+    /* Crucial: Assign a custom page template to the page this element starts on */
+    page: empty-template;
+    page-break-after: always; /* Force a page break AFTER this empty page */
+    /* No background, text, or padding here, as it's meant to be blank */
+}

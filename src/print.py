@@ -7,6 +7,8 @@ from tinydb import TinyDB, Query
 from prettytable import PrettyTable as PT
 from datetime import date, timedelta, datetime
 import csv
+from bs4 import BeautifulSoup as BS
+import os
 
 #󰴈󰜡
 
@@ -230,3 +232,146 @@ def json_to_csv(year):
 
     db.close()
 
+def get_color(color):
+    match color:
+        case 'R':
+            return '<span class="badge rounded-circle small bg-danger me-1" style="height: 1.2em; width: 1.2em; justify-content: center; alignt-items: center; display: inline-flex;">R</span>'
+        case 'G':
+            return '<span class="badge rounded-circle small bg-success me-1" style="padding: 0.2em height: 1.2em; width: 1.2em;">G</span>'
+        case 'V':
+            return '<span class="badge rounded-circle small me-1" style="background-color: #9400D3; padding: 0.2em height: 1.2em; width: 1.2em;">V</span>'
+        case 'W':
+            return '<span class="badge rounded-circle small bg-light text-dark border me-1" style="padding: 0.1em height: 1.2em; width: 1.2em;">W</span>'
+
+
+def set_sup(text):
+    replacements = {
+        "^st^": "<sup>st</sup>",
+        "^nd^": "<sup>nd</sup>",
+        "^rd^": "<sup>rd</sup>",
+        "^th^": "<sup>th</sup>"
+    }
+    rst = text
+    for key, rep in replacements.items():
+        rst = rst.replace(key,rep)
+
+    return rst
+
+def flowers(day,dt):
+    if 'Saturday' in day['title'] or 'feast' in day and day['feast'] < 'C' and day['feast'] or dt.month == 5:
+        return '<span class="me-1" style="color: #E75480;">󰴈</span>'
+    return ""
+
+
+def json_to_html(year):
+    db = TinyDB(f'rst/{year}/ordo.json', indent=4, sort_keys=True)
+    with open(f'rst/{year}/ordo.html','w') as file:
+        soup = BS(html_template(year),'html.parser')
+        body = soup.find('body')
+        body.clear()
+        cover = f"""
+        <div id="cover-page">
+            <h1>Ordo Delhi {year}</h1>
+            <h2>Cycle C Year I</h2>
+            <p class="date">January 1, 2025</p>
+        </div>
+        <div class="empty-page-placeholder"></div>
+        """
+        body.append(BS(cover,'html.parser'))
+        
+        ## Now we add the elements in the body
+        current_month = 0
+        for day in db.all():
+            dt = datetime.strptime(day['date'],"%Y/%m/%d")
+            if current_month == 0 or current_month != dt.month:
+                if current_month > 0:
+                    body.append(body_month)
+                current_month = dt.month
+                body_month = BS(f'<div class="container"></div>','html.parser')
+                cards_month = body_month.find('div')
+                body.append(BS(f'<h2>{dt.strftime("%B")}</h2>','html.parser'))
+            
+            card = f"""
+            <div class="mycard border border-secondary rounded m-2">
+                <div class="row p-0 m-0 border-bottom">
+                    <div class="col-2 bg-secondary text-light">
+                        <div class="row fw-bold">
+                            <span class="text-center">{dt.strftime("%a")}</span>
+                        </div>
+                        <div class="row fw-bold">
+                            <span class="text-center">{dt.strftime("%d")}</span>
+                        </div>
+                    </div>
+                    
+                    <div class="col-10 text-center align-items-center">
+                        <span class="fw-bold">{set_sup(get(day,"title"))}</span>
+                        <span class="text-secondary small text-center">{get(day,"subtitle")}</span>
+                    </div>
+                </div>
+
+                <div class="row p-0 m-0">
+                    <div class="col-2 d-flex justify-content-center align-items-center">
+                        <span>{get(day,"feast")}</span>
+                    </div>
+
+                    <div class="col-10 text-center align-items-center">
+                            {flowers(day,dt)}
+                            {get_color(day["color"])}
+                            <span>{get(day,"mass")}, </span>
+                            <span style="white-space: nowrap;">EP {get(day,"ep")}{add_comma(get(day,"comments"))}</span>
+                            <span class="text-secondary">{get(day,"comments")}</span>
+                    </div>
+                </div>
+            </div>
+            """
+
+
+
+
+            #body.append(BS(card,'html.parser'))
+            cards_month.append(BS(card,'html.parser'))
+        
+        file.write(str(soup))
+
+def get(day,key):
+    if key in day:
+        if key == 'subtitle' and day[key] != "":
+            return f'<br>{day[key]}'
+        return day[key]
+    else:
+        return ""
+
+def add_comma(text):
+    if text:
+        return ','
+
+    return ''
+
+def html_template(year):
+    return f"""
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Ordo Delhi {year}</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="../../resources/style.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <meta name="description" content="Ordo {year}">
+</head>
+
+<body>
+  <header>
+  </header>
+
+    MARKER 
+
+  <footer>
+  </footer>
+
+</body>
+
+</html>
+    """
