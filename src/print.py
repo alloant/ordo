@@ -235,13 +235,13 @@ def json_to_csv(year):
 def get_color(color):
     match color:
         case 'R':
-            return '<span class="badge rounded-circle small bg-danger me-1" style="height: 1.2em; width: 1.2em; justify-content: center; alignt-items: center; display: inline-flex;">R</span>'
+            return '<span class="badge rounded-circle small bg-danger me-1" style="padding: 0.2em">R</span>'
         case 'G':
-            return '<span class="badge rounded-circle small bg-success me-1" style="padding: 0.2em height: 1.2em; width: 1.2em;">G</span>'
+            return '<span class="badge rounded-circle small bg-success me-1" style="padding: 0.2em;">G</span>'
         case 'V':
-            return '<span class="badge rounded-circle small me-1" style="background-color: #9400D3; padding: 0.2em height: 1.2em; width: 1.2em;">V</span>'
+            return '<span class="badge rounded-circle small me-1" style="background-color: #9400D3; padding: 0.2em;">V</span>'
         case 'W':
-            return '<span class="badge rounded-circle small bg-light text-dark border me-1" style="padding: 0.1em height: 1.2em; width: 1.2em;">W</span>'
+            return '<span class="badge rounded-circle small bg-light text-dark border me-1" style="padding: 0.1em">W</span>'
 
 
 def set_sup(text):
@@ -318,8 +318,8 @@ def json_to_html(year):
                             {flowers(day,dt)}
                             {get_color(day["color"])}
                             <span>{get(day,"mass")}, </span>
-                            <span style="white-space: nowrap;">EP {get(day,"ep")}{add_comma(get(day,"comments"))}</span>
-                            <span class="text-secondary">{get(day,"comments")}</span>
+                            <span style="white-space: nowrap;">EP {get(day,"ep")}</span>
+                            <span class="text-secondary small">{get(day,"comments")}</span>
                     </div>
                 </div>
             </div>
@@ -335,7 +335,7 @@ def json_to_html(year):
 
 def get(day,key):
     if key in day:
-        if key == 'subtitle' and day[key] != "":
+        if key in ['subtitle','comments'] and day[key] != "":
             return f'<br>{day[key]}'
         return day[key]
     else:
