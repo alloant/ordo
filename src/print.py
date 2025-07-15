@@ -48,10 +48,10 @@ class ordo_day:
         return ''
 
 def final_json(year):
-    print(f'Adding comments (like flowers, benedicions, octaves, etc... Saving result in rst/{year}/ordo_without_ep.json')
-    dbOrdo = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json', indent=4, sort_keys=True)
-    dbComments = TinyDB(f'rst/data/comments.json', indent=4, sort_keys=True)
-    db = TinyDB(f'rst/{year}/ordo_without_ep.json', indent=4, sort_keys=True)
+    print(f'Adding comments from data/comments.json. Saving result in rst/{year}/ordo_without_ep.json')
+    dbOrdo = TinyDB(f'rst/{year}/scrap_feasts_others_votives.json', indent=4)
+    dbComments = TinyDB(f'rst/data/comments.json', indent=4)
+    db = TinyDB(f'rst/{year}/ordo_without_ep.json', indent=4)
     Day = Query()
 
     ## Check all the days of the year
@@ -67,14 +67,7 @@ def final_json(year):
         # Preparing result
         rst = {}
         rst['date'] = dt.strftime('%Y/%m/%d')
-
-        ## Replace st for super st
-        title = f"<|{dt.day} [small]#{dt.strftime('%a')}#"
-        tt = re.sub(r'ˢᵗ', '^st^', ordo['title'])
-        tt = re.sub(r'ⁿᵈ', '^nd^', tt)
-        tt = re.sub(r'ʳᵈ', '^rd^', tt)
-        tt = re.sub(r'ᵗʰ', '^th^', tt)
-        rst['title'] = tt
+        rst['title'] = ordo['title']
 
         if ordo['subtitle']:
             rst['subtitle'] = ordo['subtitle']
@@ -127,15 +120,24 @@ def final_json(year):
                 rst['comments'] += ', '
             rst['comments'] += 'Trisagium Angelicum'
 
-        # Sundays of St. Jospeh
-        if dt.weekday() == 6 and dt < sj_dt:
-            bt_days = (sj_dt - dt).days
-            if bt_days <= 6*7 + sj_dt.weekday() + 1:
-                sofsj = int(7 - (bt_days - sj_dt.weekday() - 1)/7)
+        # On Sundays
+        if dt.weekday() == 6:
+            #Quicumque
+            if 15 <= dt.day <= 21: # Third Sunday
                 if rst['comments']:
                     rst['comments'] += ', '
 
-                rst['comments'] += f"{sofsj} Sunday of St. Joseph"
+                rst['comments'] += f"Quicumque"
+
+            # Sundays of St. Jospeh
+            if dt < sj_dt:
+                bt_days = (sj_dt - dt).days
+                if bt_days <= 6*7 + sj_dt.weekday() + 1:
+                    sofsj = int(7 - (bt_days - sj_dt.weekday() - 1)/7)
+                    if rst['comments']:
+                        rst['comments'] += ', '
+
+                    rst['comments'] += f"{sofsj} Sunday of St. Joseph"
 
         # Insert result
         db.insert(rst)
@@ -158,61 +160,8 @@ def add_ex(ex,text):
     return rst
 
 
-def json_to_adoc(year):
-    db = TinyDB(f'rst/{year}/ordo.json', indent=4, sort_keys=True)
-
-    with open(f'rst/{year}/ordo.adoc','w') as file:
-        file.write(f"= Ordo Delhi {year}\n\n")
-
-        current_month = 0
-        for day in db.all():
-            dt = datetime.strptime(day['date'],"%Y/%m/%d")
-            if current_month < dt.month:
-                file.write(f"== {dt.strftime('%B')}\n\n")
-                current_month = dt.month
-            #else:
-            #    file.write("---\n\n")
-
-            file.write('[%unbreakable]\n')
-            file.write('[grid=none,frame=none,cols="2,20",stripes=even]\n')
-            file.write('|===\n')
-
-            file.write("| |\n")
-
-            file.write(f"^|{dt.day} [small]#{dt.strftime('%a')}#")
-            if 'feast' in day and day['feast']:
-                if day['feast'] == 'C':
-                    file.write(f" ^.^|[small]#\({day['feast']})#")
-                else:
-                    file.write(f" ^.^|[small]#({day['feast']})#")
-            else:
-                file.write(f" ^.^|")
-            
-            file.write(f" {day['title']}")
-            if 'subtitle' in day:
-                file.write(f" +\n[gray]#{day['subtitle']}#")
-
-            file.write("\n") # End first row
-           
-            if 'Saturday' in day['title'] or 'feast' in day and day['feast'] < 'C' and day['feast'] or dt.month == 5:
-                file.write(f">.^|[pink]#󰴈# [{day['color']}]*{day['color']}*")
-            else:
-                file.write(f">.^|[{day['color']}]*{day['color']}*")
-            
-            file.write(f" ^.^|[small]#{day['mass']}#, [ep]#EP{day['ep']}#")
-
-            if 'comments' in day:
-                file.write(f" +\n[gray]#{day['comments']}#")
-            
-            file.write("\n") # End second row
-            file.write("|===\n\n")
-
-
-
-        file.close()
-
 def json_to_csv(year):
-    db = TinyDB(f'rst/{year}/ordo.json', indent=4, sort_keys=True)
+    db = TinyDB(f'rst/{year}/ordo.json', indent=4)
     Day = Query()
 
     with open(f'rst/{year}/ordo.csv','w') as file:
@@ -235,44 +184,30 @@ def json_to_csv(year):
 def get_color(color):
     match color:
         case 'R':
-            return '<span class="badge rounded-circle small bg-danger me-1" style="padding: 0.2em">R</span>'
+            return '<span class="color-mass text-danger small me-1">R</span>'
         case 'G':
-            return '<span class="badge rounded-circle small bg-success me-1" style="padding: 0.2em;">G</span>'
+            return '<span class="color-mass text-success small me-1">G</span>'
         case 'V':
-            return '<span class="badge rounded-circle small me-1" style="background-color: #9400D3; padding: 0.2em;">V</span>'
+            return '<span class="color-mass small me-1" style="color: #9400D3;">V</span>'
         case 'W':
-            return '<span class="badge rounded-circle small bg-light text-dark border me-1" style="padding: 0.1em">W</span>'
-
-
-def set_sup(text):
-    replacements = {
-        "^st^": "<sup>st</sup>",
-        "^nd^": "<sup>nd</sup>",
-        "^rd^": "<sup>rd</sup>",
-        "^th^": "<sup>th</sup>"
-    }
-    rst = text
-    for key, rep in replacements.items():
-        rst = rst.replace(key,rep)
-
-    return rst
+            return '<span class="color-mass small me-1" style="color: #CCCCCC;">W</span>'
 
 def flowers(day,dt):
-    if 'Saturday' in day['title'] or 'feast' in day and day['feast'] < 'C' and day['feast'] or dt.month == 5:
-        return '<span class="me-1" style="color: #E75480;">󰴈</span>'
+    if dt.weekday() == 5 or 'feast' in day and day['feast'] < 'C' and day['feast'] or dt.month == 5:
+        return '<span class="small" style="color: #E75480;">󰴈</span>'
     return ""
 
 
 def json_to_html(year):
-    db = TinyDB(f'rst/{year}/ordo.json', indent=4, sort_keys=True)
+    db = TinyDB(f'rst/{year}/ordo.json', indent=4)
     with open(f'rst/{year}/ordo.html','w') as file:
         soup = BS(html_template(year),'html.parser')
         body = soup.find('body')
         body.clear()
         cover = f"""
-        <div id="cover-page">
+        <div class="rounded" id="cover-page">
             <h1>Ordo Delhi {year}</h1>
-            <h2>Cycle C Year I</h2>
+            <h2>Cycle C - Year I</h2>
             <p class="date">January 1, 2025</p>
         </div>
         <div class="empty-page-placeholder"></div>
@@ -281,62 +216,109 @@ def json_to_html(year):
         
         ## Now we add the elements in the body
         current_month = 0
-        for day in db.all():
+        for day in sorted(db.all(),key = lambda doc: doc.get('date')):
             dt = datetime.strptime(day['date'],"%Y/%m/%d")
             if current_month == 0 or current_month != dt.month:
+                if dt.month == 3:
+                    break
                 if current_month > 0:
                     body.append(body_month)
                 current_month = dt.month
-                body_month = BS(f'<div class="container"></div>','html.parser')
+                body_month = BS(f'<div class="container-flush"></div>','html.parser')
                 cards_month = body_month.find('div')
                 body.append(BS(f'<h2>{dt.strftime("%B")}</h2>','html.parser'))
             
+            if dt.weekday() == 6:
+                gray_dark = "#333333"
+                gray_light = "#555555"
+                font_color = "#FFFFFF"
+            else:
+                gray_dark = "#CCCCCC"
+                gray_light = "#EEEEEE"
+                font_color = "#000000"
+
             card = f"""
-            <div class="mycard border border-secondary rounded m-2">
+            <div class="mycard border border-secondary rounded m-2" style="border-color: {gray_dark};">
                 <div class="row p-0 m-0 border-bottom">
-                    <div class="col-2 bg-secondary text-light">
-                        <div class="row fw-bold">
-                            <span class="text-center">{dt.strftime("%a")}</span>
+                    <div class="col-1" style="background-color: {gray_dark}; color: {font_color};">
+                        <div class="row fw-bold p-0 m-0">
+                            <span class="text-center p-0 m-0">{dt.strftime("%a")}</span>
                         </div>
-                        <div class="row fw-bold">
-                            <span class="text-center">{dt.strftime("%d")}</span>
+                        <div class="row fw-bold p-0 m-0">
+                            <span class="text-center p-0 m-0">{dt.strftime("%d")}</span>
                         </div>
                     </div>
                     
-                    <div class="col-10 text-center align-items-center">
-                        <span class="fw-bold">{set_sup(get(day,"title"))}</span>
-                        <span class="text-secondary small text-center">{get(day,"subtitle")}</span>
+                    <div class="col-11 d-flex flex-column justify-content-center align-items-center gap-0" style="background-color: {gray_light}; color: {font_color};">
+                        <p class="fw-bold text-center py-0 my-0">{get(day,"title")}</p>
+                        <p class="small text-center py-0 my-0" style="color: #222222;">{get(day,"subtitle")}</p>
                     </div>
                 </div>
 
                 <div class="row p-0 m-0">
-                    <div class="col-2 d-flex justify-content-center align-items-center">
+                    <div class="col-1 d-flex flex-column justify-content-center align-items-center">
                         <span>{get(day,"feast")}</span>
+                        {flowers(day,dt)}
                     </div>
 
-                    <div class="col-10 text-center align-items-center">
-                            {flowers(day,dt)}
-                            {get_color(day["color"])}
-                            <span>{get(day,"mass")}, </span>
-                            <span style="white-space: nowrap;">EP {get(day,"ep")}</span>
-                            <span class="text-secondary small">{get(day,"comments")}</span>
+                    <div class="col-11">
+                        <div class="row m-0 p-0 text-center">
+                            <div class="">
+                                {get_color(day["color"])}
+                                <span>{get(day,"mass")}, </span>
+                                <span class="ep small" style="white-space: nowrap;">EP {get(day,"ep")}</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            """
+            
+            if get(day,"comments") != "":
+                card += f"""
+                <div class="row p-0 m-0 border-top" style="background-color: #EEEEEE;">
+                    <div class="row m-0 p-0 text-center">
+                        <span class="small" style="color: #333333;">{get(day,"comments")}</span>
+                    </div>
+                </div>
+                """
+            
+            card += """
             </div>
             """
-
 
 
 
             #body.append(BS(card,'html.parser'))
             cards_month.append(BS(card,'html.parser'))
         
+        body.append(body_month)
         file.write(str(soup))
 
 def get(day,key):
     if key in day:
-        if key in ['subtitle','comments'] and day[key] != "":
-            return f'<br>{day[key]}'
+        if key == 'comments':
+            exps = ['Si.Ex','So.Ex']
+            rst = day[key]
+            for exp in exps:
+                if f", {exp}" in rst:
+                    rst = f'<span class="rounded bg-warning" style="padding: 1px;">{exp}</span>, ' + rst.replace(f', {exp}','')
+                elif exp in rst and exp != rst:
+                    rst = f'<span class="rounded bg-warning" style="padding: 1px;">{exp}</span>, ' + rst.replace(exp,'')
+                elif exp == rst:
+                    rst = f'<span class="rounded bg-warning" style="padding: 1px;">{exp}</span>'
+            return rst
+        elif key == 'ep':
+            match day[key]:
+                case '1':
+                    return 'I'
+                case '2':
+                    return 'II'
+                case '3':
+                    return 'III'
+                case '4':
+                    return 'IV'
+
+
         return day[key]
     else:
         return ""
@@ -346,6 +328,10 @@ def add_comma(text):
         return ','
 
     return ''
+  
+    #<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    #<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    #<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 def html_template(year):
     return f"""
@@ -355,10 +341,8 @@ def html_template(year):
 <head>
   <meta charset="utf-8">
   <title>Ordo Delhi {year}</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link href="../../resources/bootstrap.min.css" rel="stylesheet">
   <link href="../../resources/style.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
   <meta name="description" content="Ordo {year}">
 </head>
 

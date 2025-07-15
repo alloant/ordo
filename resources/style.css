@@ -1,32 +1,28 @@
 @page {
     size: A6; /* Or A6, or whatever size you need */
-    margin: 1cm; /* Margin around the main content */
-    margin-top: 1cm;
-    margin-bottom: 1cm;
-    
-    /* Footer content using string-set from HTML */
-    @bottom-center {
-        content: "Cycle C, Year I";
-        border-top: 0.5pt solid #aaa; /* Thinner border */
-        font-size: 7pt; /* Smaller font for footer */
-        width: 100%;
-        color: #888;
-    }
+    margin-top: 0.8cm;
+    margin-bottom: 0.8cm;
 }
 
 /* Style for Right-Hand Pages (Recto pages - usually odd-numbered, but depends on start) */
 @page :right {
+    margin-left: 1cm;
+    margin-right: 0.6cm;
     /* Title in the top-left for right pages */
     @bottom-left {
-        content: string(heading); /* Static title */
+        margin-top: 0;
+        margin-bottom: 0;
+        content: "Cycle C - Year I"; /* Static title */
         white-space: nowrap; /* Prevent wrapping for static title */
-        font-size: 7pt;
+        font-size: 5pt;
         color: #555;
     }
     /* Page number in the top-right for right pages */
     @bottom-right {
-        content: counter(page); /* Just the number */
-        font-size: 7pt;
+        margin-top: 0;
+        margin-bottom: 0;
+        content: string(heading) " - " counter(page); /* Just the number */
+        font-size: 5pt;
         font-weight: regular; /* Make it stand out */
         color: #333;
     }
@@ -34,18 +30,24 @@
 
 /* Style for Left-Hand Pages (Verso pages - usually even-numbered) */
 @page :left {
+    margin-left: 0.6cm;
+    margin-right: 1cm;
     /* Page number in the top-left for left pages */
     @bottom-left {
-        content: counter(page); /* Just the number */
-        font-size: 7pt;
+        margin-top: 0;
+        margin-bottom: 0;
+        content: counter(page) " - " string(heading); /* Just the number */
+        font-size: 5pt;
         font-weight: regular; /* Make it stand out */
         color: #333;
     }
     /* Title in the top-right for left pages */
     @bottom-right {
-        content: string(heading); /* Static title */
+        margin-top: 0;
+        margin-bottom: 0;
+        content: "Cycle C - Year I";
         white-space: nowrap; /* Prevent wrapping for static title */
-        font-size: 7pt;
+        font-size: 5pt;
         color: #555;
     }
 }
@@ -67,8 +69,8 @@
 
 /* Change the base font size for the entire document */
 body {
-    font-family: "Gentium Basic";
-    font-size: 10px; /* Or 1.125rem, 120%, etc. */
+    font-family: "0xProto Nerd Font";
+    font-size: 12px; /* Or 1.125rem, 120%, etc. */
 }
 
 h2 {
@@ -80,6 +82,14 @@ h2 {
 .mycard {
     page-break-inside: avoid;
     overflow: hidden;
+}
+
+.ep {
+    font-family: "Round Style Deco";
+}
+
+.color-mass {
+    font-family: "KG Counting Stars";
 }
 
 /* Page break control for the cover */

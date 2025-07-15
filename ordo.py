@@ -10,7 +10,7 @@ from src.scrap_ordo import scrapOrdo
 from src.scrap_readings import scrapReadingsYear
 
 from src.ordo import addFeasts, prepareOrdo, setVotives, choose_ep
-from src.print import json_to_html, json_to_csv, json_to_adoc, final_json
+from src.print import json_to_html, json_to_csv, final_json
 
 
 while True:
