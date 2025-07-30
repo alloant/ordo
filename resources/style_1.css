@@ -12,7 +12,7 @@
     @bottom-left {
         margin-top: 0;
         margin-bottom: 0;
-        content: "Cycle A - Year II"; /* Static title */
+        content: "Cycle C - Year I"; /* Static title */
         white-space: nowrap; /* Prevent wrapping for static title */
         font-size: 5pt;
         color: #555;
@@ -45,7 +45,7 @@
     @bottom-right {
         margin-top: 0;
         margin-bottom: 0;
-        content: "Cycle A - Year II";
+        content: "Cycle C - Year I";
         white-space: nowrap; /* Prevent wrapping for static title */
         font-size: 5pt;
         color: #555;
@@ -88,20 +88,6 @@ h2 {
     font-family: "Round Style Deco";
 }
 
-.ordo-date {
-    font-weight: bold;
-}
-
-.ordo-title {
-    font-weight: bold;
-}
-
-.ordo-mass {
-}
-
-.ordo-comment {
-}
-
 .color-mass {
     font-family: "KG Counting Stars";
 }
@@ -134,7 +120,7 @@ h2 {
 
 #cover-page h1 {
     font-size: 3em; /* Larger title */
-    color: #04356A; /* Primary color for title */
+    color: #4CAF50; /* Primary color for title */
     margin-bottom: 20px;
 }
 

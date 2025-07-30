@@ -207,8 +207,8 @@ def json_to_html(year):
         cover = f"""
         <div class="rounded" id="cover-page">
             <h1>Ordo Delhi {year}</h1>
-            <h2>Cycle C - Year I</h2>
-            <p class="date">January 1, 2025</p>
+            <h2>Cycle A - Year II</h2>
+            <p class="date">January 1, {year}</p>
         </div>
         <div class="empty-page-placeholder"></div>
         """
@@ -232,15 +232,22 @@ def json_to_html(year):
                 gray_dark = "#333333"
                 gray_light = "#555555"
                 font_color = "#FFFFFF"
+                comment_color = "#EEEEEE"
+                comment_font = "#000000"
             else:
-                gray_dark = "#CCCCCC"
-                gray_light = "#EEEEEE"
+                #gray_dark = "#CCCCCC"
+                #gray_light = "#EEEEEE"
+                #font_color = "#000000"
+                gray_dark = "#EEEEEE"
+                gray_light = "#FFFFFF"
                 font_color = "#000000"
+                comment_color = "#FFFFFF"
+                comment_font = "#555555"
 
             card = f"""
             <div class="mycard border border-secondary rounded m-2" style="border-color: {gray_dark};">
                 <div class="row p-0 m-0 border-bottom">
-                    <div class="col-1" style="background-color: {gray_dark}; color: {font_color};">
+                    <div class="col-1 ordo-date" style="background-color: {gray_dark}; color: {font_color};">
                         <div class="row fw-bold p-0 m-0">
                             <span class="text-center p-0 m-0">{dt.strftime("%a")}</span>
                         </div>
@@ -249,19 +256,19 @@ def json_to_html(year):
                         </div>
                     </div>
                     
-                    <div class="col-11 d-flex flex-column justify-content-center align-items-center gap-0" style="background-color: {gray_light}; color: {font_color};">
+                    <div class="col-11 ordo-title d-flex flex-column justify-content-center align-items-center gap-0" style="background-color: {gray_light}; color: {font_color};">
                         <p class="fw-bold text-center py-0 my-0">{get(day,"title")}</p>
                         <p class="small text-center py-0 my-0" style="color: #222222;">{get(day,"subtitle")}</p>
                     </div>
                 </div>
 
                 <div class="row p-0 m-0">
-                    <div class="col-1 d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-1 ordo-mass d-flex flex-column justify-content-center align-items-center">
                         <span>{get(day,"feast")}</span>
                         {flowers(day,dt)}
                     </div>
 
-                    <div class="col-11">
+                    <div class="col-11 ordo-comment">
                         <div class="row m-0 p-0 text-center">
                             <div class="">
                                 {get_color(day["color"])}
@@ -275,9 +282,9 @@ def json_to_html(year):
             
             if get(day,"comments") != "":
                 card += f"""
-                <div class="row p-0 m-0 border-top" style="background-color: #EEEEEE;">
+                <div class="row p-0 m-0 border-top" style="background-color: {comment_color};">
                     <div class="row m-0 p-0 text-center">
-                        <span class="small" style="color: #333333;">{get(day,"comments")}</span>
+                        <span class="small" style="color: {comment_font};">{get(day,"comments")}</span>
                     </div>
                 </div>
                 """
