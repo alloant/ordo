@@ -76,7 +76,8 @@ body {
 h2 {
     string-set: heading content();
     text-align: center;
-    page-break-before: avoid;
+    page-break-after: avoid;
+    page-break-before: always;
 }
 
 .mycard {

@@ -106,6 +106,16 @@ def final_json(year):
             elif (rst['feast'] == 'B' or dt.strftime('%a') == 'Sat'):
                 rst['comments'] = add_ex('Si.Ex',rst['comments'])
         
+        ## Vigil before first Friday
+        if dt.weekday() == 4:
+            friday = dt + timedelta(days=1)
+
+            if 1 <= friday.day < 8:
+                print(friday,'++++')
+                if rst['comments']:
+                    rst['comments'] += ', '
+                rst['comments'] += 'Vigil'
+
         ## Here for Octave of Corpus
         if 0 < oct_Corpus < 8:
             rst['comments'] = add_ex('So.Ex',rst['comments'])
@@ -219,8 +229,8 @@ def json_to_html(year):
         for day in sorted(db.all(),key = lambda doc: doc.get('date')):
             dt = datetime.strptime(day['date'],"%Y/%m/%d")
             if current_month == 0 or current_month != dt.month:
-                if dt.month == 3:
-                    break
+                #if dt.month == 3:
+                #    break
                 if current_month > 0:
                     body.append(body_month)
                 current_month = dt.month
@@ -232,6 +242,7 @@ def json_to_html(year):
                 gray_dark = "#333333"
                 gray_light = "#555555"
                 font_color = "#FFFFFF"
+                subtitle_color = "#EEEEEE"
                 comment_color = "#EEEEEE"
                 comment_font = "#000000"
             else:
@@ -241,6 +252,7 @@ def json_to_html(year):
                 gray_dark = "#EEEEEE"
                 gray_light = "#FFFFFF"
                 font_color = "#000000"
+                subtitle_color = "#222222"
                 comment_color = "#FFFFFF"
                 comment_font = "#555555"
 
@@ -258,7 +270,7 @@ def json_to_html(year):
                     
                     <div class="col-11 ordo-title d-flex flex-column justify-content-center align-items-center gap-0" style="background-color: {gray_light}; color: {font_color};">
                         <p class="fw-bold text-center py-0 my-0">{get(day,"title")}</p>
-                        <p class="small text-center py-0 my-0" style="color: #222222;">{get(day,"subtitle")}</p>
+                        <p class="small text-center py-0 my-0" style="color: {subtitle_color};">{get(day,"subtitle")}</p>
                     </div>
                 </div>
 
