@@ -351,6 +351,7 @@ def get_mondays(year):
     return mondays
 
 def choose_ep(year):
+    print('Choosing ep')
     path = f'rst/{year}/ordo.json'
     if not exists(path):
         shutil.copy(f'rst/{year}/ordo_without_ep.json',path)

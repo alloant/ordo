@@ -89,18 +89,108 @@ h2 {
     font-family: "Round Style Deco";
 }
 
+
+
 .ordo-date {
     font-weight: bold;
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .ordo-title {
     font-weight: bold;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.ordo-subtitle {
+    background-color: #FFFFFF;
+    color: #333333;
 }
 
 .ordo-mass {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.ordo-mass2 {
+    background-color: #FFFFFF;
+    color: #333333;
 }
 
 .ordo-comment {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.ordo-date-sol,
+.ordo-date-sun {
+    font-weight: bold;
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+.ordo-title-sol,
+.ordo-title-sun {
+    font-weight: bold;
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+.ordo-subtitle-sol,
+.ordo-subtitle-sun {
+    background-color: #555555;
+    color: #EEEEEE;
+}
+
+.ordo-mass-sol,
+.ordo-mass-sun {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.ordo-mass2-sol,
+.ordo-mass2-sun {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.ordo-comment-sol,
+.ordo-comment-sun {
+    background-color: #AAAAAA;
+    color: #000000;
+}
+
+.ordo-date-fea {
+    font-weight: bold;
+    background-color: #555555;
+    color: #FFFFFF;
+}
+
+.ordo-title-fea {
+    font-weight: bold;
+    background-color: #777777;
+    color: #FFFFFF;
+}
+
+.ordo-subtitle-fea {
+    background-color: #111111;
+    color: #EEEEEE;
+}
+
+.ordo-mass-fea {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.ordo-mass2-fea {
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+.ordo-comment-fea {
+    background-color: #FFFFFF;
+    color: #000000;
 }
 
 .color-mass {

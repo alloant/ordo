@@ -75,6 +75,11 @@ def final_json(year):
         rst['color'] = ordo['color'].upper()
         
         ## Choosing the Mass
+        if ordo['lg']:
+            rst['lit_grade'] = ordo['lg']
+        else:
+            rst['lit_grade'] = ''
+
         if ordo['mass']:
             mass = ordo['mass']
         elif ordo['lg']:
@@ -111,7 +116,6 @@ def final_json(year):
             friday = dt + timedelta(days=1)
 
             if 1 <= friday.day < 8:
-                print(friday,'++++')
                 if rst['comments']:
                     rst['comments'] += ', '
                 rst['comments'] += 'Vigil'
@@ -151,6 +155,7 @@ def final_json(year):
 
         # Insert result
         db.insert(rst)
+        print(rst)
 
         # Incress day to continue the loop
         dt += timedelta(days=1)
@@ -202,6 +207,17 @@ def get_color(color):
         case 'W':
             return '<span class="color-mass small me-1" style="color: #CCCCCC;">W</span>'
 
+def get_just_color(color):
+    match color:
+        case 'R':
+            return "#dc3545"
+        case 'G':
+            return "#198754"
+        case 'V':
+            return "#9400D3"
+        case 'W':
+            return "#CCCCCC"
+
 def flowers(day,dt):
     if dt.weekday() == 5 or 'feast' in day and day['feast'] < 'C' and day['feast'] or dt.month == 5:
         return '<span class="small" style="color: #E75480;">󰴈</span>'
@@ -238,28 +254,22 @@ def json_to_html(year):
                 cards_month = body_month.find('div')
                 body.append(BS(f'<h2>{dt.strftime("%B")}</h2>','html.parser'))
             
-            if dt.weekday() == 6:
-                gray_dark = "#333333"
-                gray_light = "#555555"
-                font_color = "#FFFFFF"
-                subtitle_color = "#EEEEEE"
-                comment_color = "#EEEEEE"
-                comment_font = "#000000"
+            
+            if day['lit_grade'] == 'Solemnity':
+                grade = '-sol'
+            elif dt.weekday() == 6:
+                grade = '-sun'
+            elif day['lit_grade'] == 'Feast':
+                grade = '-fea'
             else:
-                #gray_dark = "#CCCCCC"
-                #gray_light = "#EEEEEE"
-                #font_color = "#000000"
-                gray_dark = "#EEEEEE"
-                gray_light = "#FFFFFF"
-                font_color = "#000000"
-                subtitle_color = "#222222"
-                comment_color = "#FFFFFF"
-                comment_font = "#555555"
+                grade = ''
 
+                        
             card = f"""
-            <div class="mycard border border-secondary rounded m-2" style="border-color: {gray_dark};">
+            <div class="mycard rounded m-2" style="border: 2px solid {get_just_color(day['color'])};">
+                
                 <div class="row p-0 m-0 border-bottom">
-                    <div class="col-1 ordo-date" style="background-color: {gray_dark}; color: {font_color};">
+                    <div class="col-1 ordo-date{grade} border-end">
                         <div class="row fw-bold p-0 m-0">
                             <span class="text-center p-0 m-0">{dt.strftime("%a")}</span>
                         </div>
@@ -268,19 +278,19 @@ def json_to_html(year):
                         </div>
                     </div>
                     
-                    <div class="col-11 ordo-title d-flex flex-column justify-content-center align-items-center gap-0" style="background-color: {gray_light}; color: {font_color};">
+                    <div class="col-11 ordo-title{grade} d-flex flex-column justify-content-center align-items-center gap-0">
                         <p class="fw-bold text-center py-0 my-0">{get(day,"title")}</p>
-                        <p class="small text-center py-0 my-0" style="color: {subtitle_color};">{get(day,"subtitle")}</p>
+                        <p class="small text-center py-0 my-0 ordo-subtitle{grade}">{get(day,"subtitle")}</p>
                     </div>
                 </div>
 
                 <div class="row p-0 m-0">
-                    <div class="col-1 ordo-mass d-flex flex-column justify-content-center align-items-center">
+                    <div class="col-1 ordo-mass{grade} d-flex flex-column justify-content-center align-items-center">
                         <span>{get(day,"feast")}</span>
                         {flowers(day,dt)}
                     </div>
 
-                    <div class="col-11 ordo-comment">
+                    <div class="col-11 ordo-mass2{grade}">
                         <div class="row m-0 p-0 text-center">
                             <div class="">
                                 {get_color(day["color"])}
@@ -291,12 +301,12 @@ def json_to_html(year):
                     </div>
                 </div>
             """
-            
+
             if get(day,"comments") != "":
                 card += f"""
-                <div class="row p-0 m-0 border-top" style="background-color: {comment_color};">
+                <div class="row p-0 m-0 border-top ordo-comment{grade}">
                     <div class="row m-0 p-0 text-center">
-                        <span class="small" style="color: {comment_font};">{get(day,"comments")}</span>
+                        <span class="small">{get(day,"comments")}</span>
                     </div>
                 </div>
                 """
