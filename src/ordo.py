@@ -368,6 +368,12 @@ def choose_ep(year):
         end = mondays[i+1].strftime('%Y/%m/%d')
 
         rst = db.search( (Day.date >= st) & (Day.date < end) )
+
+        for i,row in enumerate(rst):
+            db.update({'ep': ["1","2","3","4","1","2","3"][i]},Day.date == row['date'])
+        continue
+
+
         tb = CT(theme=WH)
         tb.field_names = headers
         ep_filled = True
