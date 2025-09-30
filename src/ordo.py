@@ -47,7 +47,7 @@ def addFeasts(year):
 
     # Specify the keys you want to keep
     keys_to_filter = ['season', 'week']
-    keys_to_add = ['feast','subtitle', 'comments','color','mass','ep']
+    keys_to_add = ['feast','subtitle', 'comments','color','mass','ep','lg','lg2']
 
     for feast in dbFeasts.table('season').all():
         # Create a new dictionary with only the specified keys
@@ -361,6 +361,7 @@ def choose_ep(year):
 
     mondays = get_mondays(year)
     headers = ["date","feast","title","lg","mass","ep"]
+    import random
     for i,start in enumerate(mondays):
         if i == len(mondays) - 1:
             break
@@ -369,8 +370,8 @@ def choose_ep(year):
 
         rst = db.search( (Day.date >= st) & (Day.date < end) )
 
-        for i,row in enumerate(rst):
-            db.update({'ep': ["1","2","3","4","1","2","3"][i]},Day.date == row['date'])
+        for j,row in enumerate(rst):
+            db.update({'ep': random.randint(1,4)},Day.date == row['date'])
         continue
 
 

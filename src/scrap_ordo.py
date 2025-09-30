@@ -58,6 +58,8 @@ def scrapRow(row):
                                     pass
     
     if is_row:
+        if color.strip() == "b":
+            color = "v"
         return {'season':season.strip(),'id':did,'week':week.strip(),'lg':lg.strip(),'lg2':lg2,'color':color.strip(),'title':title.strip()}
     else:
         return ""

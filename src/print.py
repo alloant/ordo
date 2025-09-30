@@ -218,6 +218,7 @@ def get_just_color(day):
         case 'V':
             return "#6F42C1"
         case 'W':
+            return "#FFC300"
             if day['lit_grade'] in ['Solemnity','Feast'] or 'Easter Sunday' in day['title'] or 'Supper' in day['title']:
                 return "#FFC300"
 
