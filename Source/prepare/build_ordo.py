@@ -36,14 +36,14 @@ GR = Theme(
         junction_color="32",
     )
 
-
-def addFeasts(year):
-    print(f'Adding personal notes to ordo. Saving result in rst/{year}/scrap_feasts.json')
-    dbFeasts = TinyDB(f'rst/data/calendar.json', indent=4)
-    path = f'rst/{year}/scrap_feasts.json'
+# Adds some basic feasts and comments in the original ordo from calendar.json
+def annotate_ordo(year):
+    print(f'Adding personal notes to ordo. Saving result in Results/{year}/scrap_feasts.json')
+    dbFeasts = TinyDB(f'Resources/Data/calendar.json', indent=4)
+    path = f'Results/{year}/scrap_feasts.json'
     if not exists(path):
-        shutil.copy(f'rst/{year}/scrap.json',path)
-    db = TinyDB(f'rst/{year}/scrap_feasts.json', indent=4)
+        shutil.copy(f'Results/{year}/scrap.json',path)
+    db = TinyDB(f'Results/{year}/scrap_feasts.json', indent=4)
 
     # Specify the keys you want to keep
     keys_to_filter = ['season', 'week']
@@ -108,16 +108,115 @@ def addFeasts(year):
     
     db.close()
 
-def setVotives(year):
-    path = f'rst/{year}/votives.json'
+## Code to prepare the ordo
+def addOthers(year):
+    dbScrap = TinyDB(f'Results/{year}/scrap_feasts.json', indent=4)
+    dbOther = TinyDB(f'Resources/Data/other.json', indent=4)
+    db = TinyDB(f'Results/{year}/scrap_feasts_others.json', indent=4)
+    
+    Day = Query()
+
+    for row in dbScrap.all() + dbOther.table('fixed').all() + dbOther.table('move').all():
+        db.insert(dict(row))
+
+    db.close()
+
+def prepare_ordo(year, one_day = None):
+    path = f'Results/{year}/scrap_feasts_others.json'
     if not exists(path):
-        shutil.copy('rst/data/votives.json',path)
+        addOthers(year)
+    
+    db = TinyDB(path, indent=4)
+    Day = Query()
+    
+    day = one_day if one_day else date(year,1,1)
+
+    while day.year == year:
+        dayID = day.strftime("%m%d")
+        if db.contains((Day.id == dayID) & (Day.option == 1)) and not one_day:
+            day += timedelta(days=1)
+            continue
+        
+        rst = db.search(Day.id == dayID)
+
+        if len(rst) > 1:
+            if len(rst) == 2 and 'title' in rst[0] and 'title' in rst[1]: # Here there are only two with the same title, I take the one with the feasts
+                if rst[0]['title'] == rst[1]['title']:
+                    doc_id = rst[0].doc_id if 'feast' in rst[0] else rst[1].doc_id
+                    db.update({'option': 1},doc_ids=[doc_id])
+                    day += timedelta(days=1)
+                    continue
+            
+            if rst.count(Day.lg2 < 4) == 1: # There is only one Sol, Feast, Memorial, Sunday...
+                if rst.count( (Day.lg2>3) & (Day.feast.exists()) ) <= 1:
+                    db.update({'option': 1},(Day.id==dayID) & (Day.lg2<4))
+                    db.update({'option': 2},(Day.id==dayID) & (Day.lg2>3) & (Day.feast.exists()))
+                    day += timedelta(days=1)
+                    continue
+            
+            
+            season = rst[0]['season'] if 'season' in rst[0] else ''
+            if any(ss in season.lower() for ss in ['lent','advent']):
+                tb = CT(theme=VI)
+            elif any(ss in season.lower() for ss in ['christmas','easter']):
+                tb = CT(theme=WH)
+            else:
+                tb = CT(theme=GR)
+                #tb = PT()
+
+            names = ["","season","id","lg","feast","title","subtitle","comments"]
+            tb.field_names = names
+            
+            for i,row in enumerate(rst):
+                db.update({'option': 0},Day.id == row['id'])
+                r = [f"{i+1}"]
+                for v in names[1:]:
+                    if v in row:
+                        if any(pos in row[v].lower() for pos in ['sunday','lent','solemnity','feast','ash','octave']):
+                            r.append(f'\033[1m{row[v]}\033[0m')
+                        else:
+                            r.append(row[v])
+                    else:
+                        if v == 'season':
+                            r.append(season)
+                        else:
+                            r.append("")
+                
+                if not r[1:] in [tbrow[1:] for tbrow in tb.rows]:
+                    tb.add_row(r)
+                
+            
+            os.system('clear')
+            print(tb)
+
+            option = input("Choose value: ")
+            options = [int(v)-1 for v in option.split("-")]
+
+            for i,opt in enumerate(options):
+                db.update({'option': i + 1},doc_ids=[rst[opt].doc_id])
+        elif rst:
+            db.update({'option': 1}, Day.id == rst[0]['id'])
+
+        if one_day:
+            break
+
+        day += timedelta(days=1)
+
+    db.all()
+    db.close()
+
+
+### Code to choose votives
+def choose_votives(year):
+    path = f'Results/{year}/votives.json'
+    if not exists(path):
+        shutil.copy('Resources/Data/votives.json',path)
     dbVot = TinyDB(path, indent=4)
     Vot = Query()
     
-    path = f'rst/{year}/scrap_feasts_others_votives.json'
+    path = f'Results/{year}/scrap_feasts_others_votives.json'
     if not exists(path):
-        shutil.copy(f'rst/{year}/scrap_feasts_others.json',path)
+        shutil.copy(f'Results/{year}/scrap_feasts_others.json',path)
     db = TinyDB(path, indent=4)
     Day = Query()
 
@@ -221,118 +320,8 @@ def setVotives(year):
     dbVot.all()
     dbVot.close()
 
-def listOrdo(year):
-    db = TinyDB(f'{year}final.json', indent=4)
-    Day = Query()
 
-    rst = db.search(Day.option == True)
-
-    tb = PT()
-    tb.field_names = [""] + list(rst[0].keys())
-    tb.add_rows([[f"({i})"] + list(row.values()) for i,row in enumerate(rst)])
-
-    print(tb)
-
-    db.close()
-
-
-def addOthers(year):
-    dbScrap = TinyDB(f'rst/{year}/scrap_feasts.json', indent=4)
-    dbOther = TinyDB(f'rst/data/other.json', indent=4)
-    db = TinyDB(f'rst/{year}/scrap_feasts_others.json', indent=4)
-    
-    Day = Query()
-
-    for row in dbScrap.all() + dbOther.table('fixed').all() + dbOther.table('move').all():
-        db.insert(dict(row))
-
-    db.close()
-
-def prepareOrdo(year, one_day = None):
-    path = f'rst/{year}/scrap_feasts_others.json'
-    if not exists(path):
-        addOthers(year)
-    
-    db = TinyDB(path, indent=4)
-    Day = Query()
-    
-    day = one_day if one_day else date(year,1,1)
-
-    while day.year == year:
-        dayID = day.strftime("%m%d")
-        if db.contains((Day.id == dayID) & (Day.option == 1)) and not one_day:
-            day += timedelta(days=1)
-            continue
-        
-        rst = db.search(Day.id == dayID)
-
-        if len(rst) > 1:
-            if len(rst) == 2 and 'title' in rst[0] and 'title' in rst[1]: # Here there are only two with the same title, I take the one with the feasts
-                if rst[0]['title'] == rst[1]['title']:
-                    doc_id = rst[0].doc_id if 'feast' in rst[0] else rst[1].doc_id
-                    db.update({'option': 1},doc_ids=[doc_id])
-                    day += timedelta(days=1)
-                    continue
-            
-            if rst.count(Day.lg2 < 4) == 1: # There is only one Sol, Feast, Memorial, Sunday...
-                if rst.count( (Day.lg2>3) & (Day.feast.exists()) ) <= 1:
-                    db.update({'option': 1},(Day.id==dayID) & (Day.lg2<4))
-                    db.update({'option': 2},(Day.id==dayID) & (Day.lg2>3) & (Day.feast.exists()))
-                    day += timedelta(days=1)
-                    continue
-            
-            
-            season = rst[0]['season'] if 'season' in rst[0] else ''
-            if any(ss in season.lower() for ss in ['lent','advent']):
-                tb = CT(theme=VI)
-            elif any(ss in season.lower() for ss in ['christmas','easter']):
-                tb = CT(theme=WH)
-            else:
-                tb = CT(theme=GR)
-                #tb = PT()
-
-            names = ["","season","id","lg","feast","title","subtitle","comments"]
-            tb.field_names = names
-            
-            for i,row in enumerate(rst):
-                db.update({'option': 0},Day.id == row['id'])
-                r = [f"{i+1}"]
-                for v in names[1:]:
-                    if v in row:
-                        if any(pos in row[v].lower() for pos in ['sunday','lent','solemnity','feast','ash','octave']):
-                            r.append(f'\033[1m{row[v]}\033[0m')
-                        else:
-                            r.append(row[v])
-                    else:
-                        if v == 'season':
-                            r.append(season)
-                        else:
-                            r.append("")
-                
-                if not r[1:] in [tbrow[1:] for tbrow in tb.rows]:
-                    tb.add_row(r)
-                
-            
-            os.system('clear')
-            print(tb)
-
-            option = input("Choose value: ")
-            options = [int(v)-1 for v in option.split("-")]
-
-            for i,opt in enumerate(options):
-                db.update({'option': i + 1},doc_ids=[rst[opt].doc_id])
-        elif rst:
-            db.update({'option': 1}, Day.id == rst[0]['id'])
-
-        if one_day:
-            break
-
-        day += timedelta(days=1)
-
-    db.all()
-    db.close()
-
-
+## Code to choose the ep
 def get_mondays(year):
     # Start from the first day of the year
     start_date = datetime(year, 1, 1)
@@ -352,9 +341,9 @@ def get_mondays(year):
 
 def choose_ep(year):
     print('Choosing ep')
-    path = f'rst/{year}/ordo.json'
+    path = f'Results/{year}/ordo.json'
     if not exists(path):
-        shutil.copy(f'rst/{year}/ordo_without_ep.json',path)
+        shutil.copy(f'Results/{year}/ordo_without_ep.json',path)
 
     db = TinyDB(path, indent=4)
     Day = Query()

@@ -56,18 +56,16 @@ def scrapRow(row):
                                     lg2 = int(sp['class'][0][5:])
                                 except:
                                     pass
-    
     if is_row:
         if color.strip() == "b":
             color = "v"
         return {'season':season.strip(),'id':did,'week':week.strip(),'lg':lg.strip(),'lg2':lg2,'color':color.strip(),'title':title.strip()}
     else:
         return ""
-    
 
-def scrapOrdo(year):
+def fetch_ordo(year):
     url = f"http://www.gcatholic.org/calendar/{year}/IN-en.htm" 
-    print(f"Downloading ordo from {url}. Saving result in rst/{year}/scrap.json")
+    print(f"Downloading ordo from {url}. Saving result in Results/{year}/scrap.json")
 
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
@@ -75,10 +73,10 @@ def scrapOrdo(year):
     tables = soup.select('table')
     ordo = tables[2]
     try:
-        os.mkdir(f'rst/{year}')
+        os.mkdir(f'Results/{year}')
     except:
-        print(f'rst/{year} already there')
-    db = TinyDB(f'rst/{year}/scrap.json', storage=CachingMiddleware(JSONStorage), indent=4)
+        print(f'Results/{year} already there')
+    db = TinyDB(f'Results/{year}/scrap.json', storage=CachingMiddleware(JSONStorage), indent=4)
     cont = 0
     for row in ordo:
         dt = scrapRow(row)
@@ -87,5 +85,4 @@ def scrapOrdo(year):
             cont += 1
 
     db.close()
-        
 

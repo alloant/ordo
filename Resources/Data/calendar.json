@@ -1,0 +1,691 @@
+{
+  "fixed": {
+    "1": {
+      "id": "0101",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Blessed Virgin Mary, the Mother of God",
+      "ep": 1,
+      "feast": "A"
+    },
+    "2": {
+      "id": "0103",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Most Holy Name of Jesus",
+      "readings": "LIII",
+      "feast": "C"
+    },
+    "3": {
+      "id": "0124",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Francis de Sales, bishop and doctor of the Church",
+      "feast": "C",
+      "subtitle": "Our Lady of Peace"
+    },
+    "4": {
+      "id": "0125",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Conversion of Saint Paul, apostle",
+      "ep": 1,
+      "feast": "D"
+    },
+    "5": {
+      "id": "0202",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Presentation of the Lord",
+      "feast": "C"
+    },
+    "6": {
+      "id": "0211",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Our Lady of Lourdes",
+      "feast": "D"
+    },
+    "7": {
+      "id": "0222",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Chair of Saint Peter, apostle",
+      "ep": 1,
+      "feast": "D"
+    },
+    "8": {
+      "id": "0319",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Saint Joseph, husband of Mary",
+      "feast": "A",
+      "comments": "Saintday Grandfather and our Father"
+    },
+    "9": {
+      "id": "0325",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Annunciation of the Lord",
+      "feast": "A"
+    },
+    "10": {
+      "id": "0423",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint George, martyr",
+      "feast": "B",
+      "comments": "Anniversary our Father's first Communion (1912)"
+    },
+    "11": {
+      "id": "0425",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Mark, evangelist",
+      "feast": "C",
+      "ep": 1
+    },
+    "12": {
+      "id": "0427",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Montserrat",
+      "feast": "D",
+      "comments": "Anniversary of the healing of our Father (1954)"
+    },
+    "13": {
+      "id": "0429",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Catherine of Siena, virgin and doctor of the Church",
+      "feast": "C"
+    },
+    "14": {
+      "id": "0501",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Joseph the Worker",
+      "feast": "C"
+    },
+    "15": {
+      "id": "0503",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Philip and Saint James, apostles",
+      "feast": "C",
+      "ep": 1,
+      "comments": "Old feast invention Holy Cross (flowers on the wooden Cross)"
+    },
+    "16": {
+      "id": "0513",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Fatima",
+      "feast": "D"
+    },
+    "17": {
+      "id": "0514",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Matthias, apostle",
+      "ep": 1,
+      "feast": "C"
+    },
+    "18": {
+      "id": "0530",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Ferdinand",
+      "feast": "B"
+    },
+    "19": {
+      "id": "0531",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Visitation of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "20": {
+      "id": "0611",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "r",
+      "title": "Saint Barnabas, apostle",
+      "ep": 1,
+      "feast": "C"
+    },
+    "21": {
+      "id": "0622",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint John Fisher, bishop, and Saint Thomas More, martyrs",
+      "feast": "C"
+    },
+    "22": {
+      "id": "0624",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Nativity of Saint John the Baptist",
+      "ep": 1,
+      "feast": "B"
+    },
+    "23": {
+      "id": "0629",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "r",
+      "title": "Saint Peter and Saint Paul, apostles",
+      "feast": "B",
+      "ep": 1,
+      "comments": "Creed during Exp"
+    },
+    "24": {
+      "id": "0703",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "r",
+      "title": "Saint Thomas, apostle",
+      "feast": "B"
+    },
+    "25": {
+      "id": "0716",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Mount Carmel",
+      "feast": "C",
+      "comments": "Aunt Carmen's saintday"
+    },
+    "26": {
+      "id": "0722",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint Mary Magdalene",
+      "feast": "C"
+    },
+    "27": {
+      "id": "0725",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint James, apostle",
+      "ep": 1,
+      "feast": "C"
+    },
+    "28": {
+      "id": "0726",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Joachim and Saint Anne, parents of the Blessed Virgin Mary",
+      "feast": "D"
+    },
+    "29": {
+      "id": "0802",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Angels",
+      "feast": "D"
+    },
+    "30": {
+      "id": "0804",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint John Vianney, priest",
+      "feast": "C",
+      "comments": "Petition for the holiness of priests"
+    },
+    "31": {
+      "id": "0805",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Dedication of the Basilica of Saint Mary Major in Rome",
+      "feast": "C"
+    },
+    "32": {
+      "id": "0806",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Transfiguration of the Lord",
+      "feast": "C"
+    },
+    "33": {
+      "id": "0815",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Assumption of the Blessed Virgin Mary",
+      "feast": "A",
+      "comments": "Consecration MS Heart of Mary. Anniversary Father's ordination (1971)"
+    },
+    "34": {
+      "id": "0821",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Saint Pius X, pope",
+      "feast": "C"
+    },
+    "35": {
+      "id": "0822",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Queenship of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "36": {
+      "id": "0823",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Rose of Lima, virgin",
+      "feast": "D",
+      "subtitle": "Anniv. announcement erection Opus Dei in personal Prelature (1982)"
+    },
+    "37": {
+      "id": "0824",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Bartholomew, apostle",
+      "ep": 1,
+      "feast": "C"
+    },
+    "38": {
+      "id": "0907",
+      "color": "w",
+      "mass": "Saint Josemaria",
+      "title": "Anniversary Father's admission's petition (1961)",
+      "feast": "D"
+    },
+    "39": {
+      "id": "0908",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Nativity of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "40": {
+      "id": "0912",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "The Most Holy Name of Mary",
+      "feast": "C"
+    },
+    "41": {
+      "id": "0914",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "The Exaltation of the Holy Cross",
+      "feast": "B",
+      "comments": ""
+    },
+    "42": {
+      "id": "0915",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Our Lady of Sorrows",
+      "feast": "C",
+      "comments": "Anniversary election of Blessed Alvaro as first sucesor of Saint Josemaria (1975)"
+    },
+    "43": {
+      "id": "0921",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Matthew, apostle and evangelist",
+      "ep": 1,
+      "feast": "C"
+    },
+    "44": {
+      "id": "0924",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Ransom",
+      "feast": "D"
+    },
+    "45": {
+      "id": "0929",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint Michael, Saint Gabriel, and Saint Raphael, archangels",
+      "feast": "B",
+      "comments": ""
+    },
+    "46": {
+      "id": "1002",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Holy Guardian Angels",
+      "subtitle": "Anniversary Opus Dei foundation",
+      "comments": "Te Deum, plenary indulgence",
+      "feast": "A"
+    },
+    "47": {
+      "id": "1007",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "Our Lady of the Rosary",
+      "feast": "C"
+    },
+    "48": {
+      "id": "1011",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John XXIII, pope",
+      "feast": "D",
+      "comments": "Anniversary appositio manuum (1943)"
+    },
+    "49": {
+      "id": "1012",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "feast": "D",
+      "title": "Our Lady of Pillar"
+    },
+    "50": {
+      "id": "1018",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Luke, evangelist",
+      "ep": 1,
+      "feast": "C"
+    },
+    "51": {
+      "id": "1022",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint John Paul II, pope",
+      "feast": "C"
+    },
+    "52": {
+      "id": "1028",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Simon and Saint Jude, apostles",
+      "ep": 1,
+      "feast": "C"
+    },
+    "53": {
+      "id": "1101",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "All Saints",
+      "ep": 1,
+      "feast": "B"
+    },
+    "54": {
+      "id": "1108",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "r",
+      "title": "Saint Severino, martyr",
+      "feast": "D"
+    },
+    "55": {
+      "id": "1121",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Presentation of the Blessed Virgin Mary",
+      "feast": "C"
+    },
+    "56": {
+      "id": "1127",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of the Miracolous Medal",
+      "feast": "D"
+    },
+    "57": {
+      "id": "1130",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "r",
+      "title": "Saint Andrew, apostle",
+      "ep": 1,
+      "feast": "C"
+    },
+    "58": {
+      "id": "1203",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Saint Francis Xavier, priest",
+      "feast": "B"
+    },
+    "59": {
+      "id": "1206",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Saint Nicholas, bishop",
+      "feast": "C"
+    },
+    "60": {
+      "id": "1208",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Immaculate Conception of the Blessed Virgin Mary",
+      "feast": "A",
+      "comments": "Anniversary Consecration Delhi's Cathedral"
+    },
+    "61": {
+      "id": "1210",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Loreto",
+      "feast": "D"
+    },
+    "62": {
+      "id": "1212",
+      "lg": "Optional Memorial",
+      "lg2": 4,
+      "color": "w",
+      "title": "Our Lady of Guadalupe",
+      "feast": "D"
+    },
+    "63": {
+      "id": "1225",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Nativity of the Lord (Christmas)",
+      "ep": 1,
+      "feast": "A"
+    },
+    "64": {
+      "id": "1227",
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "Saint John, apostle and evangelist",
+      "ep": 1,
+      "feast": "B"
+    }
+  },
+  "move": {
+    "1": {
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Epiphany of the Lord",
+      "ep": 1,
+      "feast": "A"
+    },
+    "2": {
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Baptism of the Lord",
+      "feast": "C"
+    },
+    "3": {
+      "color": "v",
+      "title": "Friday in the 5ᵗʰ Week of Lent",
+      "feast": "C",
+      "subtitle": "Grandmothers' saintday"
+    },
+    "4": {
+      "lg": "",
+      "lg2": 1,
+      "color": "r",
+      "title": "Palm Sunday of the Lord’s Passion",
+      "feast": "B"
+    },
+    "5": {
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "Holy Thursday of the Lord’s Supper",
+      "ep": 1,
+      "feast": "A"
+    },
+    "6": {
+      "lg": "",
+      "lg2": 1,
+      "color": "w",
+      "title": "Easter Sunday of the Lord’s Resurrection",
+      "feast": "A",
+      "ep": 1,
+      "comments": "Benediction Urbi et Orbi"
+    },
+    "7": {
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Ascension of the Lord",
+      "ep": 1,
+      "feast": "A"
+    },
+    "8": {
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "r",
+      "title": "Pentecost Sunday",
+      "ep": 1,
+      "comments": "Consecration to the Holy Spirit",
+      "feast": "A"
+    },
+    "9": {
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Blessed Virgin Mary, Mother of the Church",
+      "feast": "C"
+    },
+    "10": {
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Most Holy Trinity",
+      "ep": 1,
+      "feast": "A"
+    },
+    "11": {
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Most Holy Body and Blood of Christ",
+      "ep": 1,
+      "feast": "A"
+    },
+    "12": {
+      "week": "I",
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "The Most Sacred Heart of Jesus",
+      "ep": 1,
+      "feast": "A"
+    },
+    "13": {
+      "week": "I",
+      "lg": "Memorial",
+      "lg2": 3,
+      "color": "w",
+      "title": "The Immaculate Heart of the Blessed Virgin Mary",
+      "ep": 3,
+      "feast": "C"
+    },
+    "14": {
+      "lg": "Solemnity",
+      "lg2": 1,
+      "color": "w",
+      "title": "Our Lord Jesus Christ, King of the Universe",
+      "ep": 1,
+      "comments": "Consecration MSH of Jesus",
+      "feast": "C"
+    },
+    "15": {
+      "lg": "Feast",
+      "lg2": 2,
+      "color": "w",
+      "title": "The Holy Family of Jesus, Mary and Joseph",
+      "feast": "A",
+      "ep": 1,
+      "comments": "Consecration of the families"
+    }
+  },
+  "season": {
+    "1": {
+      "season": "Christmas Time",
+      "feast": "D"
+    },
+    "2": {
+      "season": "Christmas Time",
+      "week": "I",
+      "ep": 1
+    },
+    "3": {
+      "season": "Easter Time",
+      "week": "I",
+      "ep": 1,
+      "feast": "D"
+    }
+  }
+}

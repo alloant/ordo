@@ -6,11 +6,9 @@ import os
 from prettytable import PrettyTable as PT
 from datetime import date
 
-from src.scrap_ordo import scrapOrdo
-from src.scrap_readings import scrapReadingsYear
-
-from src.ordo import addFeasts, prepareOrdo, setVotives, choose_ep
-from src.print import json_to_html, json_to_csv, final_json
+from Source.scrap import fetch_ordo, scrapReadingsYear
+from Source.prepare import annotate_ordo, prepare_ordo, choose_votives, choose_ep, final_json
+from Source.publish import json_to_html, json_to_csv
 
 
 while True:
@@ -37,18 +35,18 @@ while True:
 
     match option:
         case '1':
-            scrapOrdo(year)
-            addFeasts(year)
+            fetch_ordo(year)
+            annotate_ordo(year)
             input('Press any key to continue')
         case '2':
-            prepareOrdo(year)
+            prepare_ordo(year)
         case '3':
             day = input('Enter day (ddmm): ')
             if len(day) == 4 and day.isdigit():
                 print(year,day[:2],day[2:])
-                prepareOrdo(year,date(year,int(day[:2]),int(day[2:])))
+                prepare_ordo(year,date(year,int(day[:2]),int(day[2:])))
         case '4':
-            setVotives(year)
+            choose_votives(year)
         case '5':
             final_json(year)
             input('Press any key to continue')
@@ -60,14 +58,7 @@ while True:
             #json_to_adoc(year)
             input('Press any key to continue')
         case '8':
-            """
-            print("Choose size a5 or a6")
-            theme = input("Size (a6): ")
-            theme ='a6' if not theme else theme
-
-            command = ['asciidoctor-pdf','-a','optimize','-a','media=prepress','-a','pdf-themesdir=resources/themes','-a','pdf-fontsdir=resources/fonts','-a',f'pdf-theme=ordo{theme}',f'rst/{year}/ordo.adoc','-o',f'rst/{year}/ordo.pdf']
-            """
-            command = ['weasyprint',f'rst/{year}/ordo.html',f'rst/{year}/ordo.pdf']
+            command = ['weasyprint',f'Results/{year}/ordo.html',f'Results/{year}/ordo.pdf']
             # Execute the command
             result = subprocess.run(command, capture_output=True, text=True)
 
