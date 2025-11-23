@@ -370,10 +370,9 @@ def choose_ep(year):
 
         rst = db.search( (Day.date >= st) & (Day.date < end) )
 
-        for j,row in enumerate(rst):
-            db.update({'ep': random.randint(1,4)},Day.date == row['date'])
-        continue
-
+        #for j,row in enumerate(rst):
+        #    db.update({'ep': random.randint(1,4)},Day.date == row['date'])
+        #continue
 
         tb = CT(theme=WH)
         tb.field_names = headers
