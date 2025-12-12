@@ -18,13 +18,13 @@ def get_color(day):
 
     match day['color']:
         case 'R':
-            return '<span class="color-mass text-danger small me-1">R</span>'
+            return '<span class="color-mass text-danger big me-1">R</span>'
         case 'G':
-            return '<span class="color-mass text-success small me-1">G</span>'
+            return '<span class="color-mass text-success big me-1">G</span>'
         case 'V':
-            return '<span class="color-mass small me-1" style="color: #9400D3;">V</span>'
+            return '<span class="color-mass big me-1" style="color: #9400D3;">V</span>'
         case 'W':
-            return '<span class="color-mass small me-1" style="color: #CCCCCC;">W</span>'
+            return '<span class="color-mass big me-1" style="color: #777777;">W</span>'
 
 def get_just_color(day):
     match day['color']:
@@ -52,7 +52,7 @@ def get_style(day,dt,place):
             dark = "#155724"
             medium = "#28A745"
             light = "#C3E6CB"
-            font = "#FFFFFF"
+            font = "#000000"
         case 'V':
             dark = "#6F42C1"
             medium = "#8A63D2"
@@ -63,12 +63,12 @@ def get_style(day,dt,place):
                 dark = "#FFD700"
                 medium = "#FFC300"
                 light = "#FFF9C4"
-                font = "#FFFFFF"
+                font = "#000000"
             else:
                 dark = "#343A40"
                 medium = "#6C757D"
                 light = "#D3D3D3"
-                font = "#FFFFFF"
+                font = "#000000"
 
     if day['lit_grade'] == 'Solemnity' or dt.weekday() == 6 or 'Easter Sunday' in day['title'] or 'Supper' in day['title'] or 'Good Friday' in day['title']:
         if place == 'date':
@@ -120,7 +120,7 @@ def json_to_html(year):
                 current_month = dt.month
                 body_month = BS(f'<div class="container-flush"></div>','html.parser')
                 cards_month = body_month.find('div')
-                body.append(BS(f'<h2>{dt.strftime("%B")}</h2>','html.parser'))
+                body.append(BS(f'<h2 class="m-4">{dt.strftime("%B")}</h2>','html.parser'))
             
             
             if day['lit_grade'] == 'Solemnity':
@@ -134,37 +134,28 @@ def json_to_html(year):
 
                         
             card = f"""
-            <div class="mycard rounded m-2" style="border: 2px solid {get_just_color(day)};">
-                
+            <div class="mycard rounded m-2" style="border: 1px solid {get_just_color(day)};">
                 <div class="row p-0 m-0 border-bottom">
-                    <div class="col-1 border-end" {get_style(day,dt,'date')}>
-                        <div class="row fw-bold p-0 m-0">
-                            <span class="text-center p-0 m-0">{dt.strftime("%a")}</span>
-                        </div>
-                        <div class="row fw-bold p-0 m-0">
-                            <span class="text-center p-0 m-0">{dt.strftime("%d")}</span>
-                        </div>
+                    <div class="col-2 border-end d-flex align-items-center justify-content-center" {get_style(day,dt,'date')}>
+                            <span class="text-center small p-0 m-0">{dt.strftime("%a")} {dt.strftime("%d")}</span>
                     </div>
                     
-                    <div class="col-11 d-flex flex-column justify-content-center align-items-center gap-0" {get_style(day,dt,'title')}>
-                        <p class="fw-bold text-center py-0 my-0">{get(day,"title")}</p>
-                        <p class="small text-center py-0 my-0">{get(day,"subtitle")}</p>
+                    <div class="col-10 d-flex flex-column align-items-center justify-content-center" {get_style(day,dt,'title')}>
+                        <span class="text-center">{get(day,"title")}</span>
+                        {get(day,"subtitle")}
                     </div>
                 </div>
 
                 <div class="row p-0 m-0">
-                    <div class="col-1 d-flex flex-column justify-content-center align-items-center">
-                        <span>{get(day,"feast")}</span>
-                        {flowers(day,dt)}
+                    <div class="col-2">
+                        <div class="row p-0 m-0">
+                            <span class="text-center small">{get(day,"feast")} {flowers(day,dt)}</span>
+                        </div>
                     </div>
 
-                    <div class="col-11">
-                        <div class="row m-0 p-0 text-center">
-                            <div class="">
-                                {get_color(day)}
-                                <span>{get(day,"mass")}</span>
-                                <span class="ep small" style="white-space: nowrap;">{get(day,"ep")}</span>
-                            </div>
+                    <div class="col-10 d-flex flex-column align-items-center justify-content-center">
+                        <div class="row small m-0 p-0 text-center">
+                            <span>{get_color(day)} <span>{get(day,"mass")}</span><span class="ep small" style="white-space: nowrap;">{get(day,"ep")}</span></span>
                         </div>
                     </div>
                 </div>
@@ -217,6 +208,11 @@ def get(day,key):
                     return ', EP III'
                 case '4':
                     return ', EP IV'
+        elif key == 'subtitle':
+            if day["subtitle"]:
+                return f'<span class="text-center small" style="color: #333333;">({day["subtitle"]})</span>'
+            else:
+                return ''
 
         return day[key]
     else:

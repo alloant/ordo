@@ -1,0 +1,213 @@
+{
+    "_default": {
+        "1": {
+            "mass": "Mass for the Church",
+            "color": "g",
+            "options": "a,b,c,d",
+            "days": "",
+            "count": 5,
+            "last": "1020"
+        },
+        "2": {
+            "mass": "Mass for the Pope",
+            "color": "g",
+            "days": "",
+            "count": 3,
+            "last": "1013"
+        },
+        "3": {
+            "mass": "Mass for the Bishop",
+            "color": "g",
+            "days": ""
+        },
+        "4": {
+            "mass": "Mass for the election of the Pope or a Bishop",
+            "color": "g",
+            "days": ""
+        },
+        "5": {
+            "mass": "Mass for a council or a synod",
+            "color": "g",
+            "days": ""
+        },
+        "6": {
+            "mass": "Mass for priests",
+            "color": "g",
+            "days": ""
+        },
+        "7": {
+            "mass": "Mass for the Family",
+            "color": "g",
+            "days": "",
+            "count": 3,
+            "last": "1019"
+        },
+        "8": {
+            "mass": "Mass for the unity of Christians",
+            "color": "g",
+            "options": "a,b,c",
+            "days": "",
+            "count": 1,
+            "last": "0119"
+        },
+        "9": {
+            "mass": "Mass for the evangelization of peoples",
+            "color": "g",
+            "options": "a,b",
+            "days": "",
+            "count": 1,
+            "last": "0714"
+        },
+        "10": {
+            "mass": "Mass for persecuted Christians",
+            "color": "g",
+            "days": ""
+        },
+        "11": {
+            "mass": "Mass for the sanctification of human labour",
+            "color": "g",
+            "options": "a,b",
+            "days": "",
+            "count": 1,
+            "last": "0604"
+        },
+        "12": {
+            "mass": "Mass for the sick",
+            "color": "g",
+            "days": "",
+            "count": 1,
+            "last": "0623"
+        },
+        "13": {
+            "mass": "Mass for giving thanks to God",
+            "color": "g",
+            "options": "a,b",
+            "days": ""
+        },
+        "14": {
+            "mass": "Mass for the most Holy Trinity",
+            "color": "w",
+            "days": "Monday",
+            "count": 7,
+            "last": "1116"
+        },
+        "15": {
+            "mass": "Mass for the mercy of God",
+            "color": "w",
+            "days": "",
+            "count": 1,
+            "last": "0708"
+        },
+        "16": {
+            "mass": "Mass of Our Lord Jesus Christ, the eternal High Priest",
+            "color": "w",
+            "days": ""
+        },
+        "17": {
+            "mass": "Mass of the mystery of the Holy Cross",
+            "color": "r",
+            "days": "Friday",
+            "count": 5,
+            "last": "1113"
+        },
+        "18": {
+            "mass": "Mass of the most Holy Eucahrist",
+            "color": "w",
+            "days": "Thursday",
+            "count": 6,
+            "last": "1119"
+        },
+        "19": {
+            "mass": "Mass of the most Holy Name of Jesus",
+            "color": "w",
+            "days": ""
+        },
+        "20": {
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ",
+            "color": "r",
+            "days": "Friday",
+            "count": 5,
+            "last": "1120"
+        },
+        "21": {
+            "mass": "Mass of the Most Sacred Heart of Jesus",
+            "color": "w",
+            "days": "Friday",
+            "count": 3,
+            "last": "1106"
+        },
+        "22": {
+            "mass": "Mass of the Holy Spirit",
+            "color": "r",
+            "days": "Thursday",
+            "options": "a,b,c",
+            "count": 6,
+            "last": "1126"
+        },
+        "23": {
+            "mass": "Mass of the Blessed Virgin Mary",
+            "color": "w",
+            "days": "Saturday",
+            "options": "1,2,3,4,5,6,7,8",
+            "count": 5,
+            "last": "1031"
+        },
+        "24": {
+            "mass": "Our Lady, Mother of the Church",
+            "color": "w",
+            "days": "Saturday",
+            "count": 2,
+            "last": "1114"
+        },
+        "25": {
+            "mass": "The Most Holy Name of Mary",
+            "color": "w",
+            "days": "Saturday",
+            "count": 1,
+            "last": "1003"
+        },
+        "26": {
+            "mass": "Our Lady, Queen of Apostles",
+            "color": "w",
+            "days": "Saturday",
+            "count": 1,
+            "last": "1010"
+        },
+        "27": {
+            "mass": "Mass of the Holy Angels",
+            "color": "w",
+            "days": "Tuesday",
+            "count": 5,
+            "last": "1103"
+        },
+        "28": {
+            "mass": "Mass of Saint Joseph",
+            "color": "w",
+            "days": "Wednesday",
+            "count": 5,
+            "last": "1014"
+        },
+        "29": {
+            "mass": "Mass for all the dead",
+            "color": "v",
+            "options": "1,2,3,4,5,6",
+            "days": "",
+            "count": 6,
+            "last": "1026"
+        },
+        "30": {
+            "mass": "Mass of St. Josemaria",
+            "color": "w",
+            "days": "Wednesday",
+            "count": 3,
+            "last": "1021"
+        },
+        "31": {
+            "mass": "Mass of Blessed Alvaro",
+            "color": "w",
+            "days": "",
+            "count": 1,
+            "last": "0720"
+        }
+    }
+}

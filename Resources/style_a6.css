@@ -1,12 +1,12 @@
 @page {
-    size: 124.5mm 176.1mm;
-    margin-top: 3.8cm;
-    margin-bottom: 1.2cm;
+    size: A6; /* Or A6, or whatever size you need */
+    margin-top: 0.8cm;
+    margin-bottom: 0.8cm;
 }
 
 /* Style for Right-Hand Pages (Recto pages - usually odd-numbered, but depends on start) */
 @page :right {
-    margin-left: 3.4cm;
+    margin-left: 1cm;
     margin-right: 0.6cm;
     /* Title in the top-left for right pages */
     @bottom-left {
@@ -31,7 +31,7 @@
 /* Style for Left-Hand Pages (Verso pages - usually even-numbered) */
 @page :left {
     margin-left: 0.6cm;
-    margin-right: 3.4cm;
+    margin-right: 1cm;
     /* Page number in the top-left for left pages */
     @bottom-left {
         margin-top: 0;

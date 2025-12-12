@@ -52,6 +52,7 @@ while True:
             input('Press any key to continue')
         case '6':
             choose_ep(year)
+            input('Press any key to continue')
         case '7':
             json_to_csv(year)
             json_to_html(year)

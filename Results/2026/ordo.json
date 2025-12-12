@@ -1,0 +1,3668 @@
+{
+    "_default": {
+        "1": {
+            "date": "2026/01/01",
+            "title": "The Blessed Virgin Mary, the Mother of God",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "2": {
+            "date": "2026/01/02",
+            "title": "Saint Basil the Great and Saint Gregory Nazianzen, bishops and doctors of the Church",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": "Vigil"
+        },
+        "3": {
+            "date": "2026/01/03",
+            "title": "The Most Holy Name of Jesus",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "4": {
+            "date": "2026/01/04",
+            "title": "The Epiphany of the Lord",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "5": {
+            "date": "2026/01/05",
+            "title": "Monday after Epiphany",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "6": {
+            "date": "2026/01/06",
+            "title": "Tuesday after Epiphany",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "7": {
+            "date": "2026/01/07",
+            "title": "Wednesday after Epiphany",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "8": {
+            "date": "2026/01/08",
+            "title": "Thursday after Epiphany",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "9": {
+            "date": "2026/01/09",
+            "title": "Our Father's birthday",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Saint Josemaria, readings 26 June without 2 reading",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "10": {
+            "date": "2026/01/10",
+            "title": "Saturday after Epiphany",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "11": {
+            "date": "2026/01/11",
+            "title": "The Baptism of the Lord",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "12": {
+            "date": "2026/01/12",
+            "title": "Monday in the 1\u02e2\u1d57 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "3",
+            "comments": ""
+        },
+        "13": {
+            "date": "2026/01/13",
+            "title": "Saint Hilary, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "14": {
+            "date": "2026/01/14",
+            "title": "Saint Devasahayam, martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "15": {
+            "date": "2026/01/15",
+            "title": "Thursday in the 1\u02e2\u1d57 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Spirit (option B)",
+            "ep": "3",
+            "comments": ""
+        },
+        "16": {
+            "date": "2026/01/16",
+            "title": "Saint Joseph Vaz, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "17": {
+            "date": "2026/01/17",
+            "title": "Saint Anthony, abbot",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "18": {
+            "date": "2026/01/18",
+            "title": "2\u207f\u1d48 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": "Week of Prayer for Christian Unity (1), Quicumque"
+        },
+        "19": {
+            "date": "2026/01/19",
+            "title": "Monday in the 2\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the unity of Christians (option B)",
+            "ep": "2",
+            "comments": "Week of Prayer for Christian Unity (2)"
+        },
+        "20": {
+            "date": "2026/01/20",
+            "title": "Saint Sebastian, martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Week of Prayer for Christian Unity (3)"
+        },
+        "21": {
+            "date": "2026/01/21",
+            "title": "Saint Agnes, virgin and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Week of Prayer for Christian Unity (4)"
+        },
+        "22": {
+            "date": "2026/01/22",
+            "title": "Saint Vincent, deacon and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": "Week of Prayer for Christian Unity (5)"
+        },
+        "23": {
+            "date": "2026/01/23",
+            "title": "Anniversary Father's election (2017)",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Our Lord Jesus Christ, the Eternal High Priest",
+            "ep": "1",
+            "comments": "Te Deum, Week of Prayer for Christian Unity (6), Si.Ex"
+        },
+        "24": {
+            "date": "2026/01/24",
+            "title": "Saint Francis de Sales, bishop and doctor of the Church",
+            "subtitle": "Our Lady of Peace",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Week of Prayer for Christian Unity (7), Si.Ex"
+        },
+        "25": {
+            "date": "2026/01/25",
+            "title": "3\u02b3\u1d48 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Week of Prayer for Christian Unity (8)"
+        },
+        "26": {
+            "date": "2026/01/26",
+            "title": "Republic Day",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "27": {
+            "date": "2026/01/27",
+            "title": "Saint Timothy and Saint Titus, bishops",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "28": {
+            "date": "2026/01/28",
+            "title": "Saint Thomas Aquinas, priest and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "29": {
+            "date": "2026/01/29",
+            "title": "Thursday in the 3\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the most Holy Eucahrist",
+            "ep": "4",
+            "comments": ""
+        },
+        "30": {
+            "date": "2026/01/30",
+            "title": "Friday in the 3\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the mystery of the Holy Cross",
+            "ep": "1",
+            "comments": ""
+        },
+        "31": {
+            "date": "2026/01/31",
+            "title": "Saint John Bosco, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "32": {
+            "date": "2026/02/01",
+            "title": "4\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "1 Sunday of St. Joseph"
+        },
+        "33": {
+            "date": "2026/02/02",
+            "title": "The Presentation of the Lord",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "3",
+            "comments": ""
+        },
+        "34": {
+            "date": "2026/02/03",
+            "title": "Saint Blase, bishop and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "4",
+            "comments": ""
+        },
+        "35": {
+            "date": "2026/02/04",
+            "title": "Saint John de Britto, priest and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "36": {
+            "date": "2026/02/05",
+            "title": "Saint Agatha, virgin and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "37": {
+            "date": "2026/02/06",
+            "title": "Saint Paul Miki and companions, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Vigil"
+        },
+        "38": {
+            "date": "2026/02/07",
+            "title": "Saint Gonsalo Garcia, religious and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "39": {
+            "date": "2026/02/08",
+            "title": "5\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "2 Sunday of St. Joseph"
+        },
+        "40": {
+            "date": "2026/02/09",
+            "title": "Monday in the 5\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass for all the dead (option 2)",
+            "ep": "2",
+            "comments": ""
+        },
+        "41": {
+            "date": "2026/02/10",
+            "title": "Saint Scholastica, virgin",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "42": {
+            "date": "2026/02/11",
+            "title": "Our Lady of Lourdes",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "43": {
+            "date": "2026/02/12",
+            "title": "Thursday in the 5\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Church (option B)",
+            "ep": "4",
+            "comments": ""
+        },
+        "44": {
+            "date": "2026/02/13",
+            "title": "Saint Cyril, monk, and Saint Methodius, bishop",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "45": {
+            "date": "2026/02/14",
+            "title": "Holy Mary, Mother of fair love",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Anniversary women (1930) and sss+ (1943), Te Deum, Plenary Indulgence, So.Ex"
+        },
+        "46": {
+            "date": "2026/02/15",
+            "title": "6\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Quicumque, 3 Sunday of St. Joseph"
+        },
+        "47": {
+            "date": "2026/02/16",
+            "title": "Monday in the 6\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "2",
+            "comments": ""
+        },
+        "48": {
+            "date": "2026/02/17",
+            "title": "Tuesday in the 6\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Angels",
+            "ep": "1",
+            "comments": ""
+        },
+        "49": {
+            "date": "2026/02/18",
+            "title": "Ash Wednesday",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "50": {
+            "date": "2026/02/19",
+            "title": "Thursday after Ash Wednesday",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "51": {
+            "date": "2026/02/20",
+            "title": "Friday after Ash Wednesday",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "52": {
+            "date": "2026/02/21",
+            "title": "Saturday after Ash Wednesday",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "53": {
+            "date": "2026/02/22",
+            "title": "1\u02e2\u1d57 Sunday of Lent",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "4 Sunday of St. Joseph"
+        },
+        "54": {
+            "date": "2026/02/23",
+            "title": "Monday in the 1\u02e2\u1d57 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "55": {
+            "date": "2026/02/24",
+            "title": "Tuesday in the 1\u02e2\u1d57 Week of Lent",
+            "subtitle": "Anniversary Decretum Laudis (1947)",
+            "feast": "D",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "56": {
+            "date": "2026/02/25",
+            "title": "Wednesday in the 1\u02e2\u1d57 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "57": {
+            "date": "2026/02/26",
+            "title": "Thursday in the 1\u02e2\u1d57 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "58": {
+            "date": "2026/02/27",
+            "title": "Friday in the 1\u02e2\u1d57 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "59": {
+            "date": "2026/02/28",
+            "title": "Saturday in the 1\u02e2\u1d57 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "60": {
+            "date": "2026/03/01",
+            "title": "2\u207f\u1d48 Sunday of Lent",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "5 Sunday of St. Joseph"
+        },
+        "61": {
+            "date": "2026/03/02",
+            "title": "Monday in the 2\u207f\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "62": {
+            "date": "2026/03/03",
+            "title": "Tuesday in the 2\u207f\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "63": {
+            "date": "2026/03/04",
+            "title": "Wednesday in the 2\u207f\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "64": {
+            "date": "2026/03/05",
+            "title": "Thursday in the 2\u207f\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "65": {
+            "date": "2026/03/06",
+            "title": "Friday in the 2\u207f\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Vigil"
+        },
+        "66": {
+            "date": "2026/03/07",
+            "title": "Saturday in the 2\u207f\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "67": {
+            "date": "2026/03/08",
+            "title": "3\u02b3\u1d48 Sunday of Lent",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "6 Sunday of St. Joseph"
+        },
+        "68": {
+            "date": "2026/03/09",
+            "title": "Monday in the 3\u02b3\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "69": {
+            "date": "2026/03/10",
+            "title": "Tuesday in the 3\u02b3\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "70": {
+            "date": "2026/03/11",
+            "title": "Wednesday in the 3\u02b3\u1d48 Week of Lent",
+            "subtitle": "Anniversary episcopal ordination Anil (Delhi)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "71": {
+            "date": "2026/03/12",
+            "title": "Thursday in the 3\u02b3\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "72": {
+            "date": "2026/03/13",
+            "title": "Friday in the 3\u02b3\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "73": {
+            "date": "2026/03/14",
+            "title": "Saturday in the 3\u02b3\u1d48 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "74": {
+            "date": "2026/03/15",
+            "title": "4\u1d57\u02b0 Sunday of Lent (Laetare)",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Quicumque, 7 Sunday of St. Joseph"
+        },
+        "75": {
+            "date": "2026/03/16",
+            "title": "Monday in the 4\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "76": {
+            "date": "2026/03/17",
+            "title": "Tuesday in the 4\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "77": {
+            "date": "2026/03/18",
+            "title": "Wednesday in the 4\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "78": {
+            "date": "2026/03/19",
+            "title": "Saint Joseph, husband of Mary",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "3",
+            "comments": "Saintday Grandfather and our Father, Plenary Indulgence, So.Ex"
+        },
+        "79": {
+            "date": "2026/03/20",
+            "title": "Friday in the 4\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "80": {
+            "date": "2026/03/21",
+            "title": "Saturday in the 4\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "81": {
+            "date": "2026/03/22",
+            "title": "5\u1d57\u02b0 Sunday of Lent",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "82": {
+            "date": "2026/03/23",
+            "title": "Monday in the 5\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "\ueec3 Blessed Alvaro"
+        },
+        "83": {
+            "date": "2026/03/24",
+            "title": "Tuesday in the 5\u1d57\u02b0 Week of Lent",
+            "subtitle": "Family feast (old Saint Gabriel)",
+            "feast": "D",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "84": {
+            "date": "2026/03/25",
+            "title": "The Annunciation of the Lord",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "85": {
+            "date": "2026/03/26",
+            "title": "Thursday in the 5\u1d57\u02b0 Week of Lent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "86": {
+            "date": "2026/03/27",
+            "title": "Friday in the 5\u1d57\u02b0 Week of Lent",
+            "subtitle": "Grandmothers' saintday",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "87": {
+            "date": "2026/03/28",
+            "title": "Saturday in the 5\u1d57\u02b0 Week of Lent",
+            "subtitle": "Anniversary our Father's priestly ordination (1925)",
+            "feast": "B",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "88": {
+            "date": "2026/03/29",
+            "title": "Palm Sunday of the Lord\u2019s Passion",
+            "feast": "B",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "89": {
+            "date": "2026/03/30",
+            "title": "Monday of Holy Week",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "90": {
+            "date": "2026/03/31",
+            "title": "Tuesday of Holy Week",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "91": {
+            "date": "2026/04/01",
+            "title": "Wednesday of Holy Week",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "92": {
+            "date": "2026/04/02",
+            "title": "Holy Thursday of the Lord\u2019s Supper",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "93": {
+            "date": "2026/04/03",
+            "title": "Good Friday of the Lord\u2019s Passion",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Vigil"
+        },
+        "94": {
+            "date": "2026/04/04",
+            "title": "Holy Saturday",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "95": {
+            "date": "2026/04/05",
+            "title": "Easter Sunday of the Lord\u2019s Resurrection",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "96": {
+            "date": "2026/04/06",
+            "title": "Monday in the Octave of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": 1,
+            "comments": ""
+        },
+        "97": {
+            "date": "2026/04/07",
+            "title": "Tuesday in the Octave of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": 1,
+            "comments": ""
+        },
+        "98": {
+            "date": "2026/04/08",
+            "title": "Wednesday in the Octave of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": 1,
+            "comments": ""
+        },
+        "99": {
+            "date": "2026/04/09",
+            "title": "Thursday in the Octave of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": 1,
+            "comments": ""
+        },
+        "100": {
+            "date": "2026/04/10",
+            "title": "Friday in the Octave of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": 1,
+            "comments": ""
+        },
+        "101": {
+            "date": "2026/04/11",
+            "title": "Saturday in the Octave of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": 1,
+            "comments": "Si.Ex"
+        },
+        "102": {
+            "date": "2026/04/12",
+            "title": "2\u207f\u1d48 Sunday of Easter (Divine Mercy)",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": 1,
+            "comments": ""
+        },
+        "103": {
+            "date": "2026/04/13",
+            "title": "Saint Martin I, pope and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "104": {
+            "date": "2026/04/14",
+            "title": "Tuesday in the 2\u207f\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "105": {
+            "date": "2026/04/15",
+            "title": "Wednesday in the 2\u207f\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "106": {
+            "date": "2026/04/16",
+            "title": "Thursday in the 2\u207f\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "107": {
+            "date": "2026/04/17",
+            "title": "Friday in the 2\u207f\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "108": {
+            "date": "2026/04/18",
+            "title": "Saturday in the 2\u207f\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "109": {
+            "date": "2026/04/19",
+            "title": "3\u02b3\u1d48 Sunday of Easter",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Quicumque"
+        },
+        "110": {
+            "date": "2026/04/20",
+            "title": "Monday in the 3\u02b3\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "111": {
+            "date": "2026/04/21",
+            "title": "Saint Anselm, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "112": {
+            "date": "2026/04/22",
+            "title": "Wednesday in the 3\u02b3\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "\ueec3 Grandmother"
+        },
+        "113": {
+            "date": "2026/04/23",
+            "title": "Saint George, martyr",
+            "feast": "B",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "114": {
+            "date": "2026/04/24",
+            "title": "Friday in the 3\u02b3\u1d48 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "115": {
+            "date": "2026/04/25",
+            "title": "Saint Mark, evangelist",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "116": {
+            "date": "2026/04/26",
+            "title": "4\u1d57\u02b0 Sunday of Easter",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "117": {
+            "date": "2026/04/27",
+            "title": "Our Lady of Montserrat",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "118": {
+            "date": "2026/04/28",
+            "title": "Tuesday in the 4\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "119": {
+            "date": "2026/04/29",
+            "title": "Saint Catherine of Siena, virgin and doctor of the Church",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "120": {
+            "date": "2026/04/30",
+            "title": "Saint Pius V, pope",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "121": {
+            "date": "2026/05/01",
+            "title": "Saint Joseph the Worker",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Vigil"
+        },
+        "122": {
+            "date": "2026/05/02",
+            "title": "Anniversary dedication Prelatic Church",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "2",
+            "comments": "Place flowers in the Wooden Cross, Si.Ex"
+        },
+        "123": {
+            "date": "2026/05/03",
+            "title": "5\u1d57\u02b0 Sunday of Easter",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "124": {
+            "date": "2026/05/04",
+            "title": "Saint Athanasius, bishop and doctor of the Church",
+            "subtitle": "Monday in the 5\u1d57\u02b0 Week of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "125": {
+            "date": "2026/05/05",
+            "title": "Tuesday in the 5\u1d57\u02b0 Week of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "126": {
+            "date": "2026/05/06",
+            "title": "Wednesday in the 5\u1d57\u02b0 Week of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "127": {
+            "date": "2026/05/07",
+            "title": "Thursday in the 5\u1d57\u02b0 Week of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "128": {
+            "date": "2026/05/08",
+            "title": "Anniversary election of the Pope (2025)",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the Pope",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "129": {
+            "date": "2026/05/09",
+            "title": "Saturday in the 5\u1d57\u02b0 Week of Easter",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "130": {
+            "date": "2026/05/10",
+            "title": "6\u1d57\u02b0 Sunday of Easter",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "131": {
+            "date": "2026/05/11",
+            "title": "Monday in the 6\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "132": {
+            "date": "2026/05/12",
+            "title": "Blessed Alvaro, bishop",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "133": {
+            "date": "2026/05/13",
+            "title": "Our Lady of Fatima",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "134": {
+            "date": "2026/05/14",
+            "title": "Saint Matthias, apostle",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "3",
+            "comments": ""
+        },
+        "135": {
+            "date": "2026/05/15",
+            "title": "Friday in the 6\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "136": {
+            "date": "2026/05/16",
+            "title": "Saturday in the 6\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "Plenary Indulgence (St Simon Stock), Si.Ex"
+        },
+        "137": {
+            "date": "2026/05/17",
+            "title": "Ascension of the Lord",
+            "subtitle": "Anniversary our Father's beatification (1992)",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex, Quicumque"
+        },
+        "138": {
+            "date": "2026/05/18",
+            "title": "Blessed Gaudalupe",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "139": {
+            "date": "2026/05/19",
+            "title": "Tuesday in the 7\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "140": {
+            "date": "2026/05/20",
+            "title": "Wednesday in the 7\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "141": {
+            "date": "2026/05/21",
+            "title": "Thursday in the 7\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "142": {
+            "date": "2026/05/22",
+            "title": "Friday in the 7\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "143": {
+            "date": "2026/05/23",
+            "title": "Saturday in the 7\u1d57\u02b0 Week of Easter",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "144": {
+            "date": "2026/05/24",
+            "title": "Pentecost Sunday",
+            "feast": "A",
+            "color": "R",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "145": {
+            "date": "2026/05/25",
+            "title": "The Blessed Virgin Mary, Mother of the Church",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "146": {
+            "date": "2026/05/26",
+            "title": "Saint Philip Neri, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "147": {
+            "date": "2026/05/27",
+            "title": "Wednesday in the 8\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of Saint Joseph",
+            "ep": "2",
+            "comments": ""
+        },
+        "148": {
+            "date": "2026/05/28",
+            "title": "Thursday in the 8\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the most Holy Eucahrist",
+            "ep": "3",
+            "comments": ""
+        },
+        "149": {
+            "date": "2026/05/29",
+            "title": "Saint Paul VI, pope",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Trisagium Angelicum"
+        },
+        "150": {
+            "date": "2026/05/30",
+            "title": "Saint Ferdinand",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": "Si.Ex, Trisagium Angelicum"
+        },
+        "151": {
+            "date": "2026/05/31",
+            "title": "The Most Holy Trinity",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex, Trisagium Angelicum"
+        },
+        "152": {
+            "date": "2026/06/01",
+            "title": "Saint Justin, martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "153": {
+            "date": "2026/06/02",
+            "title": "Tuesday in the 9\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Family",
+            "ep": "1",
+            "comments": ""
+        },
+        "154": {
+            "date": "2026/06/03",
+            "title": "Saint Charles Lwanga and companions, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "155": {
+            "date": "2026/06/04",
+            "title": "Thursday in the 9\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the sanctification of human labour (option B)",
+            "ep": "2",
+            "comments": ""
+        },
+        "156": {
+            "date": "2026/06/05",
+            "title": "Saint Boniface, bishop and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": "Vigil"
+        },
+        "157": {
+            "date": "2026/06/06",
+            "title": "Saturday in the 9\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "158": {
+            "date": "2026/06/07",
+            "title": "The Most Holy Body and Blood of Christ",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "159": {
+            "date": "2026/06/08",
+            "title": "Saint Thresia Chiramel Mankdiyan, virgin",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": "So.Ex"
+        },
+        "160": {
+            "date": "2026/06/09",
+            "title": "Saint Ephrem, deacon and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "161": {
+            "date": "2026/06/10",
+            "title": "Wednesday in the 10\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of St. Josemaria",
+            "ep": "4",
+            "comments": "So.Ex"
+        },
+        "162": {
+            "date": "2026/06/11",
+            "title": "Saint Barnabas, apostle",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "So.Ex"
+        },
+        "163": {
+            "date": "2026/06/12",
+            "title": "The Most Sacred Heart of Jesus",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "164": {
+            "date": "2026/06/13",
+            "title": "The Immaculate Heart of the Blessed Virgin Mary",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "So.Ex"
+        },
+        "165": {
+            "date": "2026/06/14",
+            "title": "11\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "166": {
+            "date": "2026/06/15",
+            "title": "Monday in the 11\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass for all the dead (option 2)",
+            "ep": "2",
+            "comments": ""
+        },
+        "167": {
+            "date": "2026/06/16",
+            "title": "Anniversary definitive approval of the Work (1950)",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Thanksgiving",
+            "ep": "3",
+            "comments": ""
+        },
+        "168": {
+            "date": "2026/06/17",
+            "title": "Wednesday in the 11\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of Saint Joseph",
+            "ep": "4",
+            "comments": ""
+        },
+        "169": {
+            "date": "2026/06/18",
+            "title": "Thursday in the 11\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Spirit (option B)",
+            "ep": "2",
+            "comments": ""
+        },
+        "170": {
+            "date": "2026/06/19",
+            "title": "Friday in the 11\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ",
+            "ep": "3",
+            "comments": ""
+        },
+        "171": {
+            "date": "2026/06/20",
+            "title": "Saturday in the 11\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "ep": "1",
+            "comments": "\ueec3 Aunt Carmen, Si.Ex"
+        },
+        "172": {
+            "date": "2026/06/21",
+            "title": "12\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Quicumque"
+        },
+        "173": {
+            "date": "2026/06/22",
+            "title": "Saint John Fisher, bishop, and Saint Thomas More, martyrs",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "174": {
+            "date": "2026/06/23",
+            "title": "Tuesday in the 12\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the sick",
+            "ep": "2",
+            "comments": ""
+        },
+        "175": {
+            "date": "2026/06/24",
+            "title": "The Nativity of Saint John the Baptist",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "176": {
+            "date": "2026/06/25",
+            "title": "Anniversary ordination first 3 priests (1944)",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Our Lord Jesus Christ, the Eternal High Priest",
+            "ep": "3",
+            "comments": ""
+        },
+        "177": {
+            "date": "2026/06/26",
+            "title": "Saint Josemaria, priest",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "178": {
+            "date": "2026/06/27",
+            "title": "Saint Cyril of Alexandria, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "179": {
+            "date": "2026/06/28",
+            "title": "13\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": ""
+        },
+        "180": {
+            "date": "2026/06/29",
+            "title": "Saint Peter and Saint Paul, apostles",
+            "feast": "B",
+            "color": "R",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Creed during Exp, Plenary Indulgence, Si.Ex"
+        },
+        "181": {
+            "date": "2026/06/30",
+            "title": "The First Martyrs of the Church of Rome",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "182": {
+            "date": "2026/07/01",
+            "title": "Wednesday in the 13\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Church (option B)",
+            "ep": "2",
+            "comments": ""
+        },
+        "183": {
+            "date": "2026/07/02",
+            "title": "Thursday in the 13\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Pope",
+            "ep": "4",
+            "comments": ""
+        },
+        "184": {
+            "date": "2026/07/03",
+            "title": "Saint Thomas, apostle",
+            "feast": "B",
+            "color": "R",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "3",
+            "comments": "Si.Ex, Vigil"
+        },
+        "185": {
+            "date": "2026/07/04",
+            "title": "Saturday in the 13\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Our Lady, Mother of the Church",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "186": {
+            "date": "2026/07/05",
+            "title": "14\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "187": {
+            "date": "2026/07/06",
+            "title": "Monday in the 14\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass for all the dead (option 2)",
+            "ep": "2",
+            "comments": ""
+        },
+        "188": {
+            "date": "2026/07/07",
+            "title": "Tuesday in the 14\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Angels",
+            "ep": "1",
+            "comments": ""
+        },
+        "189": {
+            "date": "2026/07/08",
+            "title": "Wednesday in the 14\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the mercy of God",
+            "ep": "3",
+            "comments": ""
+        },
+        "190": {
+            "date": "2026/07/09",
+            "title": "Saint Augustine Zhao Rong, priest, and companions, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "191": {
+            "date": "2026/07/10",
+            "title": "Friday in the 14\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Most Sacred Heart of Jesus",
+            "ep": "4",
+            "comments": ""
+        },
+        "192": {
+            "date": "2026/07/11",
+            "title": "Saint Benedict, abbot",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "193": {
+            "date": "2026/07/12",
+            "title": "15\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "194": {
+            "date": "2026/07/13",
+            "title": "Monday in the 15\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "3",
+            "comments": ""
+        },
+        "195": {
+            "date": "2026/07/14",
+            "title": "Tuesday in the 15\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the evangelization of peoples (option B)",
+            "ep": "1",
+            "comments": ""
+        },
+        "196": {
+            "date": "2026/07/15",
+            "title": "Saint Bonaventure, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "197": {
+            "date": "2026/07/16",
+            "title": "Our Lady of Mount Carmel",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Aunt Carmen's saintday, Plenary Indulgence (Our Lady of Carmel)"
+        },
+        "198": {
+            "date": "2026/07/17",
+            "title": "Friday in the 15\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the mystery of the Holy Cross",
+            "ep": "4",
+            "comments": ""
+        },
+        "199": {
+            "date": "2026/07/18",
+            "title": "Saturday in the 15\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "200": {
+            "date": "2026/07/19",
+            "title": "16\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Quicumque"
+        },
+        "201": {
+            "date": "2026/07/20",
+            "title": "Monday in the 16\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of Blessed Alvaro",
+            "ep": "3",
+            "comments": "Plenary Indulgence (St Elias)"
+        },
+        "202": {
+            "date": "2026/07/21",
+            "title": "Tuesday in the 16\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Family",
+            "ep": "2",
+            "comments": ""
+        },
+        "203": {
+            "date": "2026/07/22",
+            "title": "Saint Mary Magdalene",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "204": {
+            "date": "2026/07/23",
+            "title": "Thursday in the 16\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the most Holy Eucahrist",
+            "ep": "3",
+            "comments": ""
+        },
+        "205": {
+            "date": "2026/07/24",
+            "title": "Saint Sharbel Makhluf, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "206": {
+            "date": "2026/07/25",
+            "title": "Saint James, apostle",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "207": {
+            "date": "2026/07/26",
+            "title": "17\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": ""
+        },
+        "208": {
+            "date": "2026/07/27",
+            "title": "Monday in the 17\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Church (option B)",
+            "ep": "2",
+            "comments": ""
+        },
+        "209": {
+            "date": "2026/07/28",
+            "title": "Saint Alphonsa Muttathu Padathu, virgin",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "210": {
+            "date": "2026/07/29",
+            "title": "Saint Martha, Saint Mary and Saint Lazarus",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "211": {
+            "date": "2026/07/30",
+            "title": "Saint Peter Chrysologus, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "212": {
+            "date": "2026/07/31",
+            "title": "Saint Ignatius of Loyola, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": "Vigil"
+        },
+        "213": {
+            "date": "2026/08/01",
+            "title": "Saint Alphonsus Liguori, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "214": {
+            "date": "2026/08/02",
+            "title": "18\u1d57\u02b0 Sunday in Ordinary Time",
+            "subtitle": "Our Lady of Angels",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "215": {
+            "date": "2026/08/03",
+            "title": "Monday in the 18\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "2",
+            "comments": ""
+        },
+        "216": {
+            "date": "2026/08/04",
+            "title": "Saint John Vianney, priest",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "217": {
+            "date": "2026/08/05",
+            "title": "The Dedication of the Basilica of Saint Mary Major in Rome",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "218": {
+            "date": "2026/08/06",
+            "title": "The Transfiguration of the Lord",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "219": {
+            "date": "2026/08/07",
+            "title": "Saint Sixtus II, pope, and companions, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "220": {
+            "date": "2026/08/08",
+            "title": "Saint Dominic, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "221": {
+            "date": "2026/08/09",
+            "title": "19\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": ""
+        },
+        "222": {
+            "date": "2026/08/10",
+            "title": "Saint Lawrence, deacon and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "3",
+            "comments": ""
+        },
+        "223": {
+            "date": "2026/08/11",
+            "title": "Saint Clare, virgin",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "224": {
+            "date": "2026/08/12",
+            "title": "Wednesday in the 19\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of Saint Joseph",
+            "ep": "4",
+            "comments": ""
+        },
+        "225": {
+            "date": "2026/08/13",
+            "title": "Saint Pontian, pope, and Saint Hippolytus, priest, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "226": {
+            "date": "2026/08/14",
+            "title": "Saint Maximilian Kolbe, priest and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "227": {
+            "date": "2026/08/15",
+            "title": "The Assumption of the Blessed Virgin Mary",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "228": {
+            "date": "2026/08/16",
+            "title": "20\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Quicumque"
+        },
+        "229": {
+            "date": "2026/08/17",
+            "title": "Monday in the 20\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass for all the dead (option 2)",
+            "ep": "2",
+            "comments": ""
+        },
+        "230": {
+            "date": "2026/08/18",
+            "title": "Tuesday in the 20\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Angels",
+            "ep": "1",
+            "comments": ""
+        },
+        "231": {
+            "date": "2026/08/19",
+            "title": "Saint John Eudes, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "232": {
+            "date": "2026/08/20",
+            "title": "Saint Bernard, abbot and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "233": {
+            "date": "2026/08/21",
+            "title": "Saint Pius X, pope",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "234": {
+            "date": "2026/08/22",
+            "title": "The Queenship of the Blessed Virgin Mary",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "235": {
+            "date": "2026/08/23",
+            "title": "21\u02e2\u1d57 Sunday in Ordinary Time",
+            "subtitle": "Anniv. announcement erection Opus Dei in personal Prelature (1982)",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": ""
+        },
+        "236": {
+            "date": "2026/08/24",
+            "title": "Saint Bartholomew, apostle",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "237": {
+            "date": "2026/08/25",
+            "title": "Saint Joseph Calasanz, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "238": {
+            "date": "2026/08/26",
+            "title": "Wednesday in the 21\u02e2\u1d57 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of St. Josemaria",
+            "ep": "2",
+            "comments": ""
+        },
+        "239": {
+            "date": "2026/08/27",
+            "title": "Saint Monica",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "240": {
+            "date": "2026/08/28",
+            "title": "Saint Augustine, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "241": {
+            "date": "2026/08/29",
+            "title": "The Passion of Saint John the Baptist, martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "242": {
+            "date": "2026/08/30",
+            "title": "22\u207f\u1d48 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "243": {
+            "date": "2026/08/31",
+            "title": "Monday in the 22\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "2",
+            "comments": ""
+        },
+        "244": {
+            "date": "2026/09/01",
+            "title": "Tuesday in the 22\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Pope",
+            "ep": "4",
+            "comments": ""
+        },
+        "245": {
+            "date": "2026/09/02",
+            "title": "Wednesday in the 22\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of Saint Joseph",
+            "ep": "3",
+            "comments": ""
+        },
+        "246": {
+            "date": "2026/09/03",
+            "title": "Saint Gregory the Great, pope and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "247": {
+            "date": "2026/09/04",
+            "title": "Friday in the 22\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Most Sacred Heart of Jesus",
+            "ep": "2",
+            "comments": "Vigil"
+        },
+        "248": {
+            "date": "2026/09/05",
+            "title": "Saint Teresa of Calcutta, virgin",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "249": {
+            "date": "2026/09/06",
+            "title": "23\u02b3\u1d48 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "250": {
+            "date": "2026/09/07",
+            "title": "Anniversary Father's admission's petition (1961)",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Saint Josemaria",
+            "ep": "3",
+            "comments": ""
+        },
+        "251": {
+            "date": "2026/09/08",
+            "title": "The Nativity of the Blessed Virgin Mary",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "252": {
+            "date": "2026/09/09",
+            "title": "Wednesday in the 23\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Church (option B)",
+            "ep": "2",
+            "comments": ""
+        },
+        "253": {
+            "date": "2026/09/10",
+            "title": "Thursday in the 23\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Spirit (option B)",
+            "ep": "3",
+            "comments": ""
+        },
+        "254": {
+            "date": "2026/09/11",
+            "title": "Friday in the 23\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ",
+            "ep": "2",
+            "comments": ""
+        },
+        "255": {
+            "date": "2026/09/12",
+            "title": "The Most Holy Name of Mary",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "256": {
+            "date": "2026/09/13",
+            "title": "24\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": "Place flowers in the Wooden Cross"
+        },
+        "257": {
+            "date": "2026/09/14",
+            "title": "The Exaltation of the Holy Cross",
+            "subtitle": "Pope's birthday",
+            "feast": "B",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Plenary Indulgence, Si.Ex"
+        },
+        "258": {
+            "date": "2026/09/15",
+            "title": "Our Lady of Sorrows",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "259": {
+            "date": "2026/09/16",
+            "title": "Saint Cornelius, pope, and Saint Cyprian, bishop, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "260": {
+            "date": "2026/09/17",
+            "title": "Thursday in the 24\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the most Holy Eucahrist",
+            "ep": "3",
+            "comments": ""
+        },
+        "261": {
+            "date": "2026/09/18",
+            "title": "Friday in the 24\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the mystery of the Holy Cross",
+            "ep": "2",
+            "comments": ""
+        },
+        "262": {
+            "date": "2026/09/19",
+            "title": "Saturday in the 24\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "ep": "4",
+            "comments": "Si.Ex"
+        },
+        "263": {
+            "date": "2026/09/20",
+            "title": "25\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Quicumque"
+        },
+        "264": {
+            "date": "2026/09/21",
+            "title": "Saint Matthew, apostle and evangelist",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "265": {
+            "date": "2026/09/22",
+            "title": "Tuesday in the 25\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Angels",
+            "ep": "2",
+            "comments": ""
+        },
+        "266": {
+            "date": "2026/09/23",
+            "title": "Saint Pius of Pietrelcina, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "267": {
+            "date": "2026/09/24",
+            "title": "Our Lady of Ransom",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "268": {
+            "date": "2026/09/25",
+            "title": "Friday in the 25\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ",
+            "ep": "4",
+            "comments": ""
+        },
+        "269": {
+            "date": "2026/09/26",
+            "title": "Saint Cosmas and Saint Damian, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "270": {
+            "date": "2026/09/27",
+            "title": "26\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "271": {
+            "date": "2026/09/28",
+            "title": "Monday in the 26\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass for all the dead (option 2)",
+            "ep": "2",
+            "comments": ""
+        },
+        "272": {
+            "date": "2026/09/29",
+            "title": "Saint Michael, Saint Gabriel, and Saint Raphael, archangels",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Plenary Indulgence, Si.Ex"
+        },
+        "273": {
+            "date": "2026/09/30",
+            "title": "Saint Jerome, priest and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "274": {
+            "date": "2026/10/01",
+            "title": "Saint Th\u00e9r\u00e8se of the Child Jesus, virgin and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "3",
+            "comments": "Plenary Indulgence (St Theresa)"
+        },
+        "275": {
+            "date": "2026/10/02",
+            "title": "The Holy Guardian Angels",
+            "subtitle": "Anniversary Opus Dei foundation",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Te Deum, plenary indulgence, Plenary Indulgence, So.Ex, Vigil"
+        },
+        "276": {
+            "date": "2026/10/03",
+            "title": "Saturday in the 26\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "The Most Holy Name of Mary",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "277": {
+            "date": "2026/10/04",
+            "title": "27\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "4",
+            "comments": ""
+        },
+        "278": {
+            "date": "2026/10/05",
+            "title": "Monday in the 27\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "2",
+            "comments": ""
+        },
+        "279": {
+            "date": "2026/10/06",
+            "title": "Anniversary Saint Josemaria's canonization (2002)",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "280": {
+            "date": "2026/10/07",
+            "title": "Our Lady of the Rosary",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "281": {
+            "date": "2026/10/08",
+            "title": "Thursday in the 27\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Spirit (option B)",
+            "ep": "4",
+            "comments": ""
+        },
+        "282": {
+            "date": "2026/10/09",
+            "title": "Saint Denis, bishop, and companions, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "2",
+            "comments": ""
+        },
+        "283": {
+            "date": "2026/10/10",
+            "title": "Saturday in the 27\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Our Lady, Queen of Apostles",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "284": {
+            "date": "2026/10/11",
+            "title": "28\u1d57\u02b0 Sunday in Ordinary Time",
+            "subtitle": "Saint John XXIII, pope",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "285": {
+            "date": "2026/10/12",
+            "title": "Our Lady of Pillar",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "286": {
+            "date": "2026/10/13",
+            "title": "Tuesday in the 28\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Pope",
+            "ep": "4",
+            "comments": ""
+        },
+        "287": {
+            "date": "2026/10/14",
+            "title": "Wednesday in the 28\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of Saint Joseph",
+            "ep": "2",
+            "comments": ""
+        },
+        "288": {
+            "date": "2026/10/15",
+            "title": "Saint Teresa of Jesus, virgin and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": "Plenary Indulgence (St Theresa)"
+        },
+        "289": {
+            "date": "2026/10/16",
+            "title": "Blessed Augustine Thevarparambil, priest",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "290": {
+            "date": "2026/10/17",
+            "title": "Saint Ignatius of Antioch, bishop and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "291": {
+            "date": "2026/10/18",
+            "title": "29\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Quicumque"
+        },
+        "292": {
+            "date": "2026/10/19",
+            "title": "Monday in the 29\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Family",
+            "ep": "2",
+            "comments": ""
+        },
+        "293": {
+            "date": "2026/10/20",
+            "title": "Tuesday in the 29\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass for the Church (option B)",
+            "ep": "1",
+            "comments": ""
+        },
+        "294": {
+            "date": "2026/10/21",
+            "title": "Wednesday in the 29\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of St. Josemaria",
+            "ep": "3",
+            "comments": ""
+        },
+        "295": {
+            "date": "2026/10/22",
+            "title": "Saint John Paul II, pope",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": ""
+        },
+        "296": {
+            "date": "2026/10/23",
+            "title": "Friday in the 29\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the mystery of the Holy Cross",
+            "ep": "4",
+            "comments": ""
+        },
+        "297": {
+            "date": "2026/10/24",
+            "title": "Family feast (old Saint Raphael)",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Holy Angels",
+            "ep": "2",
+            "comments": "Si.Ex"
+        },
+        "298": {
+            "date": "2026/10/25",
+            "title": "30\u1d57\u02b0 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "299": {
+            "date": "2026/10/26",
+            "title": "Monday in the 30\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass for all the dead (option 2)",
+            "ep": "2",
+            "comments": ""
+        },
+        "300": {
+            "date": "2026/10/27",
+            "title": "Father's birthday (1944)",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Our Lord Jesus Christ, the Eternal High Priest",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "301": {
+            "date": "2026/10/28",
+            "title": "Saint Simon and Saint Jude, apostles",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": ""
+        },
+        "302": {
+            "date": "2026/10/29",
+            "title": "Thursday in the 30\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the most Holy Eucahrist",
+            "ep": "2",
+            "comments": ""
+        },
+        "303": {
+            "date": "2026/10/30",
+            "title": "Friday in the 30\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ",
+            "ep": "4",
+            "comments": ""
+        },
+        "304": {
+            "date": "2026/10/31",
+            "title": "Saturday in the 30\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "ep": "3",
+            "comments": "Si.Ex"
+        },
+        "305": {
+            "date": "2026/11/01",
+            "title": "All Saints",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "306": {
+            "date": "2026/11/02",
+            "title": "The Commemoration of all the Faithful Departed (All Souls)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "Response with 3 prayers after Mass"
+        },
+        "307": {
+            "date": "2026/11/03",
+            "title": "Tuesday in the 31\u02e2\u1d57 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Angels",
+            "ep": "1",
+            "comments": "Mass for members deceased since last 2 Nov"
+        },
+        "308": {
+            "date": "2026/11/04",
+            "title": "Saint Charles Borromeo, bishop",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Mass for deceased of the Region"
+        },
+        "309": {
+            "date": "2026/11/05",
+            "title": "Thursday in the 31\u02e2\u1d57 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Spirit (option B)",
+            "ep": "4",
+            "comments": "1st Novena for all deceased members (1)"
+        },
+        "310": {
+            "date": "2026/11/06",
+            "title": "Friday in the 31\u02e2\u1d57 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the Most Sacred Heart of Jesus",
+            "ep": "2",
+            "comments": "1st Novena for all deceased members (2), Vigil"
+        },
+        "311": {
+            "date": "2026/11/07",
+            "title": "Saint Severino, martyr",
+            "feast": "D",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": "1st Novena for all deceased members (3), Si.Ex"
+        },
+        "312": {
+            "date": "2026/11/08",
+            "title": "32\u207f\u1d48 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "1st Novena for all deceased members (4)"
+        },
+        "313": {
+            "date": "2026/11/09",
+            "title": "The Dedication of the Lateran Basilica in Rome",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "1st Novena for all deceased members (5)"
+        },
+        "314": {
+            "date": "2026/11/10",
+            "title": "Saint Leo the Great, pope and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "1st Novena for all deceased members (6)"
+        },
+        "315": {
+            "date": "2026/11/11",
+            "title": "Saint Martin of Tours, bishop",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "1st Novena for all deceased members (7)"
+        },
+        "316": {
+            "date": "2026/11/12",
+            "title": "Saint Josaphat, bishop and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "1",
+            "comments": "1st Novena for all deceased members (8)"
+        },
+        "317": {
+            "date": "2026/11/13",
+            "title": "Friday in the 32\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the mystery of the Holy Cross",
+            "ep": "4",
+            "comments": "1st Novena for all deceased members (9)"
+        },
+        "318": {
+            "date": "2026/11/14",
+            "title": "Saturday in the 32\u207f\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Our Lady, Mother of the Church",
+            "ep": "3",
+            "comments": "2st Novena for all deceased members (1), Plenary Indulgence (all carmelites saints), Si.Ex"
+        },
+        "319": {
+            "date": "2026/11/15",
+            "title": "33\u02b3\u1d48 Sunday in Ordinary Time",
+            "feast": "C",
+            "color": "G",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "2st Novena for all deceased members (2), Quicumque"
+        },
+        "320": {
+            "date": "2026/11/16",
+            "title": "Monday in the 33\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass for the most Holy Trinity",
+            "ep": "2",
+            "comments": "2st Novena for all deceased members (3)"
+        },
+        "321": {
+            "date": "2026/11/17",
+            "title": "Saint Elizabeth of Hungary, religious",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "2st Novena for all deceased members (4)"
+        },
+        "322": {
+            "date": "2026/11/18",
+            "title": "The Dedication of the Basilicas of Saint Peter and Saint Paul in Rome, apostles",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "2st Novena for all deceased members (5)"
+        },
+        "323": {
+            "date": "2026/11/19",
+            "title": "Thursday in the 33\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the most Holy Eucahrist",
+            "ep": "2",
+            "comments": "2st Novena for all deceased members (6)"
+        },
+        "324": {
+            "date": "2026/11/20",
+            "title": "Friday in the 33\u02b3\u1d48 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ",
+            "ep": "4",
+            "comments": "2st Novena for all deceased members (7)"
+        },
+        "325": {
+            "date": "2026/11/21",
+            "title": "The Presentation of the Blessed Virgin Mary",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "2st Novena for all deceased members (8), Si.Ex"
+        },
+        "326": {
+            "date": "2026/11/22",
+            "title": "Our Lord Jesus Christ, King of the Universe",
+            "feast": "C",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Consecration MSH of Jesus, 2st Novena for all deceased members (9)"
+        },
+        "327": {
+            "date": "2026/11/23",
+            "title": "Saint Clement I, pope and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Mass deceased cp, eccl. assist. and benefactors"
+        },
+        "328": {
+            "date": "2026/11/24",
+            "title": "Saint Andrew Dung-Lac, priest, and companions, martyrs",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "2",
+            "comments": "Mass for deceased parents of all members"
+        },
+        "329": {
+            "date": "2026/11/25",
+            "title": "Saint Catherine of Alexandria, virgin and martyr",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "330": {
+            "date": "2026/11/26",
+            "title": "Thursday in the 34\u1d57\u02b0 Week in Ordinary Time",
+            "feast": "",
+            "color": "R",
+            "lit_grade": "",
+            "mass": "Mass of the Holy Spirit (option B)",
+            "ep": "4",
+            "comments": ""
+        },
+        "331": {
+            "date": "2026/11/27",
+            "title": "Our Lady of the Miracolous Medal",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": "\ueec3 Grandfather"
+        },
+        "332": {
+            "date": "2026/11/28",
+            "title": "Anniversary erection Opus Dei as Personal Prelature",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Thanksgiving",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "333": {
+            "date": "2026/11/29",
+            "title": "1\u02e2\u1d57 Sunday of Advent",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "334": {
+            "date": "2026/11/30",
+            "title": "Saint Andrew, apostle",
+            "feast": "C",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Novena Immaculate Conception (1)"
+        },
+        "335": {
+            "date": "2026/12/01",
+            "title": "Tuesday in the 1\u02e2\u1d57 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "Novena Immaculate Conception (2)"
+        },
+        "336": {
+            "date": "2026/12/02",
+            "title": "Wednesday in the 1\u02e2\u1d57 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Novena Immaculate Conception (3)"
+        },
+        "337": {
+            "date": "2026/12/03",
+            "title": "Saint Francis Xavier, priest",
+            "feast": "B",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Novena Immaculate Conception (4), Si.Ex"
+        },
+        "338": {
+            "date": "2026/12/04",
+            "title": "Friday in the 1\u02e2\u1d57 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": "Novena Immaculate Conception (5), Vigil"
+        },
+        "339": {
+            "date": "2026/12/05",
+            "title": "Saturday in the 1\u02e2\u1d57 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Novena Immaculate Conception (6), Si.Ex"
+        },
+        "340": {
+            "date": "2026/12/06",
+            "title": "2\u207f\u1d48 Sunday of Advent",
+            "subtitle": "Saint Nicholas, bishop",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Novena Immaculate Conception (7)"
+        },
+        "341": {
+            "date": "2026/12/07",
+            "title": "Saint Ambrose, bishop and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Novena Immaculate Conception (8)"
+        },
+        "342": {
+            "date": "2026/12/08",
+            "title": "The Immaculate Conception of the Blessed Virgin Mary",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "Anniversary Consecration Delhi's Cathedral, Novena Immaculate Conception (9), So.Ex"
+        },
+        "343": {
+            "date": "2026/12/09",
+            "title": "Wednesday in the 2\u207f\u1d48 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "344": {
+            "date": "2026/12/10",
+            "title": "Our Lady of Loreto",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "3",
+            "comments": ""
+        },
+        "345": {
+            "date": "2026/12/11",
+            "title": "Friday in the 2\u207f\u1d48 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "346": {
+            "date": "2026/12/12",
+            "title": "Our Lady of Guadalupe",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "Optional Memorial",
+            "mass": "Mass of the Optional Memorial",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "347": {
+            "date": "2026/12/13",
+            "title": "3\u02b3\u1d48 Sunday of Advent (Gaudete)",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "348": {
+            "date": "2026/12/14",
+            "title": "Saint John of the Cross, priest and doctor of the Church",
+            "feast": "",
+            "color": "W",
+            "lit_grade": "Memorial",
+            "mass": "Mass of the Memorial",
+            "ep": "3",
+            "comments": "Plenary Indulgence (St John of the Cross)"
+        },
+        "349": {
+            "date": "2026/12/15",
+            "title": "Tuesday in the 3\u02b3\u1d48 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "350": {
+            "date": "2026/12/16",
+            "title": "Wednesday in the 3\u02b3\u1d48 Week of Advent",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "351": {
+            "date": "2026/12/17",
+            "title": "Advent Weekday (December 17)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "352": {
+            "date": "2026/12/18",
+            "title": "Advent Weekday (December 18)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "353": {
+            "date": "2026/12/19",
+            "title": "Advent Weekday (December 19)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "354": {
+            "date": "2026/12/20",
+            "title": "4\u1d57\u02b0 Sunday of Advent",
+            "feast": "C",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": "Quicumque"
+        },
+        "355": {
+            "date": "2026/12/21",
+            "title": "Advent Weekday (December 21)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "1",
+            "comments": ""
+        },
+        "356": {
+            "date": "2026/12/22",
+            "title": "Advent Weekday (December 22)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "357": {
+            "date": "2026/12/23",
+            "title": "Advent Weekday (December 23)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "3",
+            "comments": ""
+        },
+        "358": {
+            "date": "2026/12/24",
+            "title": "Advent Weekday (December 24)",
+            "feast": "",
+            "color": "V",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": "2",
+            "comments": ""
+        },
+        "359": {
+            "date": "2026/12/25",
+            "title": "The Nativity of the Lord (Christmas)",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Solemnity",
+            "mass": "Mass of the Solemnity",
+            "ep": "1",
+            "comments": "So.Ex"
+        },
+        "360": {
+            "date": "2026/12/26",
+            "title": "Saint Stephen, first martyr",
+            "feast": "D",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Si.Ex"
+        },
+        "361": {
+            "date": "2026/12/27",
+            "title": "The Holy Family of Jesus, Mary and Joseph",
+            "feast": "A",
+            "color": "W",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": "1",
+            "comments": "Consecration of the families, Plenary Indulgence, So.Ex"
+        },
+        "362": {
+            "date": "2026/12/28",
+            "title": "The Holy Innocents, martyrs",
+            "feast": "D",
+            "color": "R",
+            "lit_grade": "Feast",
+            "mass": "Mass of the Feast",
+            "ep": 1,
+            "comments": ""
+        },
+        "363": {
+            "date": "2026/12/29",
+            "title": "5\u1d57\u02b0 Day in the Octave of Christmas",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": 1,
+            "comments": ""
+        },
+        "364": {
+            "date": "2026/12/30",
+            "title": "6\u1d57\u02b0 Day in the Octave of Christmas",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": 1,
+            "comments": ""
+        },
+        "365": {
+            "date": "2026/12/31",
+            "title": "7\u1d57\u02b0 Day in the Octave of Christmas",
+            "feast": "D",
+            "color": "W",
+            "lit_grade": "",
+            "mass": "Mass of the day",
+            "ep": 1,
+            "comments": ""
+        }
+    }
+}

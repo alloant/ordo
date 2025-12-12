@@ -154,9 +154,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 1\u02e2\u1d57 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "15": {
             "season": "Ordinary Time",
@@ -204,9 +205,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Thursday in the 1\u02e2\u1d57 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Spirit (option B)"
         },
         "20": {
             "season": "Ordinary Time",
@@ -257,7 +259,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Monday in the 2\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the unity of Christians (option B)"
         },
         "25": {
             "season": "Ordinary Time",
@@ -398,9 +401,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Thursday in the 3\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Holy Eucahrist"
         },
         "39": {
             "season": "Ordinary Time",
@@ -408,9 +412,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 3\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the mystery of the Holy Cross"
         },
         "40": {
             "season": "Ordinary Time",
@@ -531,9 +536,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "v",
             "title": "Monday in the 5\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for all the dead (option 2)"
         },
         "52": {
             "season": "Ordinary Time",
@@ -574,7 +580,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Thursday in the 5\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Church (option B)"
         },
         "56": {
             "season": "Ordinary Time",
@@ -613,9 +620,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 6\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "60": {
             "season": "Ordinary Time",
@@ -623,9 +631,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Tuesday in the 6\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Angels"
         },
         "61": {
             "season": "Ordinary Time",
@@ -1935,9 +1944,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 8\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of Saint Joseph"
         },
         "186": {
             "season": "Ordinary Time",
@@ -1955,9 +1965,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Thursday in the 8\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Holy Eucahrist"
         },
         "188": {
             "season": "Ordinary Time",
@@ -2029,7 +2040,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 9\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Family"
         },
         "195": {
             "season": "Ordinary Time",
@@ -2059,7 +2071,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Thursday in the 9\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the sanctification of human labour (option B)"
         },
         "198": {
             "season": "Ordinary Time",
@@ -2077,9 +2090,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 9\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Blessed Virgin Mary (option 2)"
         },
         "200": {
             "season": "Ordinary Time",
@@ -2159,9 +2173,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 10\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of St. Josemaria"
         },
         "208": {
             "season": "Ordinary Time",
@@ -2226,9 +2241,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "v",
             "title": "Monday in the 11\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for all the dead (option 2)"
         },
         "214": {
             "season": "Ordinary Time",
@@ -2246,9 +2262,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 11\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of Saint Joseph"
         },
         "216": {
             "season": "Ordinary Time",
@@ -2256,9 +2273,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Thursday in the 11\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Spirit (option B)"
         },
         "217": {
             "season": "Ordinary Time",
@@ -2266,9 +2284,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 11\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ"
         },
         "218": {
             "season": "Ordinary Time",
@@ -2286,9 +2305,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 11\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Blessed Virgin Mary (option 2)"
         },
         "220": {
             "season": "Ordinary Time",
@@ -2350,7 +2370,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 12\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the sick"
         },
         "226": {
             "season": "Ordinary Time",
@@ -2466,7 +2487,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Wednesday in the 13\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Church (option B)"
         },
         "237": {
             "season": "Ordinary Time",
@@ -2476,7 +2498,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Thursday in the 13\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Pope"
         },
         "238": {
             "season": "Ordinary Time",
@@ -2495,9 +2518,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 13\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Our Lady, Mother of the Church"
         },
         "240": {
             "season": "Ordinary Time",
@@ -2536,9 +2560,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "v",
             "title": "Monday in the 14\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for all the dead (option 2)"
         },
         "244": {
             "season": "Ordinary Time",
@@ -2556,9 +2581,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Tuesday in the 14\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Angels"
         },
         "246": {
             "season": "Ordinary Time",
@@ -2566,9 +2592,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 14\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the mercy of God"
         },
         "247": {
             "season": "Ordinary Time",
@@ -2596,9 +2623,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Friday in the 14\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Most Sacred Heart of Jesus"
         },
         "250": {
             "season": "Ordinary Time",
@@ -2627,9 +2655,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 15\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "253": {
             "season": "Ordinary Time",
@@ -2649,7 +2678,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 15\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the evangelization of peoples (option B)"
         },
         "255": {
             "season": "Ordinary Time",
@@ -2699,9 +2729,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 15\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the mystery of the Holy Cross"
         },
         "260": {
             "season": "Ordinary Time",
@@ -2709,9 +2740,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 15\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Blessed Virgin Mary (option 2)"
         },
         "261": {
             "season": "Ordinary Time",
@@ -2740,9 +2772,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 16\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of Blessed Alvaro"
         },
         "264": {
             "season": "Ordinary Time",
@@ -2762,7 +2795,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 16\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Family"
         },
         "266": {
             "season": "Ordinary Time",
@@ -2791,9 +2825,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Thursday in the 16\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Holy Eucahrist"
         },
         "269": {
             "season": "Ordinary Time",
@@ -2856,7 +2891,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Monday in the 17\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Church (option B)"
         },
         "275": {
             "season": "Ordinary Time",
@@ -2935,9 +2971,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 18\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "283": {
             "season": "Ordinary Time",
@@ -3060,9 +3097,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 19\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of Saint Joseph"
         },
         "295": {
             "season": "Ordinary Time",
@@ -3133,9 +3171,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "v",
             "title": "Monday in the 20\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for all the dead (option 2)"
         },
         "302": {
             "season": "Ordinary Time",
@@ -3143,9 +3182,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Tuesday in the 20\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Angels"
         },
         "303": {
             "season": "Ordinary Time",
@@ -3258,9 +3298,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 21\u02e2\u1d57 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of St. Josemaria"
         },
         "314": {
             "season": "Ordinary Time",
@@ -3309,9 +3350,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 22\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "319": {
             "season": "Ordinary Time",
@@ -3321,7 +3363,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 22\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Pope"
         },
         "320": {
             "season": "Ordinary Time",
@@ -3329,9 +3372,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 22\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of Saint Joseph"
         },
         "321": {
             "season": "Ordinary Time",
@@ -3349,9 +3393,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Friday in the 22\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Most Sacred Heart of Jesus"
         },
         "323": {
             "season": "Ordinary Time",
@@ -3423,7 +3468,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Wednesday in the 23\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Church (option B)"
         },
         "330": {
             "season": "Ordinary Time",
@@ -3441,9 +3487,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Thursday in the 23\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Spirit (option B)"
         },
         "332": {
             "season": "Ordinary Time",
@@ -3451,9 +3498,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 23\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ"
         },
         "333": {
             "season": "Ordinary Time",
@@ -3527,9 +3575,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Thursday in the 24\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Holy Eucahrist"
         },
         "340": {
             "season": "Ordinary Time",
@@ -3557,9 +3606,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 24\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the mystery of the Holy Cross"
         },
         "343": {
             "season": "Ordinary Time",
@@ -3567,9 +3617,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 24\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Blessed Virgin Mary (option 2)"
         },
         "344": {
             "season": "Ordinary Time",
@@ -3620,9 +3671,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Tuesday in the 25\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Angels"
         },
         "349": {
             "season": "Ordinary Time",
@@ -3650,9 +3702,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 25\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ"
         },
         "352": {
             "season": "Ordinary Time",
@@ -3701,9 +3754,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "v",
             "title": "Monday in the 26\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for all the dead (option 2)"
         },
         "357": {
             "season": "Ordinary Time",
@@ -3776,9 +3830,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 26\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "The Most Holy Name of Mary"
         },
         "364": {
             "season": "Ordinary Time",
@@ -3807,9 +3862,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 27\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "367": {
             "season": "Ordinary Time",
@@ -3858,9 +3914,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Thursday in the 27\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Spirit (option B)"
         },
         "372": {
             "season": "Ordinary Time",
@@ -3898,9 +3955,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 27\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Our Lady, Queen of Apostles"
         },
         "376": {
             "season": "Ordinary Time",
@@ -3941,7 +3999,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 28\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Pope"
         },
         "380": {
             "season": "Ordinary Time",
@@ -3949,9 +4008,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 28\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of Saint Joseph"
         },
         "381": {
             "season": "Ordinary Time",
@@ -4042,7 +4102,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Monday in the 29\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Family"
         },
         "390": {
             "season": "Ordinary Time",
@@ -4072,7 +4133,8 @@
             "lg2": 4,
             "color": "g",
             "title": "Tuesday in the 29\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the Church (option B)"
         },
         "393": {
             "season": "Ordinary Time",
@@ -4080,9 +4142,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Wednesday in the 29\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of St. Josemaria"
         },
         "394": {
             "season": "Ordinary Time",
@@ -4111,9 +4174,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 29\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the mystery of the Holy Cross"
         },
         "397": {
             "season": "Ordinary Time",
@@ -4172,9 +4236,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "v",
             "title": "Monday in the 30\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for all the dead (option 2)"
         },
         "403": {
             "season": "Ordinary Time",
@@ -4204,9 +4269,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Thursday in the 30\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Holy Eucahrist"
         },
         "406": {
             "season": "Ordinary Time",
@@ -4214,9 +4280,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 30\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ"
         },
         "407": {
             "season": "Ordinary Time",
@@ -4224,9 +4291,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 30\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Blessed Virgin Mary (option 2)"
         },
         "408": {
             "season": "Ordinary Time",
@@ -4266,9 +4334,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Tuesday in the 31\u02e2\u1d57 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Angels"
         },
         "412": {
             "season": "Ordinary Time",
@@ -4296,9 +4365,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Thursday in the 31\u02e2\u1d57 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Spirit (option B)"
         },
         "415": {
             "season": "Ordinary Time",
@@ -4306,9 +4376,10 @@
             "week": "III",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Friday in the 31\u02e2\u1d57 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Most Sacred Heart of Jesus"
         },
         "416": {
             "season": "Ordinary Time",
@@ -4387,9 +4458,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 32\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the mystery of the Holy Cross"
         },
         "424": {
             "season": "Ordinary Time",
@@ -4397,9 +4469,10 @@
             "week": "IV",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Saturday in the 32\u207f\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Our Lady, Mother of the Church"
         },
         "425": {
             "season": "Ordinary Time",
@@ -4428,9 +4501,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Monday in the 33\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass for the most Holy Trinity"
         },
         "428": {
             "season": "Ordinary Time",
@@ -4488,9 +4562,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "w",
             "title": "Thursday in the 33\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Holy Eucahrist"
         },
         "434": {
             "season": "Ordinary Time",
@@ -4498,9 +4573,10 @@
             "week": "I",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Friday in the 33\u02b3\u1d48 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the most Precious Blood of our Lord Jesus Christ"
         },
         "435": {
             "season": "Ordinary Time",
@@ -4592,9 +4668,10 @@
             "week": "II",
             "lg": "",
             "lg2": 4,
-            "color": "g",
+            "color": "r",
             "title": "Thursday in the 34\u1d57\u02b0 Week in Ordinary Time",
-            "option": 1
+            "option": 1,
+            "mass": "Mass of the Holy Spirit (option B)"
         },
         "444": {
             "season": "Ordinary Time",

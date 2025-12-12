@@ -11,6 +11,7 @@ from os.path import exists
 import os
 import re
 import shutil
+import random
 
 days = ["Monday", "Tuesday", "Wednesday", 
         "Thursday", "Friday", "Saturday", "Sunday"]
@@ -339,6 +340,29 @@ def get_mondays(year):
     
     return mondays
 
+def choose_ep_new(year):
+    print('Choosing ep')
+    path = f'Results/{year}/ordo.json'
+    if not exists(path):
+        shutil.copy(f'Results/{year}/ordo_without_ep.json',path)
+
+    db = TinyDB(path, indent=4)
+    days = db.all()
+    headers = ["date","feast","title","lg","mass","ep"]
+    
+    for i,day in enumerate(days):
+        if i == 0:
+            ep = 1
+        elif i == len(days) - 1:
+            pass
+        else:
+            pass
+        db.update({'ep': ep},Day.date == day['date'])
+
+        print(day)
+
+    db.close()
+
 def choose_ep(year):
     print('Choosing ep')
     path = f'Results/{year}/ordo.json'
@@ -350,18 +374,35 @@ def choose_ep(year):
 
     mondays = get_mondays(year)
     headers = ["date","feast","title","lg","mass","ep"]
+    
     import random
+
+    last_ep = 1
     for i,start in enumerate(mondays):
         if i == len(mondays) - 1:
             break
         st = start.strftime('%Y/%m/%d')
         end = mondays[i+1].strftime('%Y/%m/%d')
-
+        
+        
         rst = db.search( (Day.date >= st) & (Day.date < end) )
+        """
+        eps = [] 
+        for r in rst:
+            if 'Advent' in r['title'] or 'Lent' in r['title']:
+                max_ep = 3
+            if not 'ep' in r or r['ep'] == '':
+                eps.append(r['ep'])
+            else:
+                eps.append(0)
 
-        #for j,row in enumerate(rst):
-        #    db.update({'ep': random.randint(1,4)},Day.date == row['date'])
-        #continue
+        eps = list_ep(last_ep,eps,max_ep)
+        for j,row in enumerate(rst):
+            db.update({'ep': eps[j]},Day.date == row['date'])
+            #db.update({'ep': random.randint(1,4)},Day.date == row['date'])
+        last_ep = eps[-1]
+        continue
+        """
 
         tb = CT(theme=WH)
         tb.field_names = headers
