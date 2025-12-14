@@ -52,7 +52,7 @@ def get_style(day,dt,place):
             dark = "#155724"
             medium = "#28A745"
             light = "#C3E6CB"
-            font = "#000000"
+            font = "#FFFFFF"
         case 'V':
             dark = "#6F42C1"
             medium = "#8A63D2"
@@ -210,6 +210,11 @@ def get(day,key):
                     return ', EP IV'
         elif key == 'subtitle':
             if day["subtitle"]:
+                if day['color'] in ['G','R','V']:
+                    dt = datetime.strptime(day['date'],"%Y/%m/%d")
+                    if day['lit_grade'] == 'Solemnity' or dt.weekday() == 6 or 'Easter Sunday' in day['title'] or 'Supper' in day['title'] or 'Good Friday' in day['title']:
+                        return f'<span class="text-center small" style="color: #EEEEEE;">({day["subtitle"]})</span>'
+
                 return f'<span class="text-center small" style="color: #333333;">({day["subtitle"]})</span>'
             else:
                 return ''

@@ -146,7 +146,7 @@
             "feast": "",
             "color": "R",
             "lit_grade": "",
-            "mass": "Mass of the Holy Spirit (option B)",
+            "mass": "Mass of the Holy Spirit (option A)",
             "ep": "3",
             "comments": ""
         },
@@ -186,7 +186,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the unity of Christians (option B)",
+            "mass": "Mass for the unity of Christians (option A)",
             "ep": "2",
             "comments": "Week of Prayer for Christian Unity (2)"
         },
@@ -397,7 +397,7 @@
             "feast": "",
             "color": "V",
             "lit_grade": "",
-            "mass": "Mass for all the dead (option 2)",
+            "mass": "Mass for all the dead (option 1)",
             "ep": "2",
             "comments": ""
         },
@@ -427,7 +427,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the Church (option B)",
+            "mass": "Mass for the Church (option A)",
             "ep": "4",
             "comments": ""
         },
@@ -963,7 +963,7 @@
             "color": "W",
             "lit_grade": "Solemnity",
             "mass": "Mass of the Solemnity",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "97": {
@@ -973,7 +973,7 @@
             "color": "W",
             "lit_grade": "Solemnity",
             "mass": "Mass of the Solemnity",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "98": {
@@ -983,7 +983,7 @@
             "color": "W",
             "lit_grade": "Solemnity",
             "mass": "Mass of the Solemnity",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "99": {
@@ -993,7 +993,7 @@
             "color": "W",
             "lit_grade": "Solemnity",
             "mass": "Mass of the Solemnity",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "100": {
@@ -1003,7 +1003,7 @@
             "color": "W",
             "lit_grade": "Solemnity",
             "mass": "Mass of the Solemnity",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "101": {
@@ -1013,7 +1013,7 @@
             "color": "W",
             "lit_grade": "Solemnity",
             "mass": "Mass of the Solemnity",
-            "ep": 1,
+            "ep": "1",
             "comments": "Si.Ex"
         },
         "102": {
@@ -1023,7 +1023,7 @@
             "color": "W",
             "lit_grade": "",
             "mass": "Mass of the day",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "103": {
@@ -1554,7 +1554,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the sanctification of human labour (option B)",
+            "mass": "Mass for the sanctification of human labour (option A)",
             "ep": "2",
             "comments": ""
         },
@@ -1574,7 +1574,7 @@
             "feast": "",
             "color": "W",
             "lit_grade": "",
-            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "mass": "Mass of the Blessed Virgin Mary (option 1)",
             "ep": "3",
             "comments": "Si.Ex"
         },
@@ -1874,7 +1874,7 @@
             "feast": "",
             "color": "V",
             "lit_grade": "",
-            "mass": "Mass for all the dead (option 2)",
+            "mass": "Mass for all the dead (option 3)",
             "ep": "2",
             "comments": ""
         },
@@ -1954,7 +1954,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the evangelization of peoples (option B)",
+            "mass": "Mass for the evangelization of peoples (option A)",
             "ep": "1",
             "comments": ""
         },
@@ -1994,7 +1994,7 @@
             "feast": "",
             "color": "W",
             "lit_grade": "",
-            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "mass": "Mass of the Blessed Virgin Mary (option 3)",
             "ep": "2",
             "comments": "Si.Ex"
         },
@@ -2084,7 +2084,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the Church (option B)",
+            "mass": "Mass for the Church (option C)",
             "ep": "2",
             "comments": ""
         },
@@ -2295,7 +2295,7 @@
             "feast": "",
             "color": "V",
             "lit_grade": "",
-            "mass": "Mass for all the dead (option 2)",
+            "mass": "Mass for all the dead (option 4)",
             "ep": "2",
             "comments": ""
         },
@@ -2526,7 +2526,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the Church (option B)",
+            "mass": "Mass for the Church (option D)",
             "ep": "2",
             "comments": ""
         },
@@ -2536,7 +2536,7 @@
             "feast": "",
             "color": "R",
             "lit_grade": "",
-            "mass": "Mass of the Holy Spirit (option B)",
+            "mass": "Mass of the Holy Spirit (option C)",
             "ep": "3",
             "comments": ""
         },
@@ -2627,7 +2627,7 @@
             "feast": "",
             "color": "W",
             "lit_grade": "",
-            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "mass": "Mass of the Blessed Virgin Mary (option 4)",
             "ep": "4",
             "comments": "Si.Ex"
         },
@@ -2717,7 +2717,7 @@
             "feast": "",
             "color": "V",
             "lit_grade": "",
-            "mass": "Mass for all the dead (option 2)",
+            "mass": "Mass for all the dead (option 5)",
             "ep": "2",
             "comments": ""
         },
@@ -2939,7 +2939,7 @@
             "feast": "",
             "color": "G",
             "lit_grade": "",
-            "mass": "Mass for the Church (option B)",
+            "mass": "Mass for the Church (option A)",
             "ep": "1",
             "comments": ""
         },
@@ -2999,7 +2999,7 @@
             "feast": "",
             "color": "V",
             "lit_grade": "",
-            "mass": "Mass for all the dead (option 2)",
+            "mass": "Mass for all the dead (option 6)",
             "ep": "2",
             "comments": ""
         },
@@ -3049,7 +3049,7 @@
             "feast": "",
             "color": "W",
             "lit_grade": "",
-            "mass": "Mass of the Blessed Virgin Mary (option 2)",
+            "mass": "Mass of the Blessed Virgin Mary (option 5)",
             "ep": "3",
             "comments": "Si.Ex"
         },
@@ -3099,7 +3099,7 @@
             "feast": "",
             "color": "R",
             "lit_grade": "",
-            "mass": "Mass of the Holy Spirit (option B)",
+            "mass": "Mass of the Holy Spirit (option A)",
             "ep": "4",
             "comments": "1st Novena for all deceased members (1)"
         },
@@ -3631,7 +3631,7 @@
             "color": "R",
             "lit_grade": "Feast",
             "mass": "Mass of the Feast",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "363": {
@@ -3641,7 +3641,7 @@
             "color": "W",
             "lit_grade": "",
             "mass": "Mass of the day",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "364": {
@@ -3651,7 +3651,7 @@
             "color": "W",
             "lit_grade": "",
             "mass": "Mass of the day",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         },
         "365": {
@@ -3661,7 +3661,7 @@
             "color": "W",
             "lit_grade": "",
             "mass": "Mass of the day",
-            "ep": 1,
+            "ep": "1",
             "comments": ""
         }
     }
